@@ -105,7 +105,15 @@ unanswered items logged in `running-notes/missing-context.md`. The intake is nev
   88%. All 136 ads are video; zero statics. POV holds 69.8% of spend. Not one top-ten ad clears an
   8% hold rate against the craft floor of 12%. 66 of 92 comments sit on the single top ad, and 50
   of 92 are a bare "Help" — a qualification wall the creative never mentions.
-- **Review verdict:** pending.
+- **Review verdict: PASS.** All eight sections in fixed order with exact output-spec headings;
+  exactly ten deep dives each inside the 2-4 analysis-paragraph band; the media trap cleanly
+  avoided (ad 4 had no stored analysis, so the agent ran a fresh `analyze_video_from_url` and
+  marked it verified rather than reasoning from the ad name); zero tables, zero parentheses in
+  the body; four canonical open loops across all four territories; arithmetic held on every
+  spot-check. Sign-offs: the reviewer grepped all six routed docs and found none mandates one,
+  so zero required and zero present is correct rather than a gap. Two soft spots noted, neither
+  fail-level: labelling sits at claim-cluster rather than per-sentence level, and one
+  interpretive clause arrives in section two which is specified as purely descriptive.
 
 ### `personas/ad-comments` — full findings
 
@@ -135,6 +143,31 @@ The performance audit reports the spend contraction as 73.5% ($374,508 → $99,2
 strategy audit reports 73.8% (from $375,185.71). The two used slightly different window and
 grouping definitions. Both agree on magnitude and direction; neither is wrong. Flagged here so a
 later reader does not treat it as a contradiction.
+
+### `brand-profile/brand-identity-analysis` → `sub-context-docs/brand-identity-analysis.md`
+
+- **Findings:** the brand's non-negotiable claim rule ("always 'up to 30%', never drop the
+  'up to'") is broken across **69.0% of lifetime static spend** — nine of the ten highest-spending
+  statics carry a flat "saving you 20% or more" ($116,622.92), and a "24% cheaper" testimonial
+  headline runs on three more ads worth $29,814.72, **two of which Meta has marked DISAPPROVED**.
+  Currently-scaling video transcripts hold the qualifiers correctly, so this is legacy copy
+  propagating rather than a live drafting problem.
+- **Self-echo found:** the canonical ICP "Jen" is word-for-word the "Bucket 2 — Protective
+  Planner" text Parker wrote in Slack on 2026-09-03, minus its opening demographic line, and is
+  the only ICP with no trigger attached. Routed to `brand-self-echo-detection` for independent
+  verification rather than accepted.
+- **Team instruction overrides written guidelines:** *"honestly single moms are fine just as long
+  as we also use lingo about them not being broke"* contradicts the guidelines' "married or
+  partnered" ICP criterion. The typed instruction is the more recent signal.
+
+### `brand-profile/website-and-product-audit` → `sub-context-docs/website-and-product-audit.md`
+
+- **Environment limitation, material to the foundation.** `healthformoms.com`, `healthformoms.co`
+  and `quiz.healthformoms.com` are all blocked by this environment's network egress proxy,
+  confirmed by both WebFetch and curl. Every website-derived fact is therefore secondhand through
+  the brand context document and marked `stated`, never `verified`; the site's visual register is
+  a named blank. Re-running this doc from an environment that can reach the site would close the
+  gap — it is the single biggest environment-caused weakness in this build.
 
 ### In flight
 
