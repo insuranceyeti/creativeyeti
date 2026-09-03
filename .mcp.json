@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "Parker": {
+      "type": "http",
+      "url": "https://api.heyparker.ai/api/mcp/full"
+    }
+  }
+}
