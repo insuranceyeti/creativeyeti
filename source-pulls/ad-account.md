@@ -4,24 +4,24 @@ doc: ad-account
 generated_on: 2026-09-03
 refresh_by: 2026-10-03
 sources_read:
-  - Meta ad account `HealthForMoms`, act 484897827497337, via Parker MCP `search_facebook_ads_sql`
+  - "Meta ad account `HealthForMoms`, act 484897827497337, via Parker MCP `search_facebook_ads_sql`"
   - 90-day performance window 2026-06-05 to 2026-09-02, 117 ad-name groups, $98,276.81 spend
   - Lifetime cuts across 1,593 video ads and 529 static ads
   - Per-ad age, gender, platform and device delivery breakdowns
   - Full media analysis on 13 ads, transcript plus AI creative analysis plus creator demographic
   - Parker AI tag distribution for format, emotion, desire and awareness level
-  - Parker MCP `search_facebook_ads_semantic`, 4 sweeps, 48 report chunks
-  - Parker MCP `list_custom_metrics` and account-wide custom conversion totals
-  - Brand context document via `get_brand_persona`, sections 2, 5, 8, 9, 10, 11
-  - `running-notes/missing-context.md`, Phase 0 surface test, 2026-09-03
+  - "Parker MCP `search_facebook_ads_semantic`, 4 sweeps, 48 report chunks"
+  - "Parker MCP `list_custom_metrics` and account-wide custom conversion totals"
+  - "Brand context document via `get_brand_persona`, sections 2, 5, 8, 9, 10, 11"
+  - "`running-notes/missing-context.md`, Phase 0 surface test, 2026-09-03"
 ads_read: 13 ads read at full media depth. 40 ad-name groups read at hook, visual-hook and angle level across the 90-day spend ranking. 10 statics read at headline and angle level. Denominators are the 117 ad-name groups that spent in the 90-day window and the 2,122 ads in the lifetime library.
 data_limitations:
   - Zero purchases in the account. There is no revenue, no ROAS, no AOV and no purchase value. Every performance read here runs on CPL, lead volume, CPM, CTR, hook rate and hold rate.
-  - Lead quality is invisible. The account defines a custom conversion called `invitee_meeting_scheduled`, which would be the real quality gate for a match-and-consult business, and it returned no data at all in the 90-day window. The only downstream events that fired were 272 generic pixel events and 42 `Call` events against 4,336 leads. The pixel is too thinly and inconsistently attached to grade any creative on lead quality.
+  - "Lead quality is invisible. The account defines a custom conversion called `invitee_meeting_scheduled`, which would be the real quality gate for a match-and-consult business, and it returned no data at all in the 90-day window. The only downstream events that fired were 272 generic pixel events and 42 `Call` events against 4,336 leads. The pixel is too thinly and inconsistently attached to grade any creative on lead quality."
   - Northbeam is not connected. All attribution is Meta-reported on the org default window.
   - Customer reviews and post-purchase surveys are dark, so nothing in this doc can be checked against a first-party actual-buyer source. Under the persona method that caps every served-audience read here at creative plus delivery data, with no cross-source confirmation.
   - No competitors are tracked in the Parker app, so there is no category baseline to read this account's choices against.
-  - Two landing destinations are live, `healthformoms.co/save/` and `quiz.healthformoms.com/#/indvfam`. Ads pointing at the quiz URL show a collapse between link clicks and landing page views, 903 clicks to 234 views on the `Moms Nahuel WV#1` group. That is a page or tracking fault, not a creative signal, and it inflates that group's CPL.
+  - "Two landing destinations are live, `healthformoms.co/save/` and `quiz.healthformoms.com/#/indvfam`. Ads pointing at the quiz URL show a collapse between link clicks and landing page views, 903 clicks to 234 views on the `Moms Nahuel WV#1` group. That is a page or tracking fault, not a creative signal, and it inflates that group's CPL."
   - The brand intake was never run, so there is no stated ad naming convention. Ad names here are inventory handles only and no claim in this doc rests on one.
 ---
 
