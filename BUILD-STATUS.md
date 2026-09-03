@@ -4,16 +4,27 @@
 **Build started:** 2026-09-03
 **Method version:** parker-brain `v15`
 **Run id:** `e5c1cbe7-0bba-4a1e-8b7e-9bdc075777e1`
-**Current phase:** Phase 0 — Repo & Scaffold
+**Current phase:** Phase 1 — Audit (branches A, C, E running in parallel)
 
 **Saved to:** https://github.com/insuranceyeti/creativeyeti (branch `claude/parker-mcp-http-349ri1`)
 **Repo posture:** self-managed — see `running-notes/standard-sync.md`
 
 ## What is happening right now
 
-Phase 0 is complete and saved. The flat layout is scaffolded, the factory method is mounted
-read-only at `parker-system/` pinned to v15, the executable layer is shipped, and every data
-surface has been tested. Phase 1 is next.
+Phase 1 is running. Seven agents are working in parallel across the audit baseline, the brand
+foundation, and the persona source pulls. Each one runs its own factory prompt from
+`parker-system/prompts/` in full, and each output gets an independent fidelity review before
+anything downstream consumes it.
+
+The brand intake has been captured into `running-notes/success-definition.md` and
+`running-notes/brand-rules.md`. The headline rule it produced: a winner is two-gated here,
+CPL then lead quality, and Parker can only see gate one.
+
+**First finding, from the 90-day performance audit:** spend fell 73.5% quarter over quarter
+($374,508 to $99,267) while CPL held essentially flat ($22.65 to $22.64). That reads as a
+budget decision, not a performance failure. Separately, one ad carries 43.3% of all spend and
+four ads sharing a single text hook carry 60.5% — a concentration worth knowing before
+November's Open Enrollment ramp.
 
 ## Scoreboard
 
@@ -24,7 +35,7 @@ surface has been tested. Phase 1 is next.
 | Phase 1B — Competitor profiles | **deferred** | 0 of 0 |
 | Phase 1C — Persona source pulls | pending | 0 of 12 |
 | Phase 1D — Voice of customer | pending | 0 of 12 |
-| Phase 1E — Audit baseline (internal) | pending | 0 of 11 |
+| Phase 1E — Audit baseline (internal) | running | 1 of 11 |
 | Phase 1E — Audit baseline (external) | **deferred** | 0 of 6 |
 | Phase 1 — Synthesis | pending | 0 of 2 |
 | Phase 2 — Strategy | pending | 0 of 5 |
@@ -109,7 +120,7 @@ Every performance read runs on CPL and lead volume, never ROAS.
 
 ### Phase 1E — Audit baseline, internal (11)
 - [ ] 90-day-creative-strategy-audit (anchor)
-- [ ] 90-day-performance-audit
+- [x] 90-day-performance-audit — done, in review
 - [ ] 90-day-diversity-audit
 - [ ] customer-review-audit (will run data-limited)
 - [ ] quarterly-whitespace-analysis
