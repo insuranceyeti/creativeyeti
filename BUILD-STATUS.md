@@ -33,9 +33,9 @@ November's Open Enrollment ramp.
 | Phase 0 — Repo & Scaffold | **done** | 7 of 7 |
 | Phase 1A — Brand foundation | pending | 0 of 14 |
 | Phase 1B — Competitor profiles | **deferred** | 0 of 0 |
-| Phase 1C — Persona source pulls | pending | 0 of 12 |
+| Phase 1C — Persona source pulls | running | 2 of 12 |
 | Phase 1D — Voice of customer | pending | 0 of 12 |
-| Phase 1E — Audit baseline (internal) | running | 1 of 11 |
+| Phase 1E — Audit baseline (internal) | running | 2 of 11 |
 | Phase 1E — Audit baseline (external) | **deferred** | 0 of 6 |
 | Phase 1 — Synthesis | pending | 0 of 2 |
 | Phase 2 — Strategy | pending | 0 of 5 |
@@ -91,8 +91,8 @@ Every performance read runs on CPL and lead volume, never ROAS.
   Add rivals there and this branch backfills without redoing anything.
 
 ### Phase 1C — Persona source pulls (12)
-- [ ] source: ad-account
-- [ ] source: ad-comments
+- [x] source: ad-account — done
+- [x] source: ad-comments — done
 - [ ] source: customer-reviews (will run data-limited — surface is dark)
 - [ ] source: other-reviews
 - [ ] source: post-purchase-surveys (will run data-limited — surface is dark)
@@ -119,7 +119,7 @@ Every performance read runs on CPL and lead volume, never ROAS.
 - [ ] voice-of-customer-assembly
 
 ### Phase 1E — Audit baseline, internal (11)
-- [ ] 90-day-creative-strategy-audit (anchor)
+- [x] 90-day-creative-strategy-audit (anchor) — done, in review
 - [x] 90-day-performance-audit — done, in review
 - [ ] 90-day-diversity-audit
 - [ ] customer-review-audit (will run data-limited)

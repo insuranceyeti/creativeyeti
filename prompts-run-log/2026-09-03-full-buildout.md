@@ -87,7 +87,56 @@ unanswered items logged in `running-notes/missing-context.md`. The intake is nev
   both empty. The substitution is recorded in `missing-context.md`.
 - **Review verdict:** pending.
 
+### `audits-quarterly/90-day-creative-strategy-audit` → `audits/2026-Q3/90-day-creative-strategy-audit.md`
+
+**The Phase 1 anchor.** 14,357 words, eight sections plus open loops and a 24-entry media appendix.
+
+- **Sources:** full 90-day set (136 ads, $98,276.81, 4,336 leads), full media analysis on nine of
+  the top ten ads, a fresh `analyze_video_from_url` on the tenth because no stored analysis
+  existed, all 92 in-window ad comments, brand context, chat history.
+- **Methods loaded:** `killer-performance-ads`, `ad-account-analysis`, `hooks`, `ad-formats/`,
+  `iterations`, `persona-research-and-creative-strategy-process`, `creative-strategy-fundamentals`,
+  `emotional-delivery-and-timing`.
+- **Note on method:** no prior audit exists, so rather than write a snapshot the agent pulled the
+  preceding 90-day window directly to build trajectory. That produced the audit's largest finding.
+- **Findings:** spend fell 73.8% from $375,185.71; ad count fell 460 → 136; CPL moved 0.04%.
+  Anger went from 55.2% of spend to 2.6% — the five "Health Insurance is a scam" ads that carried
+  $120,386.57 at 14-17% hold rates now have zero spend. One ad is 43.5% of spend, the top ten are
+  88%. All 136 ads are video; zero statics. POV holds 69.8% of spend. Not one top-ten ad clears an
+  8% hold rate against the craft floor of 12%. 66 of 92 comments sit on the single top ad, and 50
+  of 92 are a bare "Help" — a qualification wall the creative never mentions.
+- **Review verdict:** pending.
+
+### `personas/ad-comments` — full findings
+
+- **Dominant identity is not the one the creative addresses.** The creative speaks to an uninsured
+  shopper; the commenter is a mom who already has insurance and is still broke. 160 comments across
+  17 ads post their own deductible figure and treat the ad's $6,000 as an opening bid to beat.
+  Most-liked comment in the corpus (47 likes) ends "I want the 1990's back."
+- **The brand's own name is the setup for the joke.** 42 comments across 15 ads over 14 months say
+  Health For Moms will not cover a pregnant woman. **This objection appears nowhere on the brand's
+  stated objection list** in its context document, and it kills the stated ICP "Nicole," described
+  there as a 41-year-old with a seven-month-old.
+- **The top ad's central claim is publicly corrected as wrong.** 103 comments across 13 ads,
+  including self-identified brokers and medical billers, say the ad describes an out-of-pocket
+  maximum, not a deductible.
+- **Rival agents farm the comments.** 39 comments across 10 ads are competing agents pitching under
+  the brand's own creative; 17 of them on the single highest-spend ad.
+- **Recognition is rare and misfunded.** ~12 recognition moments in 1,322 comments, nearly all on
+  one skit format that has spent ~$3,400, while the deductible-vent family that earns argument has
+  spent over $94,000.
+- **Limits:** `author_name` is null on all 1,322 rows, so no claim is about people, only comments.
+  Nothing can be checked against a confirmed buyer. All identities capped thin-to-mixed, never
+  verified.
+
+### Note on a small cross-doc variance
+
+The performance audit reports the spend contraction as 73.5% ($374,508 → $99,267); the creative
+strategy audit reports 73.8% (from $375,185.71). The two used slightly different window and
+grouping definitions. Both agree on magnitude and direction; neither is wrong. Flagged here so a
+later reader does not treat it as a contradiction.
+
 ### In flight
 
-`90-day-creative-strategy-audit` (anchor), `90-day-diversity-audit`, `monthly-hook-audit`,
-`brand-identity-analysis`, `customer-journey-and-persona-discovery`, `website-and-product-audit`.
+`90-day-diversity-audit`, `monthly-hook-audit`, `brand-identity-analysis`,
+`customer-journey-and-persona-discovery`, `website-and-product-audit`, `voc-corpus-profile`.
