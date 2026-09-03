@@ -24,11 +24,11 @@ data_limitations:
 
 ## How this read was built, and what it can and cannot carry
 
-I pulled every comment Parker holds for this brand, not a sample. Three paginated calls of 500 returned 1,322 unique rows, and a fourth call at offset 1,322 returned zero, which confirms the corpus end. Six separate semantic passes each reported `totalCommentsAnalyzed: 1322`, so the two tools agree on the denominator. I read all 1,322 messages in full, not just the headlines, because the customer-review mining method warns that the usable line usually sits in the middle of a comment that reads as background at a glance. Then I pulled full media on the 20 ads carrying the most comment volume, so that every claim about who an ad was built to reach comes from the script, the visual hook, the creator description and the ad analysis, never from the ad name.
+I pulled every comment Parker holds for this brand, not a sample. Three paginated calls of 500 returned 1,322 unique rows, and a fourth call at offset 1,322 returned zero, which confirms the corpus end. Six separate semantic passes each reported `totalCommentsAnalyzed: 1322`, so the two tools agree on the denominator. I read all 1,322 messages in full, not just the headlines, because the customer-review mining method warns that the usable line usually sits in the middle of a comment that reads as background at a glance. Then I pulled full media on the 20 ads carrying the most comments, so that every claim about who an ad was built to reach comes from the script, the visual hook, the creator description and the ad analysis, never from the ad name.
 
 Two things shape how much weight any of this can hold.
 
-First, a commenter is not a buyer. This corpus captures whoever the algorithm served, which for this account is a very wide net. Meta spend on the eight highest-comment ads ran 97% female, 48.4% aged 35 to 44, 23.8% aged 25 to 34, 99.7% mobile, and split 59.4% Facebook to 40.2% Instagram. That is a big, cheap, broad audience, and a comment section that size fills with people who will never buy.
+First, a commenter is not a buyer. This corpus captures whoever the algorithm served, which for this account is a very wide net. Meta spend on the eight ads with the most comments ran 97% female, 48.4% aged 35 to 44, 23.8% aged 25 to 34, 99.7% mobile, and split 59.4% Facebook to 40.2% Instagram. That is a big, cheap, broad audience, and a comment section that size fills with people who will never buy.
 
 Second, and more serious for this brand: there is nothing to check this against. Reviews are empty. Surveys are empty. The persona method ranks evidence with post-purchase survey data at the top and community comments near the bottom, and this brand has only the bottom tier. So the honest confidence ceiling on every identity below is **thin to mixed**, never verified, no matter how many times a phrase recurs. Recurrence inside one noisy source is still one source. I have said so on each read rather than rounding any of them up.
 
@@ -64,7 +64,7 @@ My read, marked inferred: this is the highest-intensity identity in the corpus a
 
 Matches the brand's own ICP "Courtney" closely enough to be worth naming as corroboration of a stated persona rather than a new one. "Well you being a teacher is why. I'm self employed and can't find anything that doesn't have at least $5k deductible" on 2026-04-02, `MOMS39 - 2 - V2`, with 7 likes. "Literally why I refuse to.get insurance as a self-employed person" on 2026-03-22, same ad. "There is no middle class on the marketplace unfortunately. You either pay next to nothing or almost all of it with no subsidy." on 2025-08-09, `B1 samar- Copy`. "I don't have any pre-existing conditions, so I don't think that was it. Probably more likely that they don't cover in my area. Or my income doesn't fall into the sweet spot. I don't make very much, just more than medicaid allows (which is far below poverty level)." on 2025-08-03, `B1 samar- Copy`.
 
-Worth noting that the ad built expressly for this identity is `B1 samar- Copy`, whose script says "Everyone told me get Obamacare, apply for Medicaid. What they didn't say - those don't work if you're in the middle. I make too much for Medicare, but not enough to drop $600 a month on a plan I barely use." That ad carries the lowest cost per lead of the eight top-comment ads at $14.12. The identity and the message line up. Confidence: mixed, and it is the one identity here that a stated ICP and the comment evidence both point at.
+Worth noting that the ad built expressly for this identity is `B1 samar- Copy`, whose script says "Everyone told me get Obamacare, apply for Medicaid. What they didn't say - those don't work if you're in the middle. I make too much for Medicare, but not enough to drop $600 a month on a plan I barely use." That ad carries the lowest cost per lead of the eight ads with the most comments, at $14.12. The identity and the message line up. Confidence: mixed, and it is the one identity here that a stated ICP and the comment evidence both point at.
 
 ### The insurance insider, correcting the ad in public
 
@@ -104,7 +104,7 @@ Ranked by how widely each recurs across different ads, because the review-mining
 
 ### 1. "You call yourself Health For Moms and you won't cover me because I'm pregnant"
 
-**42 comments across 15 different ads, spanning 2025-07-01 to 2026-06-09.** The widest-spread objection in the corpus and the longest-running. It survives every creative refresh.
+**42 comments across 15 different ads, spanning 2025-07-01 to 2026-06-09.** This objection spreads across more ads than any other in the corpus, and it has run the longest. It survives every creative refresh.
 
 The identity behind it: the expecting or brand-new mom. That is not an accident of targeting. It is the brand's own stated ICP "Nicole — The Second-Chapter Mom," described in the brand context document as 41 and seven months postpartum with her first baby. The creative recruits her by name and the product screens her out.
 
@@ -188,7 +188,7 @@ A separate behavior that is not recognition but sits near it: 49 comments consis
 
 ## Targeted-versus-showed-up gap
 
-The targeted side, read from the creative and from Meta delivery rather than from names. The `MOMS38 - 1` family and its siblings all speak the same line: "you can only get that if you are a mom and you live in one of these states." The creator mix across the 20 ads read is almost entirely white women in their late 20s to early 40s filming themselves at home, with one Black woman in her late 30s or early 40s in `MOMS38 - 1 - V9`. Delivery on the eight highest-comment ads ran 97% female, 72.2% aged 25 to 44, 99.7% mobile. The brand's five stated ICPs are Jen the family safety net, Danielle the overwhelmed planner at 38, Marissa the single mom at 33, Courtney the self-employed mom at 36, and Nicole the second-chapter mom at 41 with a seven-month-old.
+The targeted side, read from the creative and from Meta delivery rather than from names. The `MOMS38 - 1` family and its siblings all speak the same line: "you can only get that if you are a mom and you live in one of these states." The creator mix across the 20 ads read is almost entirely white women in their late 20s to early 40s filming themselves at home, with one Black woman in her late 30s or early 40s in `MOMS38 - 1 - V9`. Delivery on those same eight ads ran 97% female, 72.2% aged 25 to 44, 99.7% mobile. The brand's five stated ICPs are Jen the family safety net, Danielle the overwhelmed planner at 38, Marissa the single mom at 33, Courtney the self-employed mom at 36, and Nicole the second-chapter mom at 41 with a seven-month-old.
 
 The showed-up side diverges in seven ways. I am naming both sides and leaving them unresolved, because the synthesis has to weigh them against the ad-account read and against actual-buyer sources that do not exist yet for this brand.
 
@@ -252,7 +252,7 @@ Pull: **Tension.** Two sources cannot both be true as stated. The brand context 
 
 Question: What share of the people who start the qualification flow are screened out, and for what reasons?
 
-Why it matters: if the pregnancy and pre-existing screens are turning away a large share of the traffic the ads pay for, the highest-leverage fix is upstream of creative, in who the ads invite. If the share is small, the objection is loud but cheap and the answer is a line of copy.
+Why it matters: if the pregnancy and pre-existing screens are turning away a large share of the traffic the ads pay for, then the fix that moves the most is upstream of creative, in who the ads invite. If the share is small, the objection is loud but cheap and the answer is a line of copy.
 
 Territory: **Product.** Only the brand can answer this one, since it needs the funnel's own screen-out data.
 
@@ -312,7 +312,7 @@ Pull: **Tension.** The emotional center of the audience and the eligible center 
 
 Question: Who should the creative be built around when the most intense pain in the audience belongs to someone the product cannot serve?
 
-Why it matters: it is the difference between creative that harvests attention it cannot convert and creative that finds the healthy, insurable, still-overpaying household the product actually fits.
+Why it matters: it is the difference between creative that harvests attention it cannot convert and creative that finds the household the product actually fits, which is healthy, insurable, and still overpaying.
 
 Territory: **Personas.**
 
