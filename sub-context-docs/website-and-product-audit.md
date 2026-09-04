@@ -14,6 +14,30 @@ sources_read:
 
 # Website and product audit — Health For Moms
 
+> **CORRECTION, added 2026-09-04 by the build orchestrator.**
+>
+> This document reports the `quiz.healthformoms.com` destination as having bought **903 link
+> clicks against 234 landing page views at a $75.72 CPL**. That is wrong and must not be carried
+> into any downstream synthesis.
+>
+> A direct verification pull on 2026-09-04, filtering `landing_url contains "quiz."` across
+> lifetime with no date window, returns the true figures: **26 ads, $138.27 total lifetime spend,
+> 72 clicks, 57 link clicks, 25 landing page views, 2 leads, $69.14 CPL.** Every one of those ads
+> was created on 2026-09-02 or 2026-09-03. The quiz destination is a **brand-new test that has
+> barely spent**, not an established leak.
+>
+> The $69.14 CPL is real but rests on 2 leads and $138 of spend, which is far too little to
+> judge. The 43.9% landing rate (25 of 57) is likewise unstable at this volume. Treat the whole
+> quiz destination as **unmeasured**, not as underperforming.
+>
+> **The `go.healthformoms.co` finding in this document is unaffected and independently
+> confirmed** — the monthly performance report reproduced it separately (August: 11 ads,
+> $2,046.40, 6 leads, $341.07 CPL, 1,103 link clicks to 77 landing page views, a 7.0% landing
+> rate against 84.6% for the rest of the account, with the same video file running to both
+> destinations at $19.22 and $271.90). That one is a genuine, live, costly break.
+
+
+
 ## What could not be seen, and why it matters here
 
 This doc has a hole in the exact place a product audit usually starts, so read the whole thing with that in mind.

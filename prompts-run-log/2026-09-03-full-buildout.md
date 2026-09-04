@@ -173,3 +173,30 @@ later reader does not treat it as a contradiction.
 
 `90-day-diversity-audit`, `monthly-hook-audit`, `brand-identity-analysis`,
 `customer-journey-and-persona-discovery`, `website-and-product-audit`, `voc-corpus-profile`.
+
+---
+
+## Correction — quiz destination figures, 2026-09-04
+
+`sub-context-docs/website-and-product-audit.md` reported the `quiz.healthformoms.com` destination
+as 903 link clicks against 234 landing page views at a $75.72 CPL. **That was wrong.** The
+monthly performance report independently reached a different conclusion, which prompted a direct
+verification pull.
+
+**Verified 2026-09-04** via `search_facebook_ads_sql` filtering `landing_url contains "quiz."`,
+lifetime, no date window: **26 ads, $138.27 lifetime spend, 72 clicks, 57 link clicks, 25 landing
+page views, 2 leads, $69.14 CPL.** All 26 created 2026-09-02 or 2026-09-03.
+
+The quiz destination is a brand-new test with negligible spend, not an established leak. Its CPL
+rests on 2 leads and cannot be judged. A correction block has been inserted at the top of the
+affected document so the wrong figure cannot propagate into Phase 2.
+
+**The `go.healthformoms.co` finding is unaffected and independently confirmed twice** — by the
+monthly hook audit (690 link clicks, 63 landing page views, $273.15 CPL) and the monthly
+performance report (August: 11 ads, $2,046.40, 6 leads, $341.07 CPL, 1,103 link clicks to 77
+landing page views, 7.0% landing rate against 84.6% account-wide, same video file at $19.22 on
+the working destination and $271.90 on the broken one).
+
+**Process note.** This is exactly the failure the per-output review pass exists to catch, and the
+website-and-product audit had not yet been reviewed when its figure was relayed. Downstream
+syntheses must not consume an unreviewed document. Tightening that ordering is the lesson.
