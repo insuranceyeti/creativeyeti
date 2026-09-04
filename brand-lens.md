@@ -30,6 +30,12 @@ These outrank craft. The brand marks them itself: *"THIS SECTION IS NON-NEGOTIAB
 
 **Nothing in this brain states what the 20%, 24% or 30% compares against**, and the approval claim is backed by zero reviews, zero press, and no Better Business Bureau profile for the operating entity — two pieces of praise in 1,342 comments, both from women who were told no. `verified`, `sub-context-docs/reputation-analysis.md`, 2026-09-04.
 
+**A second live exposure, found 2026-09-04, and it changes what Priority 2 means.** Seven static ad-name groups carrying **$35,234.91 lifetime and 2,871 leads at $12.27** are built as mock X posts with a **blue verified checkmark on an invented persona** and **printed engagement counts** — *"390 Retweets 7,314 Likes 751 Bookmarks"* and *"333.3k Views"* on `B1 - Copy 7`, *"503 Retweets 24 Quotes 2.5K Likes"* on five others. Three invented personas across the set: `@cindie_mama_23`, `@thehealthymom34`, `@Motherooffthree`. Printed engagement and view counts are statistics, and they are invented, against the brand's own **"No fabricated statistics."** `verified live`, 2026-09-04.
+
+`B1 - Copy 7` is **one of the two statics the roadmap's Priority 2 wants to restart**, so **restarting that message is a rebuild, not a switch-flip.** The direction holds and the message is proven; the execution cannot be reused. And do not carry the old $11.79 forward as a forecast — the fabricated social proof is plausibly part of why it converted.
+
+**A third rule breach, live and previously unrecorded.** `B2 - 10TH JUNE - Copy 1` carries *"no gimmicks, no government red tape"* against the brand's **"No government/ACA references."** Full record: `running-notes/missing-context.md`. `verified live`, 2026-09-04.
+
 **Risk tolerance: 75** — the brand context document reads this as *"moderate-to-high tolerance for direct response approaches, while remaining within clear guardrails."* `stated`, 2026-09-03.
 
 ## Do's and don'ts

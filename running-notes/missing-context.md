@@ -72,3 +72,28 @@ These are not research questions. Each one is a thing that is wrong right now, o
 **Who can answer it:** whoever owns the website and the Meta pixel. Parker cannot see server logs or pixel configuration.
 
 This is the same shape as the `go.healthformoms.co` redirect break the open-loops roll-up routed to the operational owner on 2026-09-04, on a different destination. Two destination problems found independently is a pattern worth a single audit of every landing URL in the account rather than two one-off fixes.
+
+### Fabricated social proof across seven static ad groups — found 2026-09-04, urgent
+
+**What was found.** Seven static ad-name groups, **$35,234.91 lifetime spend, 2,871 leads at $12.27**, are built as mock X (Twitter) posts. Every one of them carries, inside the image itself:
+
+- **A blue verified checkmark on an invented persona.** Three named personas across the set: "Cindie" `@cindie_mama_23`, "Cindy Green" `@thehealthymom34`, and "Grace Skagg" `@Motherooffthree`. None is a real verified account.
+- **Fabricated engagement counts, printed as image text.** `B1 - Copy 7` shows *"390 Retweets 7,314 Likes 751 Bookmarks"* and *"333.3k Views"*. Five others show *"503 Retweets 24 Quotes 2.5K Likes"*.
+- **A fabricated timestamp.** `B1 - Copy 7` reads *"23:51 • 30/05/2024 from Earth"*.
+
+`verified live`, `search_facebook_ads_sql`, `adType: static`, `metricsMode: lifetime_only`, keyword sweep, pulled 2026-09-04. The account's own AI creative analysis describes them in exactly these terms without prompting — *"simulated engagement metrics," "artificial social proof," "a 'verified' persona adds a layer of simulated authenticity."*
+
+The seven, by lifetime spend: `B1 - Copy 7` ($30,339.32), `15` ($2,125.47), `B2 - 10TH JUNE - Copy 1` ($1,877.94), `30th may moms 9 - Copy 6` ($615.52), `5TH APR - Copy 25` ($170.54), `30th may moms 9` ($53.91), `B2 - 10TH JUNE - Copy 2` ($52.21).
+
+**Why this is a hard-rule problem and not a taste one.** The brand's own guidelines, in the section it heads "THIS SECTION IS NON-NEGOTIABLE," say **"No fabricated statistics."** Printed retweet counts, like counts, bookmark counts and view counts are statistics, and they are invented. The verification badge is a further claim — it asserts platform verification of a person who does not exist.
+
+**Two of the seven carry a second breach each, on top of the fabrication.**
+
+- `B1 - Copy 7` also carries the flat savings claim **"24% cheaper"** with no "up to," against the rule *"Savings claims: always 'up to 30%' — never drop the 'up to'."* Two of its five variants already carry a Meta status of DISAPPROVED, recorded earlier in the build.
+- `B2 - 10TH JUNE - Copy 1` carries **"no gimmicks, no government red tape,"** against the rule *"No government/ACA references,"* which the brand explains as positioning itself in the private market and avoiding any association with government programs. **This is a third distinct live rule breach that nothing in the vault had recorded before today.**
+
+**What it changes, and this is the strategic half.** `strategy/strategic-roadmap.md` Priority 2 is to restart the employer-plan switch message on the strength of the two statics that returned **3,817 leads at $11.79**. `B1 - Copy 7` is one of those two. **So Priority 2 is a rebuild, not a switch-flip.** The message is still proven and the direction still holds — what cannot be reused is the execution that carried it. Any brief serving Priority 2 must rebuild the creative without the fake platform frame, and must not treat the old cost per lead as a forecast, because the fabricated social proof is plausibly part of why it converted.
+
+**One thing NOT established, stated so nobody overreads this.** The `status` field reads `ACTIVE` on all seven, but that is the ad-level status. An earlier pull in this build showed an ad reading `ACTIVE` at the ad level while sitting under a paused ad set, so **whether these are delivering spend today needs an ad-set-level check that was not run.** Treat the exposure as confirmed and the current delivery as unverified.
+
+**Who needs this:** whoever signs off on creative and whoever owns compliance. Parker can see the ads and the brand's own rules; it cannot judge legal exposure and is not doing so here.
