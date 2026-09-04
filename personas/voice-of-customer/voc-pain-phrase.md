@@ -633,7 +633,7 @@ Twenty-nine distinct phrasings. Each is verbatim, with the original spelling, pu
 
 Three kinds of language kept turning up and were deliberately left out, so the assembly pass knows they were seen and routed rather than missed.
 
-**Objections to this product went to the objection pass.** The pregnancy exclusion, at 42 comments across 15 ads, and the pre-existing condition denial, at 55 comments across 17 ads, are the two widest recurring complaints in the corpus. They are objections to what this brand's offer does, not the customer's language for the problem she had before it. The one exception is the second sentence of the diabetic record above, where the phrasing describes a lived state rather than a product rule.
+**Objections to this product went to the objection pass.** The pregnancy exclusion, at 42 comments across 15 ads, and the pre-existing condition denial, at 55 comments across 17 ads, are the two widest recurring complaints in the corpus. They are objections to what this brand's offer does, not the customer's language for the problem she had before it. The one exception is the second sentence of the diabetic record above, where the phrasing describes a lived state rather than a product rule. Both counts are quoted from `source-pulls/ad-comments.md`; a stricter independent re-derivation in `personas/voice-of-customer/voc-objection.md`, run on the same 1,322-row corpus the same day, returns 36 and 42 instead of 42 and 55 because it drops rows that mention pregnancy or a condition while describing the commenter's own existing plan, and the ad spreads, 15 and 17, agree exactly — both are kept visible here because the gap is a classification choice, not a data conflict.
 
 **Corrections of the ad went nowhere in this pass.** 103 comments across 13 ads argue that the ad is using the word deductible when it means out-of-pocket maximum. That is a credibility problem and a category-fluency signal. It is not a pain phrase, because the pain in those comments is with the ad rather than with the customer's life.
 
@@ -673,7 +673,7 @@ Territory: **Messaging.**
 
 Pull: **Gap.** The absence is the whole finding. An entire category of buyer the offer is presumably built for leaves almost no trace in the only customer-language source the brand has.
 
-Question: Who is actually buying, the person with no coverage or the person with coverage she cannot use?
+Question: Is the buyer the woman who already pays for coverage she cannot use?
 
 Why it matters: this is the persona question the account cannot currently answer, and it routes everything downstream. If the buyer is the insured and broke woman, then the offer, the proof and the whole message have to speak to someone who already pays every month and is being asked to switch, which is a completely different sell from signing up someone with nothing.
 

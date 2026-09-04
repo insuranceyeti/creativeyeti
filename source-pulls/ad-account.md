@@ -5,7 +5,7 @@ generated_on: 2026-09-03
 refresh_by: 2026-10-03
 sources_read:
   - "Meta ad account `HealthForMoms`, act 484897827497337, via Parker MCP `search_facebook_ads_sql`"
-  - 90-day performance window 2026-06-05 to 2026-09-02, 117 ad-name groups, $98,276.81 spend
+  - 90-day performance window 2026-06-05 to 2026-09-02, 117 ad-name groups, $98,276.68 spend
   - Lifetime cuts across 1,593 video ads and 529 static ads
   - Per-ad age, gender, platform and device delivery breakdowns
   - Full media analysis on 13 ads, transcript plus AI creative analysis plus creator demographic
@@ -23,6 +23,15 @@ data_limitations:
   - No competitors are tracked in the Parker app, so there is no category baseline to read this account's choices against.
   - "Two landing destinations are live, `healthformoms.co/save/` and `quiz.healthformoms.com/#/indvfam`. Ads pointing at the quiz URL show a collapse between link clicks and landing page views, 903 clicks to 234 views on the `Moms Nahuel WV#1` group. That is a page or tracking fault, not a creative signal, and it inflates that group's CPL."
   - The brand intake was never run, so there is no stated ad naming convention. Ad names here are inventory handles only and no claim in this doc rests on one.
+  - >
+    Ninety-day spend is the API's own reported `period_summary` total for 2026-06-05 to
+    2026-09-02, $98,276.68, which agrees with `source-pulls/post-purchase-surveys.md`. This doc
+    previously carried $98,276.81; that figure was a summing artifact from adding the 117
+    ad-name groups rather than reading the reported total, and the $0.13 gap is group-level
+    rounding. Re-pulled live on 2026-09-04, `period_summary` returns $98,277.97 against
+    identical leads (4,336) and CPL ($22.67), so Meta has restated spend by $1.29 since the
+    2026-09-03 pull this doc was built on. Treat 90-day spend as accurate to about a dollar,
+    and never re-derive it by summing ad-name groups.
 ---
 
 # Ad account — persona signal — Health For Moms
@@ -50,7 +59,7 @@ data_limitations:
 > 2 leads, every ad created 2026-09-02 or 09-03. Treat the quiz as **unmeasured**, never as a leak.
 
 
-**How this read was built.** I opened the account cold and ranked the last 90 days by spend, because in a lead-gen account Meta's own budget allocation is the closest thing to a verdict on which creative is working. That window runs 2026-06-05 to 2026-09-02 and holds $98,276.81 of spend, 4,336 leads and a $22.67 CPL across 117 ad-name groups. Then I did the thing that matters most for persona work: I stopped reading the numbers and watched the ads. Thirteen of them, all the way through, with the transcript, the AI creative analysis and the creator demographic in hand, because who a creative serves lives in the talent, the room, the child on screen and the first three seconds, not in the ad name. After that I pulled the age, gender and platform delivery split for each of those thirteen separately, so I could hold my read of who an ad courts against who Meta actually found. Finally I went hunting for absence. I filtered the library for statics, and I ran four semantic sweeps looking for the buyers the brand says it wants: the single mom, the self-employed mom, the mom of teenagers, the woman over fifty, the creator who is not white.
+**How this read was built.** I opened the account cold and ranked the last 90 days by spend, because in a lead-gen account Meta's own budget allocation is the closest thing to a verdict on which creative is working. That window runs 2026-06-05 to 2026-09-02 and holds $98,276.68 of spend, 4,336 leads and a $22.67 CPL across 117 ad-name groups. Then I did the thing that matters most for persona work: I stopped reading the numbers and watched the ads. Thirteen of them, all the way through, with the transcript, the AI creative analysis and the creator demographic in hand, because who a creative serves lives in the talent, the room, the child on screen and the first three seconds, not in the ad name. After that I pulled the age, gender and platform delivery split for each of those thirteen separately, so I could hold my read of who an ad courts against who Meta actually found. Finally I went hunting for absence. I filtered the library for statics, and I ran four semantic sweeps looking for the buyers the brand says it wants: the single mom, the self-employed mom, the mom of teenagers, the woman over fifty, the creator who is not white.
 
 Two things reshaped the read along the way, and both are worth flagging up front because a faster pass would have gotten them wrong.
 
@@ -233,7 +242,7 @@ Worth naming through the emotional-delivery lens: the account's spend clusters i
 
 **What I read.** Thirteen ads at full media depth, meaning transcript, AI creative analysis, creator demographic and per-ad delivery breakdown. Forty ad-name groups at hook, visual-hook and angle level from the 90-day spend ranking. Ten statics at headline and angle level. Forty-eight semantic report chunks across four sweeps. Account-wide tag distribution across all tagged ads in the window.
 
-**Denominators.** The 90-day window is 2026-06-05 to 2026-09-02 and contains 117 ad-name groups, $98,276.81 of spend, 4,336 leads and a $22.67 CPL at a $22.98 CPM and a 1.80% CTR. The lifetime library is 1,593 video ads and 529 statics, $743,218.09 of combined spend and 39,569 leads.
+**Denominators.** The 90-day window is 2026-06-05 to 2026-09-02 and contains 117 ad-name groups, $98,276.68 of spend, 4,336 leads and a $22.67 CPL at a $22.98 CPM and a 1.80% CTR. The lifetime library is 1,593 video ads and 529 statics, $743,218.09 of combined spend and 39,569 leads.
 
 **How heavily each message recurs, by share of 90-day spend.** State gate as closing mechanism, 13 of 13 ads read, roughly 92.7%. Spousal win, 6 groups, 67.8%. High-deductible grievance, roughly 14 groups, 18.6%. Peace of mind, 5.6%. Mom-to-mom referral, 1.8%. System-is-rigged, under 1%. Uninsured, 0.14% of lifetime.
 
@@ -273,7 +282,7 @@ Ads that open on a distressed face and a complaint screenshot deliver 30% to 38%
 
 *Pull: Pattern.* The same split showed up independently across nine separate per-ad delivery breakdowns, which is more than a quirk of one ad.
 
-*Question:* Who is the older mom that the grievance creative keeps reaching, and what is she actually coming to this offer for?
+*Question:* What is the older mom that the grievance creative keeps reaching actually coming to this offer for?
 
 *Why it is a loop:* She is roughly a fifth of the spend, she pays more per lead, and she is the most attentive audience in the account. If her situation is different from the young partnered mom's, and the deeper watch time suggests it is, she needs her own message rather than a harder version of the same one, and nobody has written it.
 
@@ -321,7 +330,7 @@ An ad led by a Black creator got $206.08. One led by an Asian-American creator g
 
 *Pull: Tension.* The brand's account of why it wins and the account's own variance cannot both be the whole story, because the named winner is the constant and the difference lives in the variable.
 
-*Question:* Which part of the winning ad is actually carrying it, the state gate or the opening frame that wraps it?
+*Question:* How much of the CPL gap between these two ads is the opening frame carrying?
 
 *Why it is a loop:* Iteration budget follows this answer. If it is the opener, the team should be making twenty first-ten-seconds against one script. If it is the gate, the openers barely matter and the money should go to reach.
 

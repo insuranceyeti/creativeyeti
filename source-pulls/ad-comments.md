@@ -250,7 +250,7 @@ Health For Moms disqualifies pregnant women and women planning a pregnancy, and 
 
 Pull: **Tension.** Two sources cannot both be true as stated. The brand context document says the objections are legitimacy, sales pressure, time, state coverage and timing, and the brand's own comment sections say the biggest objection is that the product excludes the mothers the name promises.
 
-Question: What share of the people who start the qualification flow are screened out, and for what reasons?
+Question: What share of the people who start the qualification flow are screened out?
 
 Why it matters: if the pregnancy and pre-existing screens are turning away a large share of the traffic the ads pay for, then the fix that moves the most is upstream of creative, in who the ads invite. If the share is small, the objection is loud but cheap and the answer is a line of copy.
 

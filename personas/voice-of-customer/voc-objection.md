@@ -1340,7 +1340,7 @@ Four things in this corpus look like objections and are not, and the mining meth
 
 **Heavy skew, twice over.** 846 of 1,322 comments, 64.0%, sit in March and April 2026. 795 of 1,322, 60.1%, sit on the `MOMS38 - 1` creative family. Ad spread is carried on every cluster because it survives both skews and a raw count does not.
 
-**No persona slugs exist.** `personas-profile.md` has not been written, so `identity_tag` and `behavioral_signal_tag` are null on all 34 blocks by rule. This pass never invents a slug. When the persona doc lands, this doc should be re-tagged rather than regenerated, because the recurrence history is the value.
+**No persona slugs exist.** `personas-profile.md` has not been written, so `identity_tag` and `behavioral_signal_tag` are null on all 48 blocks by rule. This pass never invents a slug. When the persona doc lands, this doc should be re-tagged rather than regenerated, because the recurrence history is the value.
 
 **No competitor or category baseline.** No rival brands are tracked in the Parker app, so no objection rate here can be called high or low for health insurance lead generation.
 
@@ -1392,11 +1392,11 @@ Four records across four ads, from 2025-08-03 to 2026-09-01, say there is an inc
 
 Pull: **Surprise.** For a product advertised to women drowning in medical costs, an income floor is not what the setup would predict, and the size of that gap is the signal.
 
-Question: Who is the income floor turning away, and how many of them are there?
+Question: How many of the women these ads reach does the income floor turn away?
 
 Why it matters: if it is real and sizeable, the ads are paying to reach a group the product cannot serve, which is a targeting fix rather than a copy fix. If it is a misunderstanding of a subsidy rule, it is one line of creative.
 
-Territory: **Personas.** Only the brand can answer the first half, since it needs the qualifier's own rules.
+Territory: **Personas.** Only the brand can answer this, since it needs the qualifier's own rules.
 
 **5. Nobody objects to this brand's price, because this brand never names one.**
 
