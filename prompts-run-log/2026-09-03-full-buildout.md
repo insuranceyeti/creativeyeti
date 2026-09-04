@@ -232,3 +232,61 @@ backlog is now the gate before any Phase 1 synthesis or Phase 2 work.
 - `personas/brand-reputation` → `source-pulls/brand-reputation.md`
 
 All five: review verdict pending.
+
+---
+
+## Correction 3 — the quiz figures resolved by direct pull, 2026-09-04
+
+The earlier correction said the "903 link clicks / 234 landing page views / $75.72 CPL" figures
+were wrong. A direct pull has now established **exactly what they are**, and the answer is more
+useful than "wrong":
+
+They are **two destinations summed together** on `Moms Nahuel WV#1 - V9 - Copy`:
+
+| Variant destination | Spend | Link clicks | Landing page views | Landing rate | Leads | CPL |
+|---|---|---|---|---|---|---|
+| `go.healthformoms.co/save/` | $1,639.35 | 690 | 63 | 9.1% | 6 | $273.23 |
+| `www.healthformoms.co/save/` | $404.23 | 213 | 171 | 80.3% | 21 | $19.25 |
+| **summed (the wrong figure)** | $2,043.58 | **903** | **234** | 25.9% | 27 | **$75.69** |
+
+903 = 690 + 213. 234 = 63 + 171. $75.72 is the blend of a broken destination and a working one,
+presented as the quiz destination's own CPL. The quiz had nothing to do with it — that variant
+carried $0.94 lifetime.
+
+The parent `Moms Nahuel WV#1 - V9` on `www.` is healthy: $17,723.91, 7,196 link clicks, 6,198
+landing page views (86.1%), 635 leads, $27.91 CPL.
+
+**The real finding survives and sharpens:** the collapse is entirely `go.healthformoms.co`, the
+same creative on `www.` converts normally, and `quiz.healthformoms.com` is a separate brand-new
+test at $138.27 lifetime that must be treated as unmeasured.
+
+The canonical correction block is now at the top of all four affected documents:
+`source-pulls/ad-account.md` (the origin), `sub-context-docs/website-and-product-audit.md`,
+`sub-context-docs/customer-journey-and-persona-discovery.md`, and
+`sub-context-docs/marketing-calendar-and-campaigns.md`.
+
+**Root cause for the record:** the origin was an aggregation error in `source-pulls/ad-account.md`
+that attributed a group-level sum to one destination. Every downstream document inherited it by
+citation. The per-output review pass would have caught it at the source had it not been backlogged.
+
+## Review verdicts — first two batches, 2026-09-04
+
+**Audits batch:** `monthly-hook-audit` **PASS**. `quarterly-whitespace-analysis` **PASS**.
+`90-day-diversity-audit` **FAIL** — missing proof-of-read sign-off lines for `iterations.md`,
+`visuals.md` and `creative-strategy-by-brand-size.md`, all of which it demonstrably used and cited.
+`monthly-organic-tiktok-audit` **FAIL** — same shape, missing sign-offs for `adapting-scripts.md`
+and `visuals.md`. Every other requirement met in all four.
+
+**Brand foundation batch:** `brand-identity-analysis` **PASS** (two minor defects: `refresh_by`
+stamped at 180 days where `refresh-cadence.md` puts it in the annual tier and the prompt itself
+says quarterly — a prompt contradiction to reconcile upstream, not a doc fault; and three craft
+reads that run past "present, do not judge" without the observation mark).
+`competitive-landscape` **PASS**. `marketing-calendar-and-campaigns` **FAIL**,
+`customer-journey-and-persona-discovery` **FAIL** — both on the quiz figures, now corrected above.
+`category-and-market-research` **FAIL** — missing the `seasonality.md` sign-off, and two open loops
+carry a closure path the open-loops core block explicitly bans.
+
+**Method note.** The reviewer established which method docs actually mandate a sign-off by grepping
+the doc bodies rather than inferring from the routing table. Only `iterations.md`,
+`adapting-scripts.md`, `visuals.md`, `andromeda-v2.md` and `creative-strategy-by-brand-size.md` do.
+That check cleared two documents that would otherwise have read as failures.

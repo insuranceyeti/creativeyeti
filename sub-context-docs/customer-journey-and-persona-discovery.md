@@ -29,6 +29,29 @@ data_limitations:
 
 # Customer journey and persona discovery — Health For Moms
 
+> **CORRECTION, 2026-09-04, verified by direct pull.** The figures "903 link clicks against 234
+> landing page views" and a "$75.72 CPL" on the `Moms Nahuel WV#1` group are **not the quiz
+> destination.** They are an aggregate of two different destinations summed together, and the
+> attribution to `quiz.healthformoms.com` is wrong.
+>
+> Ground truth, `Moms Nahuel WV#1 - V9 - Copy`, two variants of the same creative:
+>
+> | Variant destination | Spend | Link clicks | Landing page views | Landing rate | Leads | CPL |
+> |---|---|---|---|---|---|---|
+> | `go.healthformoms.co/save/` | $1,639.35 | 690 | **63** | **9.1%** | 6 | **$273.23** |
+> | `www.healthformoms.co/save/` | $404.23 | 213 | 171 | 80.3% | 21 | $19.25 |
+> | **summed (the wrong figure)** | $2,043.58 | **903** | **234** | 25.9% | 27 | **$75.69** |
+>
+> So 903 = 690 + 213, 234 = 63 + 171, and $75.72 is the blend of a broken destination and a
+> working one. The parent `Moms Nahuel WV#1 - V9` on `www.` is healthy: $17,723.91, 7,196 link
+> clicks, 6,198 landing page views (86.1%), 635 leads, $27.91 CPL.
+>
+> **The real finding survives and is sharper:** the collapse is entirely on `go.healthformoms.co`,
+> not the quiz, and the same creative on `www.` converts normally. `quiz.healthformoms.com` is a
+> separate, brand-new test — 26 ads, $138.27 lifetime, 57 link clicks, 25 landing page views,
+> 2 leads, every ad created 2026-09-02 or 09-03. Treat the quiz as **unmeasured**, never as a leak.
+
+
 ## How buying actually happens here
 
 Nobody buys anything from Health For Moms. That is the first thing to hold, because every field below reads differently once you do.

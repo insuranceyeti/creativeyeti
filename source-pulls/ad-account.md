@@ -27,6 +27,29 @@ data_limitations:
 
 # Ad account — persona signal — Health For Moms
 
+> **CORRECTION, 2026-09-04, verified by direct pull.** The figures "903 link clicks against 234
+> landing page views" and a "$75.72 CPL" on the `Moms Nahuel WV#1` group are **not the quiz
+> destination.** They are an aggregate of two different destinations summed together, and the
+> attribution to `quiz.healthformoms.com` is wrong.
+>
+> Ground truth, `Moms Nahuel WV#1 - V9 - Copy`, two variants of the same creative:
+>
+> | Variant destination | Spend | Link clicks | Landing page views | Landing rate | Leads | CPL |
+> |---|---|---|---|---|---|---|
+> | `go.healthformoms.co/save/` | $1,639.35 | 690 | **63** | **9.1%** | 6 | **$273.23** |
+> | `www.healthformoms.co/save/` | $404.23 | 213 | 171 | 80.3% | 21 | $19.25 |
+> | **summed (the wrong figure)** | $2,043.58 | **903** | **234** | 25.9% | 27 | **$75.69** |
+>
+> So 903 = 690 + 213, 234 = 63 + 171, and $75.72 is the blend of a broken destination and a
+> working one. The parent `Moms Nahuel WV#1 - V9` on `www.` is healthy: $17,723.91, 7,196 link
+> clicks, 6,198 landing page views (86.1%), 635 leads, $27.91 CPL.
+>
+> **The real finding survives and is sharper:** the collapse is entirely on `go.healthformoms.co`,
+> not the quiz, and the same creative on `www.` converts normally. `quiz.healthformoms.com` is a
+> separate, brand-new test — 26 ads, $138.27 lifetime, 57 link clicks, 25 landing page views,
+> 2 leads, every ad created 2026-09-02 or 09-03. Treat the quiz as **unmeasured**, never as a leak.
+
+
 **How this read was built.** I opened the account cold and ranked the last 90 days by spend, because in a lead-gen account Meta's own budget allocation is the closest thing to a verdict on which creative is working. That window runs 2026-06-05 to 2026-09-02 and holds $98,276.81 of spend, 4,336 leads and a $22.67 CPL across 117 ad-name groups. Then I did the thing that matters most for persona work: I stopped reading the numbers and watched the ads. Thirteen of them, all the way through, with the transcript, the AI creative analysis and the creator demographic in hand, because who a creative serves lives in the talent, the room, the child on screen and the first three seconds, not in the ad name. After that I pulled the age, gender and platform delivery split for each of those thirteen separately, so I could hold my read of who an ad courts against who Meta actually found. Finally I went hunting for absence. I filtered the library for statics, and I ran four semantic sweeps looking for the buyers the brand says it wants: the single mom, the self-employed mom, the mom of teenagers, the woman over fifty, the creator who is not white.
 
 Two things reshaped the read along the way, and both are worth flagging up front because a faster pass would have gotten them wrong.
