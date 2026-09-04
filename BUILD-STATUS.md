@@ -2,34 +2,23 @@
 
 **Brand:** Health For Moms (`aed0ff06-555d-4f4f-9bf8-31178e2fb977`)
 **Build started:** 2026-09-03
-**Method version:** parker-brain `v15`
+**Method version:** parker-brain `v15` (submodule, pinned)
 **Run id:** `e5c1cbe7-0bba-4a1e-8b7e-9bdc075777e1`
-**Current phase:** **Phase 1 CLOSED** 2026-09-04. Phase 2 blocked on the Parker MCP reconnecting.
+**Current phase:** **Phase 3 running.** Phase 1 and Phase 2 are closed. The operating contract is stamped and the routines are armed.
 
-> **BLOCKED — WAITING ON YOU.** The Parker MCP connection dropped and needs re-authorization
-> (claude.ai connector settings, or `/mcp` in an interactive session). Phase 2 and Phase 3 both need
-> live pulls and cannot honestly run from a stale vault. Everything built so far is committed and
-> pushed; `parker_config.json` holds the run anchor and this ledger holds the state.
-
-**Saved to:** https://github.com/insuranceyeti/creativeyeti (branch `claude/parker-mcp-http-349ri1`)
+**Saved to:** https://github.com/insuranceyeti/creativeyeti (branch `claude/parker-brain-health-for-moms-x0vbs5`)
 **Repo posture:** self-managed — see `running-notes/standard-sync.md`
 
 ## What is happening right now
 
-Phase 1 is running. Seven agents are working in parallel across the audit baseline, the brand
-foundation, and the persona source pulls. Each one runs its own factory prompt from
-`parker-system/prompts/` in full, and each output gets an independent fidelity review before
-anything downstream consumes it.
+Phase 3 is the last build phase: capture the idea bank, grade it against the roadmap, size the sprint, write the briefs. The capture step is running now.
 
-The brand intake has been captured into `running-notes/success-definition.md` and
-`running-notes/brand-rules.md`. The headline rule it produced: a winner is two-gated here,
-CPL then lead quality, and Parker can only see gate one.
+The stamp step ran alongside it and is done. `CLAUDE.md`, `README.md`, `brand-lens.md`, `running-notes/refresh-schedule.md`, `running-notes/routine-log.md`, `audits/INDEX.md` and `competitors/INDEX.md` are all written and filled with this brand. All six standing routines are registered and live.
 
-**First finding, from the 90-day performance audit:** spend fell 73.5% quarter over quarter
-($374,508 to $99,267) while CPL held essentially flat ($22.65 to $22.64). That reads as a
-budget decision, not a performance failure. Separately, one ad carries 43.3% of all spend and
-four ads sharing a single text hook carry 60.5% — a concentration worth knowing before
-November's Open Enrollment ramp.
+## Two things waiting on the team
+
+1. **The strategic roadmap is drafted and unapproved.** `strategy/strategic-roadmap.md` carries `status: drafted, awaiting review` and `approved_by: null`. The team was asked on 2026-09-04 and expressed no preference. Phase 3 is running against it anyway, with every output labeled as graded against an unapproved roadmap. Approving, reordering or rejecting those three priorities is the highest-value thing anyone can do with this brain today.
+2. **Four of the six armed routines have no Parker connector.** They were created without MCP connectors attached, so their fired sessions carry no Parker MCP tools. `/self-improve` and `/update-brain` work fine that way. `/dream`, `/refresh-context`, the idea cycle and `/research-loops` need live pulls and will produce thin or blocked runs until the connector is attached from the claude.ai Routines UI. Details on every affected status line in `schedules/`.
 
 ## Scoreboard
 
@@ -37,195 +26,116 @@ November's Open Enrollment ramp.
 |---|---|---|
 | Phase 0 — Repo & Scaffold | **done** | 7 of 7 |
 | Phase 1A — Brand foundation | **done** | 14 of 14 |
-| Phase 1B — Competitor profiles | **deferred** | 0 of 0 |
+| Phase 1B — Competitor profiles | **deferred by user** | 0 of 0 |
 | Phase 1C — Persona source pulls | **done** | 12 of 12 |
 | Phase 1D — Voice of customer | **done** | 12 of 12 |
 | Phase 1E — Audit baseline (internal) | **done** | 11 of 11 |
-| Phase 1E — Audit baseline (external) | **deferred** | 0 of 6 |
+| Phase 1E — Audit baseline (external) | **deferred with 1B** | 0 of 6 |
 | Phase 1 — Synthesis | **done** | 2 of 2 |
-| Phase 2 — Strategy | **blocked on Parker MCP** | 0 of 5 |
-| Phase 3 — Ideation | **blocked on Parker MCP** | 0 of 4 |
-| Stamp / verify / hand off | pending | 0 of 4 |
+| Phase 2 — Strategy | **done** | 5 of 5 |
+| Phase 3 — Ideation | **running** | 0 of 4 |
+| Stamp operating contract | **done** | 6 of 6 |
+| Verify / save / hand off | pending | 1 of 3 |
 
-## Data surfaces — tested 2026-09-03
+## Data surfaces — tested 2026-09-03, re-verified through the build
 
 | Surface | State | Note |
 |---|---|---|
 | Brand context document | live | ~50KB, detailed |
 | Meta ads (`HealthForMoms`, act 484897827497337) | live | 136 ads, $98,277 / 90d, 4,336 leads, $22.67 CPL |
-| Facebook ad comments | live | current through today |
-| TikTok mining library | live | 23 relevancy-scored videos |
+| Facebook ad comments | live | 1,342 rows, 2025-01-08 to 2026-09-03 |
+| TikTok mining library | live | 23 relevancy-scored videos, category not brand |
 | Parker chat history | live | 4 threads (1 web, 3 Slack) |
 | Customer reviews | **dark** | zero rows; team confirmed none exist |
 | Post-purchase surveys | **dark** | zero rows |
-| Competitor ad library | **dark** | no brands tracked; branch deferred by user |
-| Northbeam | not connected | read performance on Meta numbers |
+| Competitor ad library | **dark** | only Ethos tracked, and it sells term life |
+| Northbeam | not connected | every figure is Meta-reported, single-touch |
+| Gate two — lead quality | **dark** | lives with the partner agencies; 44 `Call` events against 4,421 leads |
 
-**Account shape:** this is lead generation, not ecommerce. Zero purchases, 4,336 leads.
-Every performance read runs on CPL and lead volume, never ROAS.
+**Account shape:** lead generation, not ecommerce. Zero purchases. Every read is CPL and lead volume, never ROAS.
 
 ## Prompt ledger
 
-### Phase 0 — Repo & Scaffold
-- [x] Resolve brand and lock brand_id — done
-- [x] Test every data surface — done
-- [x] Scaffold flat layout — done
-- [x] Mount factory method at `parker-system/` (pinned v15) — done
-- [x] Write `parker_config.json` — done
-- [x] Ship executable layer into `.claude/` — done (26 skills, 2 agents, 2 scripts, voice layer)
-- [x] Establish save path — done (self-managed in `insuranceyeti/creativeyeti`)
+### Phase 0 — Repo & Scaffold (7 of 7)
+All done: brand locked, surfaces tested, flat layout scaffolded, method mounted at `parker-system/` pinned to v15, `parker_config.json` written, executable layer shipped into `.claude/` (26 skills, 2 review agents, 2 checker scripts, voice layer), save path established as self-managed.
 
-### Phase 1A — Brand foundation (14)
-- [x] brand-identity-analysis — done
-- [x] category-and-market-research — done
-- [ ] community-and-forums
-- [x] competitive-landscape — done
-- [x] customer-journey-and-persona-discovery — done
-- [x] marketing-calendar-and-campaigns — done
-- [ ] operations-and-team
-- [x] reputation-analysis — done
-- [ ] visual-vocabulary
-- [x] website-and-product-audit — done
-- [ ] ad-account-evaluation (blocked on 1E)
-- [ ] performance-targets-and-metrics (blocked on 1E)
-- [ ] organic-channels-inventory (blocked on 1E)
-- [ ] brand-profile-narrative (synthesis of all A)
+### Phase 1A — Brand foundation (14 of 14) — all done
+brand-identity-analysis · category-and-market-research · community-and-forums · competitive-landscape · customer-journey-and-persona-discovery · marketing-calendar-and-campaigns · operations-and-team · reputation-analysis · visual-vocabulary · website-and-product-audit · ad-account-evaluation · performance-targets-and-metrics · organic-channels-inventory · brand-profile-narrative
 
-### Phase 1B — Competitor profiles
-- DEFERRED at user's request. No competitors tracked in the Parker app.
-  Add rivals there and this branch backfills without redoing anything.
+### Phase 1B — Competitor profiles — DEFERRED
+At the team's request. No rivals tracked in the Parker app except Ethos (term life, wrong category). Add rivals there and this branch backfills without redoing anything. Cost of the gap is stated in `competitors/INDEX.md`.
 
-### Phase 1C — Persona source pulls (12)
-- [x] source: ad-account — done
-- [x] source: ad-comments — done
-- [x] source: customer-reviews — done (honest named blank, surface verified empty)
-- [ ] source: other-reviews
-- [x] source: post-purchase-surveys — done (honest named blank, surface verified empty)
-- [x] source: reddit — done (honest blank, Reddit unreachable)
-- [x] source: brand-reputation — done
-- [x] source: brand-self-echo-detection — done
-- [ ] personas-profile (synthesis)
-- [ ] persona-voice-library
-- [ ] lifecycle-journey-maps
-- [ ] cross-persona-bias-notes
+### Phase 1C — Persona source pulls (12 of 12) — all done
+Eight source pulls (three of them honest named blanks: customer-reviews, post-purchase-surveys, reddit) plus personas-profile, persona-voice-library, lifecycle-journey-maps, cross-persona-bias-notes.
 
-### Phase 1D — Voice of customer (12)
-- [x] voc-corpus-profile — done
-- [x] voc-pain-phrase — done
-- [ ] voc-outcome-phrase
-- [x] voc-objection — done
-- [ ] voc-trigger-moment
-- [ ] voc-metaphor
-- [ ] voc-aspirational
-- [ ] voc-anti-language
-- [ ] voc-category-jargon
-- [ ] voc-surprise-delight
-- [ ] voc-corpus (assembly inputs)
-- [ ] voice-of-customer-assembly
+### Phase 1D — Voice of customer (12 of 12) — all done
+voc-corpus-profile plus ten extracted slices plus the assembly.
 
-### Phase 1E — Audit baseline, internal (11)
-- [x] 90-day-creative-strategy-audit (anchor) — done, in review
-- [x] 90-day-performance-audit — done, in review
-- [x] 90-day-diversity-audit — done
-- [ ] customer-review-audit (will run data-limited)
-- [x] quarterly-whitespace-analysis — done
-- [x] monthly-hook-audit — done
-- [x] monthly-performance-report — done
-- [x] monthly-organic-tiktok-audit — done
-- [ ] monthly-tiktok-mining
-- [ ] biweekly-iterations-report
-- [ ] weekly-performance-snapshot
+### Phase 1E — Audit baseline, internal (11 of 11) — all done
+Six quarterly cuts in `audits/2026-Q3/`, six monthly/biweekly/weekly cuts in `audits/2026-09/`. Indexed in `audits/INDEX.md`.
 
-### Phase 1E — Audit baseline, external (6)
-- DEFERRED with the competitor branch.
+### Phase 1E — Audit baseline, external (0 of 6) — DEFERRED with 1B
 
-### Phase 1 — Synthesis (2)
-- [ ] gaps-opportunities-inspo
-- [ ] open-loops-roll-up
+### Phase 1 — Synthesis (2 of 2) — all done
+- [x] gaps-opportunities-inspo
+- [x] open-loops-roll-up — 212 loops from 47 documents cut to 57: 14 Tier 1, 24 Tier 2, 19 brand-routed
 
-### Phase 2 — Strategy (5)
-- [ ] persona-strategy-input
-- [ ] product-priority
-- [ ] messaging-strategy-input
-- [ ] creator-talent-strategy-input
-- [ ] strategic-roadmap
+### Phase 2 — Strategy (5 of 5) — all done
+- [x] persona-strategy-input · product-priority · messaging-strategy-input · creator-talent-strategy-input
+- [x] strategic-roadmap — **drafted, awaiting review**
 
-### Phase 3 — Ideation (4)
-- [ ] brand-idea-bank
+### Phase 3 — Ideation (0 of 4)
+- [ ] brand-idea-bank — **running**
 - [ ] idea-evaluation
 - [ ] sprint-plan
 - [ ] brief-creation
 
-### Finish (4)
-- [ ] Stamp operating contract (CLAUDE.md, README.md, brand-lens, refresh-schedule)
-- [ ] Verify build
-- [ ] Confirm save
-- [ ] Hand off to /get-started
+### Stamp the operating contract (6 of 6) — all done
+- [x] `CLAUDE.md` — hard rules first, phase status honest about the unapproved roadmap
+- [x] `README.md` — the brand-facing map, leading with `/get-started`
+- [x] `brand-lens.md` — the tribal-knowledge overlay, every line sourced and dated
+- [x] `running-notes/refresh-schedule.md` — all 56 standing docs aggregated from their own frontmatter
+- [x] `running-notes/routine-log.md` — stamped empty, ready for the first scheduled run
+- [x] `audits/INDEX.md` and `competitors/INDEX.md`
+- [x] Routine bundle already shipped in Phase 0; all six schedules armed 2026-09-04
 
-## Review backlog — the gate before synthesis
-
-Two documents have passed fidelity review (`90-day-performance-audit`, `90-day-creative-strategy-audit`).
-Eighteen reviews are **in flight now**, batched across three reviewers covering the audits, the
-brand foundation, and the source pulls plus voice-of-customer.
-
-**This is a hard gate.** No Phase 1 synthesis node and no Phase 2 work may consume a document that
-has not passed review. Two cross-document errors have already reached documents through this gap —
-the quiz destination figures and the Open Enrollment history, both corrected and both logged in
-`prompts-run-log/`. Both were caught by a later prompt reading a live source rather than by review,
-which is exactly the cost of running the backlog.
+### Finish (1 of 3)
+- [ ] Verify build — the structural completeness review
+- [x] Confirm save — pushed 2026-09-04
+- [ ] Hand off to `/get-started`
 
 ## Resume anchor
 
-If this session dies: `parker_config.json` carries `run_id`, this ledger carries the state. Call
-`update_parker_brain_setup_status(mode: "start", brand_id, run_id)`, reconcile this ledger against
-the files on disk, demote anything missing, and continue from the first pending item.
-**Do not restart the build.**
+If this session dies: `parker_config.json` carries `run_id`, this ledger carries the state. Call `update_parker_brain_setup_status(mode: "start", brand_id, run_id)`, reconcile this ledger against the files on disk, demote anything missing, and continue from the first pending item. **Do not restart the build.**
 
-## Needs attention
+## Still outstanding at the Phase 3 boundary
 
-1. **Managed Parker storage was unreachable** from the build session, so this brain is
-   self-managed. `parker-brain/insuranceyeti-health-for-moms` was provisioned but is empty.
-   Details and the migration path are in `running-notes/standard-sync.md`.
-2. **Reviews and surveys are dark.** Voice-of-customer will lean on ad comments, Reddit,
-   and competitor reviews instead, per the team's own guidance in Slack. Every VoC claim
-   sourced that way is labelled accordingly.
-3. **Competitors deferred.** External audit cuts skipped with them.
-
-## What happens next
-
-Run Phase 1: the internal audit baseline first, then the brand foundation slices, persona
-source pulls, and voice of customer.
-
-
----
+- The competitor branch and all six external audit cuts, deferred at the team's request.
+- Fidelity reviews for the documents built after the three review batches ran in Phase 1.
+- Three open intake items: ad naming convention, brief template, unit economics. The team's tools (Slack, Notion, Drive, Gmail, Calendar, monday.com) came online mid-build and have not been read into the foundation; the answers are likely sitting in them.
+- The Parker connector on four of the six armed routines.
 
 ## Phase 1 close — 2026-09-04
 
-**49 documents. Roughly 300,000 words. All committed and pushed.**
+**51 documents. Roughly 300,000 words.**
 
-The open-loops roll-up harvested **212 loops from 47 documents** and cut them to **57**: 14 Tier 1
-promoted, 24 Tier 2 backlog, 19 routed to the brand. That is 73% attrition, almost all of it
-consolidation rather than killing, which is the right shape when 47 documents were written in
-parallel by agents that could not see each other.
+The open-loops roll-up harvested **212 loops from 47 documents** and cut them to **57**: 14 Tier 1 promoted, 24 Tier 2 backlog, 19 routed to the brand. That is 73% attrition, almost all consolidation rather than killing, which is the right shape when 47 documents were written in parallel by agents that could not see each other.
 
-**Independent convergence, recorded as a strength signal rather than deduplicated away:** ten
-documents independently reached the lead-quality gate, nine the persona-provenance problem, nine the
-recognition-versus-argument split, seven the coverage-is-luck belief.
+**Independent convergence, recorded as a strength signal rather than deduplicated away:** ten documents independently reached the lead-quality gate, nine the persona-provenance problem, nine the recognition-versus-argument split, seven the coverage-is-luck belief.
 
-**Top of the Tier 1 agenda:** what this audience believes she can change about her own coverage
-(19/20, reached independently by four separately extracted voice-of-customer categories).
+**Top of the Tier 1 agenda:** what this audience believes she can change about her own coverage (19/20, reached independently by four separately extracted voice-of-customer categories).
 
-**Two grading calls worth keeping:** lead quality is **brand-routed, not Tier 1** — Stakes 5 with
-Researchability 1 triggers the override, and it heads the brand-routed list as the highest-stakes
-loop in the document. And the `go.healthformoms.co` break was **killed as a research loop** and
-routed to the operational owner marked urgent: the strategic question is answered, what remains is
-a broken redirect on eleven live ads, which is a fix rather than a question.
+**Two grading calls worth keeping:** lead quality is **brand-routed, not Tier 1** — Stakes 5 with Researchability 1 triggers the override, and it heads the brand-routed list as the highest-stakes loop in the document. And the `go.healthformoms.co` break was **killed as a research loop** and routed to the operational owner marked urgent: the strategic question is answered, what remains is a broken redirect on live ads, which is a fix rather than a question.
 
-**Still outstanding at the Phase 1 boundary:**
-- `gaps-opportunities-inspo` — the one Phase 1 node not built; it needs live category and account
-  reads and was blocked by the disconnection.
-- The competitor branch and all six external audit cuts remain deferred at the user's request.
-- Reviews for the documents built after the three review batches ran.
-- The team's tools (Slack, Notion, Drive, Gmail, Calendar, monday.com) came online mid-build and
-  have not been read into the foundation. Three open intake items — ad naming convention, brief
-  template, unit economics — are likely sitting in them.
+## Phase 2 close — 2026-09-04
+
+**Four strategy inputs plus the roadmap. The backbone is that the four inputs converged independently**, each run against its own territory's evidence, none told what the others concluded.
+
+- **Persona** says lead against the woman who pays every month and still owes everything. "Deductible" appears in **207 of 1,342** comments, "uninsured" in **2**.
+- **Product** says lead with the employer-plan switch, carried as a static, pointed at `www.healthformoms.co/save/`.
+- **Messaging** says stop leading with savings and lead with standing — she is allowed to leave the plan she thinks she is stuck in.
+- **Casting** says the woman who already delivers the pitch in both of the account's biggest ads should open them, at 0:03 instead of 0:14.
+
+**The diagnosis:** twenty-one months and $743,218.09 spent addressing a woman who is uninsured and wants rescuing, while reaching a woman who is insured, broke, and unaware she is allowed to leave the plan her job picked — in a voice the brand cannot legally keep using, with its cheapest proven answer switched off in its own library.
+
+**Live verification found the claim exposure wider than the vault had it.** Two separate sweeps returned the identical 127 of 128 ad-name groups and the identical $100,066.79 for both claims — same count, same dollar to the cent — which is direct proof they travel in one shared copy block.
