@@ -71,6 +71,23 @@ These are not research questions. Each one is a thing that is wrong right now, o
 
 **Who can answer it:** whoever owns the website and the Meta pixel. Parker cannot see server logs or pixel configuration.
 
+**UPGRADED 2026-09-04 — the account ran the experiment itself, four times, and the result is not subtle.** A pull of every ad-name group created since 2026-08-01 that took $500 or more returned 14 groups. Inside those 14 are **matched pairs running the identical video file** — same `video_storage_url` hash, same text hook, same body copy — split only by landing URL. `verified live`, 2026-09-04, lifetime metrics.
+
+| Ad-name group | Destination | Leads | Cost per lead | Landing page views / link clicks |
+|---|---|---|---|---|
+| `moms-63 2b` | `www.healthformoms.co/save/` | **417** | **$13.26** | 2,981 / 3,404 = **88%** |
+| `moms-63 2b - Copy` | `quiz.healthformoms.com` | **6** | **$144.23** | 54 / 672 = **8%** |
+| `moms-63 3e` | `www.healthformoms.co/save/` | **339** | **$15.46** | 3,014 / 3,531 = **85%** |
+| `moms-63 3e - Copy` | `quiz.healthformoms.com` | **8** | **$67.15** | 30 / 344 = **9%** |
+
+**Same creative. Same hook. Ten times the cost per lead on one pair, four times on the other.** The landing-page-view ratio is the mechanism: roughly 85 to 88% of link clicks register an arrival on `www./save/`, against 8 to 9% on the quiz. This is the cleanest evidence in the whole brain, because creative is held constant by the file hash and only the destination moves.
+
+Two more quiz-pointed groups in the same cohort agree: `Moms Nahuel WV#1 - V9 - Copy` at **$75.75** a lead (234 landing page views on 903 link clicks) and `Moms36 - 3 - A - 2 - V4c - Copy` at **$20.08**.
+
+**It still does not separate the two causes** — people not arriving versus arrivals not being measured — and that distinction decides whether this is wasted spend or blind measurement. But it does settle that **the quiz destination costs this account real money at real scale**, and it sizes it: on `moms-63 2b` alone, $865.39 bought 6 leads where the same video on `www./save/` was buying them at $13.26.
+
+**All four quiz-pointed groups in this cohort read `effective_status: ADSET_PAUSED` as of 2026-09-04**, so the bleed appears to be stopped for now. That makes this a fix-before-relaunch item rather than an emergency, and it makes the standing rule firmer, not softer: **route new work to `www.healthformoms.co/save/` and do not send traffic to the quiz until someone establishes which of the two causes is real.**
+
 This is the same shape as the `go.healthformoms.co` redirect break the open-loops roll-up routed to the operational owner on 2026-09-04, on a different destination. Two destination problems found independently is a pattern worth a single audit of every landing URL in the account rather than two one-off fixes.
 
 ### Fabricated social proof across seven static ad groups — found 2026-09-04, urgent
