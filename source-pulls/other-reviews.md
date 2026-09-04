@@ -12,6 +12,7 @@ sources_read:
   - WebFetch attempted twice and refused both times — www.instagram.com and www.tiktok.com, each returning EGRESS_BLOCKED from this session's network proxy
   - source-pulls/customer-reviews.md, source-pulls/reddit.md, source-pulls/ad-comments.md, source-pulls/brand-self-echo-detection.md, sub-context-docs/reputation-analysis.md, personas/voice-of-customer/voc-corpus-profile.md, running-notes/missing-context.md, running-notes/brand-rules.md
   - Method docs read before analysis — parker-system/creative-strategy-context/expertise-routing.md, customer-review-mining-method.md, persona-research-and-creative-strategy-process.md
+knowledge_docs_read: [parker-system/creative-strategy-context/expertise-routing.md, parker-system/creative-strategy-context/customer-review-mining-method.md, parker-system/creative-strategy-context/persona-research-and-creative-strategy-process.md]
 reviews_read: 0. No third-party review of Health For Moms exists on any surface reachable from this session. The denominator on every section below is zero, and that is the finding
 third_party_surfaces_found: none
 data_limitations:
@@ -135,7 +136,7 @@ Three. The territories this doc normally hunts in, the identity that appears onl
 
 **Pull — Curiosity.** It fired when the only thing four searches surfaced was three empty containers shaped exactly like the thing that is missing.
 
-**Question.** Who is searching this brand's name next to the word legit, and where is she in her decision when she does it?
+**Question.** Who is searching this brand's name next to the word legit?
 
 **Justification.** She is a person actively checking the brand out and finding nothing, and nothing in this brain knows anything about her. If she is a woman who has just watched an ad and is about to fill in the form, then the empty search result is a leak sitting between the ad and the lead, and it is happening at a volume large enough for platforms to notice.
 

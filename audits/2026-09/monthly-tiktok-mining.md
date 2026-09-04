@@ -214,7 +214,7 @@ Posted **2025-08-09**.
 
 ### Why this video is here
 
-The anchor is the account's cheapest lead source, and the mechanic matches almost exactly. The `moms-53 3` state-list ad produced **110 leads at a $16.01 CPL with a 3.15% CTR and a $0.67 CPC**, the best CTR in the account's top 20, and its entire visual event is a document on screen that the viewer scans for her own information. Verified. The screenshot-overlay family does a version of the same thing: `MOMS39 - 2 - V2` has spent **$27,775.42 lifetime for 1,213 leads at a $22.90 CPL on a 40.62% hook rate**, and the copy running in the recent window landed a **$19.18 CPL**. Verified. So a document in frame is proven twice in this account. This video is the two-number version of it, which is the one variant the brand has never built.
+The anchor is the cheapest lead the account has ever bought with a document on screen, and the mechanic matches almost exactly. The `moms-53 3` state-list ad produced **110 leads at a $16.01 CPL with a 3.15% CTR and a $0.67 CPC**, the best CTR in the account's top 20, and its entire visual event is a document on screen that the viewer scans for her own information. Verified. The screenshot-overlay family does a version of the same thing: `MOMS39 - 2 - V2` has spent **$27,775.42 lifetime for 1,213 leads at a $22.90 CPL on a 40.62% hook rate**, and the copy running in the recent window landed a **$19.18 CPL**. Verified. So a document in frame is proven twice in this account. This video is the two-number version of it, which is the one variant the brand has never built.
 
 The second anchor is the shape of the objection the brand's comment corpus keeps producing. The deductible correction runs to **103 comments across 13 ads**. What those women are arguing about is the gap between a number they were quoted and a number they actually paid. This video puts both numbers on screen nine seconds apart and lets the gap be the entire argument. Under `customer-review-mining-method.md` that is a whole-review concept rather than a nugget: the structure itself is the asset.
 
@@ -257,7 +257,7 @@ Posted **2025-11-15**.
 
 The anchor is a named gap on the brand's own list. Faceless "Ugly Ads" sits at number nine on the brand's untested formats. Stated. **Every ad inspected in this account has a person in frame.** This is a proven in-category faceless execution at 213,100 views, and it is proven with a caveat the brand needs to carry: it reached a lot of people and moved almost none of them. Under `visuals.md` principle four, human presence drives trust and attention, and a fifteen-second video with no face and the library's lowest save rate is a fairly clean demonstration of what principle four costs when you ignore it.
 
-The second anchor is the strongest visual pattern in the whole library, and this video is its purest form. Six of the 19 Relevant videos put a real document in frame and let it carry the message. The brand has tested that device and it produced its cheapest lead at **$16.01 CPL on `moms-53 3`**. Verified. What the brand has never tested is a **bill**, and this is the reference for one.
+The second anchor is the strongest visual pattern in the whole library, and this video is its purest form. Six of the 19 Relevant videos put a real document in frame and let it carry the message. The brand has tested that device and it produced a **$16.01 CPL on `moms-53 3`**, against a $22.10 account average in the same window. Verified. What the brand has never tested is a **bill**, and this is the reference for one.
 
 The third anchor is a compliance conflict I am flagging rather than burying. Parker's own relevancy note on this row records that the video argues a high-deductible plan can be a good idea, which runs directly against the brand's "$0 deductible option" claim. The structure is liftable. The argument is not.
 
@@ -497,7 +497,7 @@ Four. The territories this audit hunts in that came back genuinely clean are lef
 
 **Pull — Surprise.** It fired when I read the row's hashtags after reading the transcript, having assumed from the video that she was a mother like everyone else in the pool.
 
-**Question.** Who is the woman running these numbers before she has a child, and what is she actually deciding?
+**Question.** Who is the woman running these numbers before she has a child?
 
 **Justification.** She showed up unbidden in a mom-keyword scrape and out-talked every mother in it. If that audience is reachable and near the brand's product, it is a buyer nobody in the category is speaking to. If she is not, the brand should know that the loudest video in its category belongs to someone it cannot sell to.
 
