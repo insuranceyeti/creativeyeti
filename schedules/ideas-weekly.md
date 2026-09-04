@@ -6,7 +6,8 @@
 - **Skills:** `.claude/skills/harvest-ideas/` (`/harvest-ideas`) then `.claude/skills/evaluate-ideas/` (`/evaluate-ideas`).
 - **Deliverable:** New verbatim entries (spark and hunt lane on each) + updated `idea-bank/index.md` + the run summary opening with the hunt brief and closing with per-lens receipts and the far-transfer rotation log, then a ranked `evaluation-[date].md` that opens with the ranked call the sprint plan sizes into a round and ends with what the bank is starving for, read per lever and per lane.
 - **Origin:** Seeded 2026-06-18 from the factory's `parker-system/prompts/ideas-and-briefs/brand-idea-bank.md` + `idea-evaluation.md`. Matches the cadence already stated in `idea-bank/README.md`.
-- **Status:** Jobs committed and live. Schedule **not yet registered** — run `/setup-routines` to arm it. Note: evaluation ranks **provisionally** until the strategic roadmap is approved (see `strategy/strategic-roadmap.md`).
+- **Status:** **Active.** Registered 2026-09-04 by the onboarding build (build mode, `/setup-routines`) on mike@americafirstleads.com's account as routine `trig_012tbwjR3QcNmg4XJuztfw6C`, named "Health For Moms: idea cycle". Fires Mondays 07:07 America/New_York (`7 11 * * 1` UTC); next run 2026-09-07 11:07 UTC. Each firing starts a fresh cloud session in this repo's environment.
+  - **Known limitation, recorded 2026-09-04:** the routine was created without MCP connectors attached, so its fired sessions run with **no Parker MCP tools**. This one **needs the Parker MCP and it is missing** — the hunt reads the live account, comments and the mining library. Fix: recreate or edit the routine from the claude.ai Routines UI with the Parker connector attached, or from a session that holds it. Until then, run this routine by hand with its slash command, where the connectors are live.
 
 ## Schedule recipe (register once via `/schedule`)
 

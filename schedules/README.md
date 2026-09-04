@@ -1,10 +1,20 @@
-# [brand] Schedules
+# Health For Moms — schedules
 
 Repo-native cron routines that run **inside this brain** to keep its docs current without anyone asking — the nightly dreaming pass, a weekly idea harvest, a refresh sweep over stale docs. Clone this repo into a Claude Code instance and the schedules are what run against it on the back end.
 
 **Schedules are not workflows.** Workflows (`../workflows/`) are the Parker-MCP product surface and call out to the hosted product. A schedule needs nothing but this repo and a Claude Code runner. Full concept: the Parker brain's `parker-system/system/schedules.md`.
 
 Schedules act on the **refresh cadence**, not instead of it: each doc stamps a `refresh_by` (the clock); a refresh schedule is the worker that wakes up, reads what's overdue, and re-runs the generating prompt.
+
+## Armed 2026-09-04 — and one thing that is not finished
+
+All six routines are **registered and live** on mike@americafirstleads.com's account, named with the `Health For Moms:` prefix. Each doc below carries its routine id, its exact cadence, and its next run.
+
+**The gap, stated plainly so nobody assumes these are fully working.** The routines were created without MCP connectors attached, so **every fired session runs with no Parker MCP tools.** Two of the six are fine that way — `/self-improve` and `/update-brain` only read files already in this repo and the factory remote. The other four need live pulls to do their job at all: `/dream`, `/refresh-context`, the idea cycle, and `/research-loops`. They will fire on schedule and produce thin or blocked runs until this is fixed.
+
+**How to fix it:** open the routine in the claude.ai Routines UI and attach the Parker connector, or recreate it from a session that holds the connector. Until then, run those four by hand with their slash commands, where the connectors are live. Each schedule doc below repeats this on its own status line.
+
+**What it costs.** Every scheduled run is a real Claude Code session doing real reading and writing, drawing on the same account usage as everything else. Six routines with dreaming daily is a meaningful standing draw, and dreaming is the biggest single driver. `/setup-routines` changes any cadence or turns a routine off.
 
 ## Structure
 

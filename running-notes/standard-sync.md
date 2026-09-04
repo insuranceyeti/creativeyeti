@@ -12,6 +12,12 @@ release it runs, what posture it holds toward updates, and every offer the team 
 - **Migrations applied through:** `v15`
 - **Last compared:** 2026-09-03 against `v15` (newest published tag; `v16` exists in the
   factory's `main` but has no release tag yet)
+- **Verified 2026-09-04:** the mount is initialized and clean at commit `b55c441`. **Note for
+  whoever reads `git submodule status` next: it prints `(v14)`, not `(v15)`, and that is not
+  drift.** The factory has `v14` and `v15` pointing at the *same commit* — `git tag --points-at
+  HEAD` returns both — and `git describe` just picks one of them. The pin is `v15`, as recorded
+  here and in `parker_config.json`. Do not "correct" either file to v14 and do not re-pin on
+  this basis.
 
 ## Repo posture — self-managed
 

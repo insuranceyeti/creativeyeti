@@ -6,7 +6,8 @@
 - **Skill:** `.claude/skills/research-loops/` (`/research-loops`), which sequences the roll-up prompt (`parker-system/prompts/open-loops/open-loops-roll-up.md`) and the `open-loops-advance` / `open-loops-validate` skills.
 - **Deliverable:** The consolidated roll-up updated, hypotheses filed (awaiting-user surfaced), validations resolved into their four states with closure docs, re-validation results filed, the research digest, and doc-alignment updates applied or proposed with validation provenance.
 - **Origin:** Seeded 2026-07-02 from `parker-system/system/open-loops-system.md` and the loop pipeline skills, at Jimmy's direction that the loop → hypothesis → validation system run standing, like dreaming and the idea cycle.
-- **Status:** Job committed and live. Schedule **not yet registered** — run `/setup-routines` to arm it.
+- **Status:** **Active.** Registered 2026-09-04 by the onboarding build (build mode, `/setup-routines`) on mike@americafirstleads.com's account as routine `trig_01SbsWYtMyYpuH7LShzboPe1`, named "Health For Moms: research cycle". Fires Wednesdays 06:04 America/New_York (`4 10 * * 3` UTC); next run 2026-09-09 10:04 UTC. Each firing starts a fresh cloud session in this repo's environment.
+  - **Known limitation, recorded 2026-09-04:** the routine was created without MCP connectors attached, so its fired sessions run with **no Parker MCP tools**. This one **needs the Parker MCP and it is missing** — validations settle questions with fresh pulls. Fix: recreate or edit the routine from the claude.ai Routines UI with the Parker connector attached, or from a session that holds it. Until then, run this routine by hand with its slash command, where the connectors are live.
 
 ## Schedule recipe (register once via `/schedule`)
 

@@ -6,7 +6,8 @@
 - **Skill:** `.claude/skills/self-improve/` (`/self-improve`). Scaffolds `self-improvement/` on first run if absent.
 - **Deliverable:** Promotions logged with cited trace IDs; proposals moved to applied/dismissed with reasoning; Tier-1 loops promoted into `hypotheses/`; due re-validations filed under `re-validations/results/`; a report of what was promoted, what awaits the user, and what was killed (and why).
 - **Origin:** Seeded 2026-06-18 from the factory's `self-improvement/self-improvement-system.md` + `parker-system/system/open-loops-system.md`.
-- **Status:** Job committed and live. Schedule **not yet registered** — run `/setup-routines` to arm it.
+- **Status:** **Active.** Registered 2026-09-04 by the onboarding build (build mode, `/setup-routines`) on mike@americafirstleads.com's account as routine `trig_017qzoFfMN32isDeUoMkpMLG`, named "Health For Moms: self-improvement". Fires Fridays 16:12 America/New_York (`12 20 * * 5` UTC); next run 2026-09-11 20:12 UTC. Each firing starts a fresh cloud session in this repo's environment.
+  - **Known limitation, recorded 2026-09-04:** the routine was created without MCP connectors attached, so its fired sessions run with **no Parker MCP tools**. This one curates files already in the repo, so it works without connectors. Fix: recreate or edit the routine from the claude.ai Routines UI with the Parker connector attached, or from a session that holds it. Until then, run this routine by hand with its slash command, where the connectors are live.
 
 ## Schedule recipe (register once via `/schedule`)
 

@@ -6,7 +6,8 @@
 - **Skill:** `.claude/skills/refresh-context/` (`/refresh-context`).
 - **Deliverable:** Due docs re-run and re-stamped, `refresh-schedule.md` updated, a short report of what was refreshed / left / surfaced.
 - **Origin:** Seeded 2026-06-18 from the factory's `parker-system/system/refresh-cadence.md`.
-- **Status:** Job committed and live. Schedule **not yet registered** in this instance — run `/setup-routines` to arm it.
+- **Status:** **Active.** Registered 2026-09-04 by the onboarding build (build mode, `/setup-routines`) on mike@americafirstleads.com's account as routine `trig_012Z5ovwABeJ3mPRSHTsDsJg`, named "Health For Moms: context refresh". Fires Mondays 06:03 America/New_York (`3 10 * * 1` UTC); next run 2026-09-07 10:03 UTC. Each firing starts a fresh cloud session in this repo's environment.
+  - **Known limitation, recorded 2026-09-04:** the routine was created without MCP connectors attached, so its fired sessions run with **no Parker MCP tools**. This one **needs the Parker MCP and it is missing** — most generating prompts re-pull live account data. Fix: recreate or edit the routine from the claude.ai Routines UI with the Parker connector attached, or from a session that holds it. Until then, run this routine by hand with its slash command, where the connectors are live.
 
 ## Schedule recipe (register once via `/schedule`)
 
