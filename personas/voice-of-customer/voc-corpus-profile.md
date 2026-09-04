@@ -421,7 +421,7 @@ The mining method names transformation as one of the highest-leverage patterns t
 
 ## Language and creative-asset index
 
-Every quote below is verbatim, exactly as written, with its original spelling, punctuation, casing, and emoji preserved. Every one carries its row source: source type is `ad-comment` and platform is Facebook or Instagram on Meta ad account act 484897827497337 for all of them, so those two fields are stated once here rather than repeated. There is no rating and no product on any record, and `permalink_url` is null on all 1,322 rows, so no quote can carry a link. Row ids are given where I pulled the record myself.
+Every quote below is verbatim, exactly as written, with its original spelling, punctuation, casing, and emoji preserved. Every one carries its row source: source type is `ad-comment` and platform is Facebook or Instagram on Meta ad account act 484897827497337 for all of them, so those two fields are stated once here rather than repeated. There is no rating and no product on any record, and `permalink_url` is null on all 1,322 rows, so no quote can carry a link.
 
 ### Golden nuggets
 
@@ -431,22 +431,22 @@ Lines that could be lifted nearly as written.
 - "Markets to moms.\nProvides zero plans for moms. 🚩\nMakes perfect sense." — row `184aaf10-b07b-3145-feae-4376d3f497de`, `B1 samar- Copy`, 2025-07-29, 15 likes. Usable only as an objection to answer, never as a claim.
 - "Lucky! Mine is $11,000" — row `aa3d6d52-d3a5-63ad-78bb-570b4939eb59`, `MOMS38 - 1 - V3`, 2026-03-17, 19 likes.
 - "Moved from NY to GA. Went from $6500 deductible to $250 🙌🏼" — row `67902773-6f7b-9c0a-4dc3-42d08a70c586`, 2026-08-14.
-- "Best advice I have gotten from an insurance agent! She didn't have anything that fit but pointed me in the right direction!" — `Moms Nahuel WV#1 - V9`, 2026-04-17, 2 likes.
+- "Best advice I have gotten from an insurance agent! She didn't have anything that fit but pointed me in the right direction!" — row `45bc3e26-5d26-1d96-30c2-686ca6e5fbf8`, `Moms Nahuel WV#1 - V9`, 2026-04-17, 2 likes.
 
 ### Headline-worthy phrases
 
-- "I want the 1990's back." — inside row `b7aa4d37`, 2026-03-22.
+- "I want the 1990's back." — inside row `b7aa4d37-2243-d0fe-03e6-50c8b7d495ca`, 2026-03-22.
 - "Anyone actually have this and have insight?" — row `7d74447b-bc85-97f5-c3ec-39d711ff885b`, `MOMS38 - 1 - V1`, 2026-03-20, 15 likes.
 - "How many calls will I get if I try to see how this works?" — row `3707bfa1-c0bd-2629-63b4-6987e500f611`, `Moms36 - 3 - A - 2 - V4c`, 2026-05-17, 17 likes.
-- "There is no middle class on the marketplace unfortunately. You either pay next to nothing or almost all of it with no subsidy." — `B1 samar- Copy`, 2025-08-09.
+- "There is no middle class on the marketplace unfortunately. You either pay next to nothing or almost all of it with no subsidy." — row `8a885e35-71be-e442-a0da-f462b6eb3e9f`, `B1 samar- Copy`, 2025-08-09.
 
 ### Pain phrases
 
-- "I'll be uninsured until I die." — from "Don't bother looking into it if you're diabetic . I'll be uninsured until I die.", `B1 samar- Copy`, 2025-08-14.
-- "This year it took 35 days to hit our 8k OOP. Next year it could take as few as 1 depending on how prescriptions hit. Child is on 1 med that is $3600 per fill. I am on a combo of meds that are $2,600, 1,800, and $3,200." — `MOMS39 - 2 - V2`, 2026-03-31.
-- "so by December just hit it...oh but its Jan. Now so it starts over...and they still never cover anything.... insurance is the biggest scam 😒" — `MOMS38 - 1 - V3`, 2026-03-24.
-- "I literally hate NYE for this reason!" — `MOMS38 - 1 - V3`, 2026-04-04, 6 likes.
-- "girl, we pay $2,200 a month and its a battle for them to cover anything. I have MS so I NEED to be covered for my treatments" — `MOMS38 - 1 - V1`, 2026-03-23, 4 likes.
+- "I'll be uninsured until I die." — from "Don't bother looking into it if you're diabetic . I'll be uninsured until I die.", row `01b5ff6d-1ea1-b12f-fe1f-136348d8c40b`, `B1 samar- Copy`, 2025-08-14.
+- "This year it took 35 days to hit our 8k OOP. Next year it could take as few as 1 depending on how prescriptions hit. Child is on 1 med that is $3600 per fill. I am on a combo of meds that are $2,600, 1,800, and $3,200." — row `b3e776b8-a237-3d00-f3ad-8cbf4cf4f298`, `MOMS39 - 2 - V2`, 2026-03-31.
+- "so by December just hit it...oh but its Jan. Now so it starts over...and they still never cover anything.... insurance is the biggest scam 😒" — inside row `b74814f1-85d4-8eec-8ccb-8f62e9df0b1f`, `MOMS38 - 1 - V3`, 2026-03-24.
+- "I literally hate NYE for this reason!" — inside row `78af9428-b3e7-a3d2-cc23-87e43de0db3a`, `MOMS38 - 1 - V3`, 2026-04-04, 6 likes.
+- "girl, we pay $2,200 a month and its a battle for them to cover anything. I have MS so I NEED to be covered for my treatments" — inside row `cf52967d-33bb-3f5d-ed9d-138895e40607`, `MOMS38 - 1 - V1`, 2026-03-23, 4 likes.
 - "Mines fuckin 10K!" — row `ea8684c2-d037-9b10-1570-fae48a5f0d00`, 2026-03-27. Fails the voice check as written; the observation survives.
 
 ### Outcome phrases
@@ -455,34 +455,34 @@ Lines that could be lifted nearly as written.
 
 ### Objection phrases
 
-- "How can you have healthcare for moms if you don't cover maternity? Makes zero sense. False advertising." — `B1 samar- Copy`, 2025-08-12.
-- "Health for Moms, but only if your babies are out of the womb. I was denied for being pregnant. Scam." — `MOMS30 - 1 - V20`, 2026-02-03.
+- "How can you have healthcare for moms if you don't cover maternity? Makes zero sense. False advertising." — row `3b2ac139-83f3-123e-bd63-6321ff80f4d4`, `B1 samar- Copy`, 2025-08-12.
+- "Health for Moms, but only if your babies are out of the womb. I was denied for being pregnant. Scam." — row `a04168ce-2e0e-2ceb-7992-d6427575062f`, `MOMS30 - 1 - V20`, 2026-02-03.
 - "\"Health for Moms\" but you don't have plans for women who are pregnant?" — row `c7b7448d-2b4b-113b-cb7f-07d28e8cf659`, 2026-05-07, 2 likes.
 - "Preexisting health condition of cancer disqualified me" — row `3bcd0ddf-30f5-1e4c-a318-1868b9e7055f`, `moms-63 3e`, 2026-09-02. One day before this doc was written, which shows the objection is live.
-- "It only works if you don't have any preexisting conditions. You gotta be perfectly healthy to qualify it looks like" — `Moms43 - 4 - V3`, 2026-08-13, 2 likes.
-- "That's not a deductible that's a medical maximum out of pocket. You should educate people, not misinform!!" — `MOMS38 - 1 - V5`, 2026-03-29, 2 likes.
+- "It only works if you don't have any preexisting conditions. You gotta be perfectly healthy to qualify it looks like" — row `6537b3b8-785c-62e2-6891-2b1ac3ebd571`, `Moms43 - 4 - V3`, 2026-08-13, 2 likes.
+- "That's not a deductible that's a medical maximum out of pocket. You should educate people, not misinform!!" — row `c0a3c689-ecb4-a5a8-ae30-3176267bcc34`, `MOMS38 - 1 - V5`, 2026-03-29, 2 likes.
 - "Deductible is different than maximum out of pocket 😃 -an insurance agent" — row `b41c3c21-4571-2770-b3ae-65e929619418`, `MOMS38 - 1 - V1`, 2026-05-01.
-- "I filled this out because it literally says we won't be contacted by random agents. That's a lie. I immediately received 5 text messages from 5 different agents claiming to be from 5 different companies." — `B1 samar- Copy`, 2025-11-28.
+- "I filled this out because it literally says we won't be contacted by random agents. That's a lie. I immediately received 5 text messages from 5 different agents claiming to be from 5 different companies." — row `8604c6b5-e71e-48d6-70fc-f849f514c914`, `B1 samar- Copy`, 2025-11-28.
 - "Is putting in my information to look at prices going to end up qith 50 million calls from health insurance people..." — row `2687e7d3-5e0f-53d7-84fb-78316fe8c95d`, 2026-04-04.
-- "Ha… \"in these states\" proceeds to list all 50 states… scam" — `MOMS38 - 1 - V2`, 2026-03-26.
+- "Ha… \"in these states\" proceeds to list all 50 states… scam" — row `ac7bbaaf-2fd0-fd96-43a1-57a6a6551ca4`, `MOMS38 - 1 - V2`, 2026-03-26.
 - "Why is this being shown in IL if it's not on the list???😭🤦🏼‍♀️" — row `713721dc-21b1-d455-1fdd-ca76dc7ed44e`, `moms-53 3`, 2026-09-02.
 - "But if you make under 30k a year you don't qualify smh" — row `45b22fb4-ca7c-f1bb-b935-21e946bcae2c`, 2026-09-01.
 - "Ok. What if you or your children have a preexisting condition? Is it guaranteed renewable? Whats the catch, because I guarantee there is one." — row `5db97499-85e1-b2d1-619f-8e89522382d5`, 2026-05-26, 3 likes.
 
 ### Trigger moments
 
-- "This is what I'm afraid of. Just found out I desperately need a hysterectomy. My husband is looking into insurance for me so that I can get it done." — `MOMS38 - 1 - V2`, 2026-04-14.
+- "This is what I'm afraid of. Just found out I desperately need a hysterectomy. My husband is looking into insurance for me so that I can get it done." — inside row `1f6f1f3e-b0ed-117f-6b73-2cc3090e019e`, `MOMS38 - 1 - V2`, 2026-04-14.
 - "how can I get that because I pay $1000 a month for my insurance and tomorrow I have surgery" — row `c1478851-ccf4-9289-116a-345c3d6a8f51`, `MOMS39 - 2 - V2`, 2026-05-04.
-- "Our deductible is $10,500 😭 And I have to have surgery in June" — `MOMS38 - 1 - V10`, 2026-04-02.
-- "Mine is $8,000 and I hit it in the beginning of march 🤣😭" — `MOMS38 - 1 - V8`, 2026-03-26, 2 likes.
-- "Does this work in Louisiana? Because they wouldnt let me apply for good insurance here until November." — `Moms43 - 4 - V3`, 2026-05-27.
+- "Our deductible is $10,500 😭 And I have to have surgery in June" — row `cb09b87a-d42c-d3f0-b5d7-72ade82bee9b`, `MOMS38 - 1 - V10`, 2026-04-02.
+- "Mine is $8,000 and I hit it in the beginning of march 🤣😭" — row `3561c1ce-a975-6929-7316-36feaea03697`, `MOMS38 - 1 - V8`, 2026-03-26, 2 likes.
+- "Does this work in Louisiana? Because they wouldnt let me apply for good insurance here until November." — inside row `746bf70c-d78f-a999-85c6-e7873b195657`, `Moms43 - 4 - V3`, 2026-05-27.
 
 ### Metaphors
 
 Thin, and worth saying so, since the mining method calls metaphor one of the two highest-value signals most passes miss. This corpus has very little of it. What exists:
 
-- "insurance is the biggest scam 😒" — `MOMS38 - 1 - V3`, 2026-03-24. Scam is the corpus's dominant metaphor, present in 45 of 1,322 records (3.4%).
-- "Can he get on this magical plan?" — `MOMS38 - 1 - V2`, 2026-04-23. Magical is the sarcasm the audience reaches for when the offer sounds too good.
+- "insurance is the biggest scam 😒" — inside row `b74814f1-85d4-8eec-8ccb-8f62e9df0b1f`, `MOMS38 - 1 - V3`, 2026-03-24. Scam is the corpus's dominant metaphor, present in 45 of 1,322 records (3.4%).
+- "Can he get on this magical plan?" — inside row `05d682cc-ef53-25b5-1a31-29fc3741c378`, `MOMS38 - 1 - V2`, 2026-04-23. Magical is the sarcasm the audience reaches for when the offer sounds too good.
 - "Health and Car insurance are the biggest legal scams that are RDQUIRED to be payed into." — row `85ad24c4-1ffa-c22c-da1c-617049382bcf`, 2026-04-14.
 - "🐂 💩" — row `de858497-6dd2-acfc-8a11-74cc6941113c`, 2026-04-08. A metaphor rendered entirely in emoji.
 
@@ -494,19 +494,19 @@ The audience is far more fluent in this category than the creative assumes, and 
 - out of pocket and OOP max, in 74 (5.6%)
 - premium, in 46 (3.5%)
 - coinsurance, in-network, guaranteed issue, medical underwriting, marketplace, subsidy, HSA, self-pay, health share, Direct Primary Care, certified application counselor
-- "A deductible ≠ out of pocket max. You should consider yourself lucky if your OOP Max is $6,000." — `MOMS38 - 1 - V3`, 2026-03-23.
+- "A deductible ≠ out of pocket max. You should consider yourself lucky if your OOP Max is $6,000." — inside row `3486a679-7242-6515-294d-89bbbf4ead71`, `MOMS38 - 1 - V3`, 2026-03-23.
 - "Marketplace plans are guaranteed issue by law, meaning there is no medical underwriting, as long as he's eligible to enroll during a valid enrollment period." — row `96452dd4-651e-9034-cd92-5fa35c41e6e1`, 2026-08-21.
 
 ### Anti-language
 
 What the audience explicitly rejects in the category's marketing and in this brand's own.
 
-- "Marketing towards mothers while not covering pregnancy is a disgusting tactic." — `B1 samar- Copy`, 2025-11-23.
-- "Please dont use AI instead of actors. AI advertizing use in spite of actors goes against the morals that health for moms promotes" — `B1 samar- Copy`, 2025-07-20.
-- "This is the problem with AI online commercials. If you are using a fake person for your testimonial, it unintentionally sends a message to people that no real actual person would say this about your service." — `B1 samar- Copy`, 2025-07-25.
-- "Creepy AI blonde lady ruins the ad tbh" — `MOMS38 - 1 - V2`, 2026-04-05.
-- "As a licensed insurance broker this is VERY misleading in the beginning." — `MOMS38 - 1 - V1`, 2026-04-07.
-- "It's illigal to deny coverage for women who are pregnant so yall need to keep that in mind with the deceitful marketing" — `B1 samar- Copy`, 2025-12-20. `stated`, a commenter's legal read, carried as language and not endorsed.
+- "Marketing towards mothers while not covering pregnancy is a disgusting tactic." — row `5befe57b-b90b-7f4e-8432-be2b6c4e23b7`, `B1 samar- Copy`, 2025-11-23.
+- "Please dont use AI instead of actors. AI advertizing use in spite of actors goes against the morals that health for moms promotes" — row `0a2fd312-dfd7-66ab-4a9b-2f7ad23795d2`, `B1 samar- Copy`, 2025-07-20.
+- "This is the problem with AI online commercials. If you are using a fake person for your testimonial, it unintentionally sends a message to people that no real actual person would say this about your service." — inside row `97e9fc85-d576-2f94-1d7d-20bf77724a8d`, `B1 samar- Copy`, 2025-07-25.
+- "Creepy AI blonde lady ruins the ad tbh" — row `bb13f8fd-2b12-3d19-557a-427dff553fbd`, `MOMS38 - 1 - V2`, 2026-04-05.
+- "As a licensed insurance broker this is VERY misleading in the beginning." — inside row `efb760eb-07c9-633d-d536-f92c0ac05bc4`, `MOMS38 - 1 - V1`, 2026-04-07.
+- "It's illigal to deny coverage for women who are pregnant so yall need to keep that in mind with the deceitful marketing" — row `6ae515bc-68cf-3ba3-dd93-4919090bcaf2`, `B1 samar- Copy`, 2025-12-20. `stated`, a commenter's legal read, carried as language and not endorsed.
 
 ### Outliers
 
@@ -514,7 +514,7 @@ What the audience explicitly rejects in the category's marketing and in this bra
 - "I thought it was a Disney world membership" — row `56ef84e8-2aa8-daed-6d53-541a99f9ce0f`, 2026-09-02.
 - "I'm sure the mom that can afford matching outfits prob just pays in cash 🤦‍♀️" — row `3fb95c2d-c637-a6a4-d741-fc04c9552ecd`, `moms-63 2b`, 2026-09-03. A direct read on the creative's casting.
 - "This is why we stayed in the military and retired. Very good insurance for the whole family" — row `6d602436-00a7-24ec-5347-6d5c05e59ac5`, 2026-04-18, 19 likes.
-- "What about dads 🙁 some of us are permanently physically fucked up for the rest of our lives from taking care of our households... I am the one racking up medical debt for my family 😢 makes me feel like a pile of shit." — `MOMS38 - 1 - V9`, 2026-04-04.
+- "What about dads 🙁 some of us are permanently physically fucked up for the rest of our lives from taking care of our households... I am the one racking up medical debt for my family 😢 makes me feel like a pile of shit." — inside row `39142f88-ca24-f10f-ebc6-e0918d2d82b4`, `MOMS38 - 1 - V9`, 2026-04-04.
 
 ### Whole-review concept candidates
 

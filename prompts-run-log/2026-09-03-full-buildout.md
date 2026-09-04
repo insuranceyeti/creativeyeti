@@ -328,3 +328,38 @@ every downstream pass, so it is a real fail, not a nit.
 
 **Running review tally: 12 pass, 6 fail, across 18 of 24 documents.** Two repair passes are in
 flight. Remaining unreviewed: the three documents built after the batches were launched.
+
+## Repair pass 1 complete, and a rule clarified — 2026-09-04
+
+**Repaired:**
+- `90-day-diversity-audit` — three verified sign-offs appended for `iterations.md`, `visuals.md`
+  and `creative-strategy-by-brand-size.md`, each use checked against the source passage first.
+- `monthly-organic-tiktok-audit` — two verified sign-offs appended for `adapting-scripts.md` and
+  `visuals.md`; `visuals.md` also added to `knowledge_docs_read`, which had used it without
+  declaring it (the mirror image of the Andromeda defect).
+- `category-and-market-research` — two banned closure sentences cut from loops 3 and 4.
+- `marketing-calendar-and-campaigns` — `andromeda-v2.md` **removed** from `sources_read` rather
+  than signed off, because it appears nowhere in the body. Correct call: a sign-off is a
+  proof-of-read, so the fix for "declared but unused" is to undeclare, never to stamp.
+- `brand-identity-analysis` — three unmarked observations marked in the document's own form.
+
+**Rule clarified — what counts as a required sign-off.** The repair agent flagged an inconsistency
+in the instruction it was given, rather than following it into an incoherent result. It was right.
+
+`expertise-routing.md` defines the sign-off as **the terminal line**: *"Many of these docs end with
+a required sign-off line ('This is everything I know about X'). That stamp is a proof-of-read."*
+It does **not** define it as a `**RULE:**` directive. Under the terminal-line definition both
+`seasonality.md` and `creative-strategy-by-brand-size.md` are owed a sign-off; under a strict
+`RULE:` grep, neither is. Treating them differently was the incoherence.
+
+**Decision: the terminal-line definition governs, and explicit `RULE:` directives are additional,
+not exclusive.** The union of both mechanisms is the correct set. Accordingly the
+`creative-strategy-by-brand-size` sign-off stays in the diversity audit, and the missing
+`seasonality.md` sign-off has been appended to `category-and-market-research.md`, matching the
+precedent already set by `marketing-calendar-and-campaigns.md`.
+
+**Also flagged, not a defect but a gap in auditability:** `90-day-diversity-audit` carries no
+`knowledge_docs_read` frontmatter field at all — only `data_sources_read` — so its method-doc use
+cannot be audited against a declared list in either direction. Its three uses were verified by
+reading the cited passages against the source docs instead. Worth adding the field on a future
+refresh so this document is auditable the way its siblings are.

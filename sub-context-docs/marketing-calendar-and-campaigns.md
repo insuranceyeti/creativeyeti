@@ -12,7 +12,7 @@ sources_read:
   - "`sub-context-docs/category-and-market-research.md`, which carries the seasonal and regulatory spine, read in full"
   - "`sub-context-docs/website-and-product-audit.md` and `audits/2026-Q3/90-day-performance-audit.md`, both read in full"
   - "`running-notes/missing-context.md`, `running-notes/brand-rules.md`, `running-notes/success-definition.md`"
-  - "Method docs: `seasonality.md` read in full, plus `creative-strategy-fundamentals.md`, `ad-account-analysis.md`, `killer-performance-ads.md`, `new-product-launches.md`, `persona-research-and-creative-strategy-process.md`, `andromeda-v2.md`, `expertise-routing.md`"
+  - "Method docs: `seasonality.md` read in full, plus `creative-strategy-fundamentals.md`, `ad-account-analysis.md`, `killer-performance-ads.md`, `new-product-launches.md`, `persona-research-and-creative-strategy-process.md`, `expertise-routing.md`"
 calendar_status: provisional-reconstructed
 years_read: "Ad-account creation history from 2024-12-05 to 2026-09-04, roughly 21 months. Month-by-month spend and delivery readable from 2025-09-01 to 2026-09-04, roughly 12 months, which covers exactly one complete Open Enrollment window, 2025-11-01 to 2026-01-15. No second year of the same season exists yet, so every yearly rhythm in this doc is a one-year read and is marked unconfirmed."
 data_limitations:

@@ -641,3 +641,9 @@ Meta Ad Library archive id: 1688749802321309
 Parker ad library: https://app.heyparker.ai/dashboard/ad-library?adId=1688749802321309&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977
 Image: https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/external-brands/f4d7e791-0ef8-483e-ac5c-f2adbdfde50a/1688749802321309.jpg
 Landing page: https://www.nerdwallet.com/prequalify/m/personal-loan/facebook/lp1
+
+*This is based on everything I have learned about making iterations 2.0*
+
+*this is based on everything I have learned about visuals in advertising*
+
+*This is everything I know about tailoring creative strategy to brand size.*

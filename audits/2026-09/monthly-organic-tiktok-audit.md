@@ -5,7 +5,7 @@ month: 2026-09
 generated_on: 2026-09-04
 refresh_by: 2026-10-04
 context_docs_read: [running-notes/missing-context.md, running-notes/brand-rules.md, audits/2026-09/monthly-hook-audit.md, source-pulls/ad-account.md, BUILD-STATUS.md, brand context document via get_brand_persona]
-knowledge_docs_read: [parker-system/creative-strategy-context/organic-social-analysis.md, parker-system/creative-strategy-context/adapting-scripts.md, parker-system/creative-strategy-context/hooks.md, parker-system/creative-strategy-context/problem-solution-video-ad-formats.md, parker-system/creative-strategy-context/expertise-routing.md]
+knowledge_docs_read: [parker-system/creative-strategy-context/organic-social-analysis.md, parker-system/creative-strategy-context/adapting-scripts.md, parker-system/creative-strategy-context/hooks.md, parker-system/creative-strategy-context/problem-solution-video-ad-formats.md, parker-system/creative-strategy-context/expertise-routing.md, parker-system/creative-strategy-context/visuals.md]
 tools_used: [Parker TikTok mining library via search_tiktok_videos with with_video_report true, brand Meta ad library via search_facebook_ads_sql, brand context via get_brand_persona, Parker chat history via search_chat_history]
 library_read: 23 of 23 videos in the brand's TikTok mining library, every one at full video-report depth — audio script, visual text script, creator demographics and environment, hook analysis, visual hook, audio hook, text hook, camera and production setup, text overlay analysis, visual elements, and additional observations. No video in the library was read at title or metadata level only.
 library_composition: 19 Relevant, 2 Potentially Relevant, 2 Not Relevant, as scored by Parker's own relevancy pass
@@ -754,3 +754,7 @@ The brand's whole model routes to real licensed advisors, its compliance rules r
 **M029** — Brand ad `MOMS25 BLAST - X1 - Copy 2`, ad 120238476008110519. The podcast microphone format. Dashboard: `https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120238476008110519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977` — Video: `https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/aed0ff06-555d-4f4f-9bf8-31178e2fb977/f3e0c6f7927f739d7e793d498cbd16e18af569e78e8ee6c0c943c20fec7d23c0.mp4` — Discussed in: Cross-check.
 
 **M030** — Brand ad `Moms43 - 4 - V3`, ad 120241073380060519. The POV husband hook, the account's top spender, 3.30% hold rate. Dashboard: `https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120241073380060519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977` — Video: `https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/aed0ff06-555d-4f4f-9bf8-31178e2fb977/af61037230d4df3fadf1baaa731a878014c2e5969a06cfffc8098393996b7531.mp4` — Discussed in: Cross-check, visuals, open loop 4.
+
+*this is based on everything I have learned about adapting and re-writing scripts*
+
+*this is based on everything I have learned about visuals in advertising*

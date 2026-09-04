@@ -326,7 +326,7 @@ That labelling is useful and I am carrying it exactly as the brand framed it. Th
 - **Specificity reads as credibility:** "odd, specific numbers (e.g., $587) are more believable than round ones ($600)."
 - **Open loops must withhold resolution:** "hooks that deliver their own payoff collapse viewer motivation to keep watching. Prioritize mystery, tension, incomplete story, transformation, and countdown loops over closed-loop hooks."
 
-Read against the craft canon, this is a brand that has genuinely absorbed Schwartz. The awareness-calibration rule is a direct application of the awareness levels, aimed squarely at the problem-aware and solution-aware bands, and the pool-pricing rule is a market-sophistication move: it refuses to define the term and instead explains the cause, which is what a category does once the simple claim has been made too many times.
+My observation, not the brand's: read against the craft canon, this is a brand that has genuinely absorbed Schwartz. The awareness-calibration rule is a direct application of the awareness levels, aimed squarely at the problem-aware and solution-aware bands, and the pool-pricing rule is a market-sophistication move: it refuses to define the term and instead explains the cause, which is what a category does once the simple claim has been made too many times.
 
 **The CTA architecture, framed as the three sanctioned ways to ask for the click.** Verbatim structure from section 7:
 
@@ -395,7 +395,7 @@ This is not confined to old statics. The same "saving you 20% or more" body copy
 
 **Standing: off-limits by the brand's own rule.** The brand states it cannot make a flat savings claim. It has made one, at scale, and is still carrying it. Two facts also sit against the rule and are worth recording: the flat number is **20%**, not 30%, and the "24% cheaper" line is a specific figure attributed to a first-person testimonial. None of the three numbers, 20%, 24% or 30%, has a stated basis of comparison anywhere I could find.
 
-**Where the live winners do hold the rule.** This is the other half of the picture and it is genuinely good news. Every one of the eight top-spending ads I pulled with full transcripts holds the qualifiers correctly. `verified`, from the transcripts:
+**Where the live winners do hold the rule.** My observation, not the brand's: this is the other half of the picture and it is genuinely good news. Every one of the eight top-spending ads I pulled with full transcripts holds the qualifiers correctly. `verified`, from the transcripts:
 
 - "letting Health for Moms save you **up to 30%** for better coverage like $0 deductibles" — `Moms43 - 5 - V1`, 0:18
 - "Check your family's options with Health for Moms today and **save up to 30%**" — the closing voiceover on `Moms43 - 5 - V1`, `moms-63 2b` and `moms-63 3e`
@@ -456,7 +456,7 @@ The brand context document says: "No specific platform rejection history or know
 
 But at least two ads in the live library carry a Meta `effective_status` of **DISAPPROVED**, both variants of `B1 - Copy 7`, holding $8,553.74 and $5,048.37 of lifetime spend. `verified`, Parker MCP, pulled 2026-09-03. I cannot see Meta's reason and I am not attributing it. What I can say is that the brand's own record of its platform history is incomplete, and the account holds the evidence.
 
-This matters more than it might for a normal category. Health insurance is a policed advertising category, and platform moderation runs in four layers rather than one: automated filters, human reviewers, engagement signals and policy enforcement. On Meta specifically, human reviewers are in the loop, so the durable posture is legitimate framing and full compliance rather than clever wording. The brand's instinct here is already right. Its villain rule keeps the system as the antagonist rather than a named carrier, which is exactly the framing that survives review, and its qualifier rules are the accurate-claims discipline that no amount of good creative substitutes for. The gap is not the posture. The gap is that nobody has written down what has already been rejected and why.
+This matters more than it might for a normal category. Health insurance is a policed advertising category, and platform moderation runs in four layers rather than one: automated filters, human reviewers, engagement signals and policy enforcement. On Meta specifically, human reviewers are in the loop, so the durable posture is legitimate framing and full compliance rather than clever wording. My observation, not the brand's: the brand's instinct here is already right. Its villain rule keeps the system as the antagonist rather than a named carrier, which is exactly the framing that survives review, and its qualifier rules are the accurate-claims discipline that no amount of good creative substitutes for. The gap is not the posture. The gap is that nobody has written down what has already been rejected and why.
 
 ### Internal guardrails the brand set for itself
 

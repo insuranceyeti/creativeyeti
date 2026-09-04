@@ -323,7 +323,7 @@ Roughly 11 of the 19 relevant videos in the TikTok mining library are about preg
 
 *Question:* How much of the gap between a click and a finished form is fear of the phone call?
 
-*Why it is a loop:* Every ad here ends by asking for a phone number. If the phone fear is the main leak, then hook rewrites and savings claims are working on the wrong part of the funnel, and the leverage moves to what the form promises about what happens next. The account already shows link clicks against landing page views against leads, so this is answerable with data Parker can reach.
+*Why it is a loop:* Every ad here ends by asking for a phone number. If the phone fear is the main leak, then hook rewrites and savings claims are working on the wrong part of the funnel, and the leverage moves to what the form promises about what happens next.
 
 *Territory: Messaging.*
 
@@ -335,7 +335,7 @@ The FTC sued a Florida operation in April 2026 for allegedly taking $91 million 
 
 *Question:* What does a mom in this category treat as proof that a health insurance offer is real?
 
-*Why it is a loop:* Trust is the binding constraint in this category, not attention. If the proof she wants is a carrier name, a license number, or another mother she can see, then a warm mom-to-mom voice is solving a problem she does not have, and the brand's whole credibility stack is pointed the wrong way. The answer is reachable from the ad comments, from category forums and Reddit, and from competitor reviews, all of which the substitution rule in `running-notes/missing-context.md` already permits for this brand.
+*Why it is a loop:* Trust is the binding constraint in this category, not attention. If the proof she wants is a carrier name, a license number, or another mother she can see, then a warm mom-to-mom voice is solving a problem she does not have, and the brand's whole credibility stack is pointed the wrong way.
 
 *Territory: Messaging.*
 
@@ -491,3 +491,5 @@ Sources attempted and blocked by this session's network egress proxy:
 - https://www.facebook.com/business/help/298000447747885
 - https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/
 - https://www.kff.org/affordable-care-act/what-we-know-so-far-about-2026-aca-marketplace-enrollment-premiums-and-deductibles/
+
+*This is everything I know about seasonality in creative.*
