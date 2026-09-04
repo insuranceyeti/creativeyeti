@@ -290,3 +290,41 @@ carry a closure path the open-loops core block explicitly bans.
 the doc bodies rather than inferring from the routing table. Only `iterations.md`,
 `adapting-scripts.md`, `visuals.md`, `andromeda-v2.md` and `creative-strategy-by-brand-size.md` do.
 That check cleared two documents that would otherwise have read as failures.
+
+## Review verdicts — batch 3, source pulls and voice of customer, 2026-09-04
+
+**PASS (8):** `ad-account`, `ad-comments`, `reddit`, `brand-self-echo-detection`, `customer-reviews`,
+`post-purchase-surveys`, `voc-objection`, `voc-pain-phrase`.
+
+**FAIL (1):** `voc-corpus-profile` — quote provenance. The prompt requires a row id on every quote;
+roughly 30 of ~48 quotes in the Language and creative-asset index carry none, and the doc declared
+the shortcut rather than meeting the rule. This is the one guarantee that document exists to give
+every downstream pass, so it is a real fail, not a nit.
+
+**Cross-cutting findings from this batch, all worth keeping:**
+
+- **No sign-off was owed anywhere in this set.** The reviewer grepped the whole
+  `creative-strategy-context/` tree and established that exactly ten docs carry a sign-off RULE:
+  `static-ad-design`, `seasonality`, `advertising-to-older-audiences`, `non-problem-solution-creative`,
+  `creator-briefs`, `creative-strategy-by-brand-size`, `legal-ai-ugc`, `ai-static-ad-generation`,
+  `selecting-ads-to-iterate-on`, `andromeda-v2`. None is routed to persona source pulls or VoC.
+- **The identifier trap was avoided cleanly.** All 48 `review_id` values in voc-objection and all 29
+  in voc-pain-phrase are full 36-character SQL `comment_id` UUIDs, no duplicates, no semantic ids.
+- **No `strong` mark appears on any VoC snippet**, correctly, since one source type cannot earn it.
+- **The three verified-blank documents refuse substitution explicitly.** `customer-reviews` states
+  "This doc is not the place for that substitution"; `post-purchase-surveys` states "Padding it with
+  comment data would hand the persona synthesis a false top tier." That is the right instinct and it
+  protects the persona confidence ceiling downstream.
+- **The one-question rubric is broken in five loops** across four documents — stacked questions or
+  either/or splits. Routed to repair.
+- **Two numbers to reconcile:** a 90-day spend figure differing by $0.13 between two documents
+  ($98,276.68 vs $98,276.81 — the API's own `period_summary` total is authoritative at $98,276.68,
+  the other is a summing artifact from 117 ad-name groups), and a stale "34 blocks" where there are
+  48 in voc-objection.
+- **A contested confidence call:** three organic verdicts in `brand-self-echo-detection` are marked
+  `strong` while the doc's own limitations say every organic verdict is single-source. The prompt
+  defines strong as requiring source independence. Downgraded to `mixed` in repair; the timing
+  evidence itself is good and stays.
+
+**Running review tally: 12 pass, 6 fail, across 18 of 24 documents.** Two repair passes are in
+flight. Remaining unreviewed: the three documents built after the batches were launched.
