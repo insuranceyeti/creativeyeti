@@ -739,7 +739,59 @@ The three gaps:
 2. **Step seven half-honored.** The prompt calls stage of awareness and audience fit inferences and requires the uncertainty be marked. Nine entries do it. Eleven carry no claim label on `persona_or_audience_fit` and no uncertainty note; on `you-did-everything-right` both fields are unlabeled.
 3. **Three comment counts without denominators.** `CLAUDE.md:126` requires them, and the bank declares the 1,342 / 1,322 corpus split at `index.md:10` and honors it in 17 other places — but not in three claims about the 42 pregnancy and 55 pre-existing-condition objection comments.
 
-**Disposition:** the method's single automatic re-run, scoped to the three named gaps, with everything the review verified as correct explicitly preserved. Running now. Re-review follows.
+**Disposition:** the method's single automatic re-run, scoped to the three named gaps, with everything the review verified as correct explicitly preserved.
+
+**Repair outcome.** 13 entry files changed; `index.md` and `README.md` untouched. The repair closed all three gaps **and found three more of the same kind that the review had missed**, which is the useful part of the record:
+
+- The winner breach appeared **twice more wearing the word "best"** — `a-hill-i-will-die-on.md:47` and `the-second-task-that-frees-the-eye.md:59` both called the same ad "the account's best paid ad," which is the identical claim with a shorter word. The review had searched for the word it already found. All three now name the ad by what it is — the highest-spending one, `Moms43 - 4 - V3` at $42,741.16 across the 90 days to 2026-09-02, 43.5% of everything spent — and state that biggest by spend is not best, that it buys leads at $22.21 inside the brand's own "meh" band so it clears gate one and no better, and that gate two sits with the partner agencies.
+- A **fourth missing denominator** in `the-pinned-comment-answered-out-loud.md:57`, the identical breach in an entry nobody had checked.
+- Eleven persona fits labelled, plus the twelfth field flagged. Not blanket-labelled: seven got split labels because the persona is reasoned while what she wants is not evidenced at all, and the thin-base ones read `data-limited` rather than `inferred`.
+
+**Re-review verdict: PASS.** All three gaps closed, nothing that previously passed regressed, both fold-ins landed. The reviewer swept independently for every word the superlative could wear — winner, best, top performer, star, hero, champion, workhorse, breakout, control, strongest, number one — and confirmed every remaining hit legitimate: commenters' own verbatim, a craft rule being quoted, an organic TikTok rather than an ad in this account, or a metric-scoped fact the same sentence qualifies. It also confirmed the 1,322 denominator reasoning holds and that the bank is consistent in both directions — live-pulled counts on 1,342, doc-carried counts on 1,322, each saying which.
+
+Two residuals it flagged as pre-existing rather than regressions were closed rather than left: three persona fits whose `verified` mark attached to a supporting fact left the fit read looking settled, and two roadmap citations missing the drafted-and-unapproved label.
+
+### `ideas-and-briefs/idea-evaluation` → `idea-bank/evaluation-2026-09-04.md` — **done**
+
+615 lines. All 20 ideas placed and banded, nothing sampled. Priority draw: **P1 = 2, P2 = 9, P3 = 6, serving no priority = 3**. **Zero hard cuts**, six soft pulls each named with the road it grazes, four folds so the next round does not brief the same thing twice. The ranked call is marked **provisional** throughout, against a roadmap that is drafted and unapproved.
+
+**The finding that changed the roadmap.** The evaluation's live pulls showed the two statics behind Priority 2 are **fabricated social proof**. The orchestrator re-pulled it independently rather than let it travel on one agent's read, and it verified wider than reported: **seven static ad-name groups, $35,234.91 lifetime, 2,871 leads at $12.27**, all mock X posts with a blue verified checkmark on an invented persona (`@cindie_mama_23`, `@thehealthymom34`, `@Motherooffthree`) and printed engagement counts. Against the brand's own non-negotiable **"No fabricated statistics."** `B1 - Copy 7` is one of the two statics Priority 2 wanted to restart, so **Priority 2 is a rebuild, not a switch-flip**, and the $11.79 must never be carried as a forecast. Two carry a second breach each: `B1 - Copy 7` runs the flat "24% cheaper", and `B2 - 10TH JUNE - Copy 1` runs "no government red tape" against the brand's no-government-references rule — a third distinct live breach nothing in the vault had recorded.
+
+**Delivery question resolved the same day.** All seven read `effective_status: CAMPAIGN_PAUSED` and returned zero spend across the last 30 days; across 365 days the set spent $699.78 for 32 leads. So this is an asset-library and compliance problem, not live burn. Full record: `running-notes/missing-context.md`, `brand-lens.md`.
+
+### `ideas-and-briefs/sprint-plan` → `sprints/2026-09-04-lead-with-the-switch/sprint-plan.md` — **done**
+
+540 lines. **8 concepts, 20 assets, two waves.** Sized from live pulls: trailing 30 days $48,381.47 / 2,171 leads / $22.29 CPL, and a real net-new evergreen cadence of ~1.4 concepts a week once duplicates and variants-of-one-concept are stripped from the raw 95 groups since 2026-08-01. Split P1 = 2, P2 = 4, P3 = 2 — deliberately not mirroring the bank's shape. Personas: `pays-and-still-owes` 5, `already-knows` 3, `built-it-herself` 0 and dropped on purpose with the reasoning written out. Three of eight concepts need nobody on camera, which walks around the brand's stated number-one bottleneck.
+
+**Two findings, both re-verified independently by the orchestrator before briefs were built on them:**
+
+1. **Zero statics created since 2026-06-01.** A static-filtered lifetime pull with `created_time >= 2026-06-01` returns **zero rows** — three months, not one static — in an account where statics convert link clicks to leads at 16.57% against video's 8.28%.
+2. **Only 14 of 95 ad-name groups created since 2026-08-01 took $500 or more**, and those 14 carry **$24,804.82** of the cohort's $25,908.79 — **95.7%**. Eighty-one never got read. That is why the round launches in two waves rather than being dumped.
+
+### The quiz destination, upgraded by the same pull — the account ran the experiment itself
+
+Inside those 14 funded groups sit **matched pairs on the identical video file** — same storage hash, same text hook, same body copy — split only by landing URL. `verified live`, 2026-09-04:
+
+| Group | Destination | Leads | Cost per lead | Landing page views / link clicks |
+|---|---|---|---|---|
+| `moms-63 2b` | `www./save/` | 417 | $13.26 | 2,981 / 3,404 = 88% |
+| `moms-63 2b - Copy` | quiz | 6 | $144.23 | 54 / 672 = 8% |
+| `moms-63 3e` | `www./save/` | 339 | $15.46 | 3,014 / 3,531 = 85% |
+| `moms-63 3e - Copy` | quiz | 8 | $67.15 | 30 / 344 = 9% |
+
+Creative held constant by the file hash, only the destination moving. It still does not separate "nobody arrives" from "arrivals are not measured," but it settles that the quiz costs real money at scale and sizes it. All four quiz-pointed groups read `ADSET_PAUSED` today.
+
+### `ideas-and-briefs/brief-creation` → `sprints/2026-09-04-lead-with-the-switch/briefs/` — **done**
+
+**Eight briefs, J001 through J008, ~52,000 words.** All 11 required sections present in all eight, plus the three validations, the execution routing table, the open-loops tail, the Parker media appendix, and sign-off stamps for every doc that carries one and was read.
+
+**No brief carries customer-facing copy**, which is what the prompt itself demands. Each names per variation which execution skill produces the copy and which docs it must load, and states that every line ships with both gate receipts before anything is designed or filmed. Existing ad copy appears only as evidence of what already ran; J003 explicitly forbids pasting those strings.
+
+Three briefs build on `B2 - 10TH JUNE - Copy 16` as the clean frame. The orchestrator re-pulled it: the carried figure was **stale** ($15,660.83 / 1,040 leads / $15.06) and the ad is still `ACTIVE`, now **$18,409.73 / 1,181 leads / $15.59**. Re-pinned in all three. It also verified **clean on inspection** — solid black, white serif hook, white sans body, one emoji, no profile, no handle, no verification badge, no printed engagement counts, and "Save up to 30%" with the qualifier intact. And it delivers **31.6% of spend to women 45 and over against the account's lifetime 21.2%**, plus 69.1% Instagram — independent support for the older-spokesperson thread in J002 and J006, recorded as an observation rather than proof, since Meta's optimiser chose that audience.
+
+Three briefs carry honest blockers rather than pretending: **J007 is hard-gated** pending a written answer on the licensed-advisor question, **J008** has an unresolved compliance question about what any comparison figure is measured against, and **J006** flags that both its source ads sit inside the 127-group set carrying the banned copy block, so a re-cut would silently republish it.
+
+Two things the brief pass could not execute, both recorded rather than worked around: `creative-consumption-analysis.md` is named as the casting method for J002 and J006 but cannot run, because the mining library is a frozen 23-video scrape and no live keyword search runs from this environment; and no fresh Parker pulls were made in that pass, so every figure is carried with its original mark and denominator, which each brief states in its appendix rather than implying fresh calls.
 
 ### Conflict resolved by live pull — cost per link click on `moms-53 3`, 2026-09-04
 
@@ -756,3 +808,33 @@ All three docs were right and none was talking about the same thing. No correcti
 **Two possible causes and the data cannot separate them:** either almost nobody who clicks lands, or they land and the pixel does not fire on that domain. The first is lost spend; the second means every quiz-pointed ad in this account has unreadable conversion numbers. Both are urgent, neither is a creative problem.
 
 Routed to the team in `running-notes/missing-context.md` as a fix rather than filed as a research loop, the same call the roll-up made on the `go.healthformoms.co` break. **Two destination breaks found independently now, which makes a single audit of every landing URL in the account the right response rather than two one-off patches.** No brief may be built on a figure sourced from a quiz-pointed ad until this is settled.
+
+---
+
+## Build-completion verification — 2026-09-04
+
+Run by an independent subagent against the runner's "Verify the build" checklist. Structural completeness only, not document quality. **First verdict: FAIL — 2 blocking gaps, 2 secondary, 7 of 9 items passing.** All four fixed in the same pass; none was a rebuild.
+
+### What passed, by check rather than by assumption
+
+- **The method is mounted and pinned.** Submodule clean at `b55c441`, carrying `prompts/`, `creative-strategy-context/`, `system/`. The v14-versus-v15 question was re-confirmed independently: `git tag --points-at HEAD` returns **both**, so `git submodule status` printing `(v14)` while the config says `v15` is two tags on one commit, not drift. Deny rules present in all four path forms.
+- **Skills cross-checked by name and count.** All **21** factory skills present, plus the 5 routine-bundle additions = **26**, every one carrying a real `SKILL.md`, no empty directories, **exactly one `dream`**.
+- **Both review-gate checkers execute in the brain.** `voice-lint.py` flagged a throwaway line and exited 1; `grounding-check.py` printed usage and exited 2.
+- **The brain is self-running, and verified against the account rather than the docs.** `list_triggers` returned all six routines registered and enabled, with cadences and next-run times matching every schedule doc exactly. The MCP-connector limitation is real — every trigger returns `"mcp_connections":[]` — and it is documented in `schedules/README.md`, on all six status lines individually, and in the status file, with each doc naming whether that routine actually needs it.
+- **The freshness ledger is real.** All 56 standing docs aggregated; eight spot-checked against actual frontmatter and all eight matched to the day. The one doc with no `refresh_by` is flagged by the schedule itself in bold rather than hidden.
+- **Provenance holds under adversarial check.** The banned savings string returns 26 hits outside the method mount and **every one is the string being quoted as prohibited** in a compliance checklist — zero reproductions in copy. ROAS appears in 8 audit files and **every instance is a refusal**. The idea-bank hard-rule breach is gone.
+
+### The four gaps, and what was done
+
+1. **BLOCKING — a dangling path in the operating contract, five times.** `CLAUDE.md` lines 60, 83, 89, 108 and 179 pointed at a root-level `brand-profile.md` that does not exist; line 60 is the "**Read it first on every question**" instruction and line 89 makes it the retrieval floor for every creative answer. Carried through verbatim from `parker-system/templates/brand-brain-CLAUDE-template.md` lines 19, 42 and 48. The real doc is `sub-context-docs/brand-profile-narrative.md`, which `CLAUDE.md:222` already named correctly. **Fixed: all five repointed.** This is the highest-cost gap on the list — the contract was instructing every session to open a file that could not resolve, on every question.
+2. **BLOCKING — the status file.** `BUILD-STATUS.md` still reported Phase 3 as running at 0 of 4 against a Phase 3 that was finished and committed, and it had not been moved out of the repo root. **Fixed: reconciled and archived here.**
+3. **Secondary — the run log stopped mid-Phase-3.** It recorded the idea bank as "fail, repair pass running" and never recorded the repair outcome, the re-review, or the three prompts after it. **Fixed: the whole Phase 3 record is written above.**
+4. **Secondary — `expert-insights/` did not exist** while `CLAUDE.md` described it as present with three subfolders. **Fixed: scaffolded with its `inbox/`, `curation/`, `context-update-candidates/` and a README saying plainly it is empty by design and fills on the first `/expert-signal-intake` run.**
+
+### Also recorded, none of them gaps
+
+- **This repo has no `main` branch.** All work sits on `claude/parker-brain-health-for-moms-x0vbs5`, tracked by [PR #1](https://github.com/insuranceyeti/creativeyeti/pull/1). Documented in `running-notes/standard-sync.md`, including that the session-start hook's `fatal: couldn't find remote ref main` is benign and that merging the pull request is the team's call, not Parker's. Until then `/save-brain`'s "everything lands on `main`" rule cannot be followed literally, and a teammate cloning the repo lands on a default branch that may not exist.
+- **`users/` does not exist**, so the brain has no stored read on the person using it yet. Expected on a fresh brain; it fills as they work.
+- The save is healthy: working tree clean, nothing ahead of upstream, nothing unsaved.
+
+**Verdict after fixes: pass.** Logged per the runner's requirement that every verdict lands here.

@@ -97,7 +97,7 @@ Everything this brain holds. Pointers, not findings.
 
 **Audits** — `audits/`. No `INDEX.md` has been generated yet, so read the folders. Present tense is `audits/2026-09/`, dated 2026-09-03 and 2026-09-04: weekly-performance-snapshot, biweekly-iterations-report, monthly-hook-audit, monthly-performance-report, monthly-organic-tiktok-audit, monthly-tiktok-mining. The quarterly baseline is `audits/2026-Q3/`: 90-day-creative-strategy-audit as the anchor, 90-day-performance-audit, 90-day-diversity-audit, quarterly-whitespace-analysis, customer-review-audit.
 
-**Competitors** — `competitors/` is empty and `INDEX.md` is not generated. The branch is deferred at the team's request, not failed. Adding rivals in the Parker app backfills it.
+**Competitors** — `competitors/` is empty; `competitors/INDEX.md` exists and documents the deferral and what it costs. The branch is deferred at the team's request, not failed. Adding rivals in the Parker app backfills it.
 
 **Running notes** — `running-notes/`
 - `brand-rules.md` — the standing constraints, including the rule never to report ROAS, AOV or purchase value here.
@@ -105,7 +105,17 @@ Everything this brain holds. Pointers, not findings.
 - `missing-context.md` — the dark surfaces and the unanswered intake questions.
 - `standard-sync.md` — the factory pin, the update posture, and why this brain is self-managed.
 
-**The rest.** `open-loops/` holds a README only. `hypotheses/`, `validations/`, `re-validations/`, `strategy/`, `idea-bank/`, `sprints/`, `briefs/`, `dreaming/`, `expert-insights/`, `workflows/` and `schedules/` are scaffolded and empty. `BUILD-STATUS.md` carries the build ledger and is stale against the files on disk. `prompts-run-log/2026-09-03-full-buildout.md` records the run, including the two cross-document errors this build caught and corrected.
+**The rest — updated 2026-09-04 at build completion.** This paragraph was written mid-build, when most of these were empty. They are not any more.
+
+- `open-loops/open-loops-roll-up.md` — 57 graded loops cut from 212 raw across 47 documents. 14 Tier 1, 24 Tier 2, 19 routed to the brand.
+- `hypotheses/` and `validations/` — one each, both on the `go.` subdomain measurement question, resolved inconclusive. `re-validations/` is still empty.
+- `strategy/` — the four Phase-2 inputs plus `strategic-roadmap.md`. **The roadmap is drafted and unapproved** (`status: drafted, awaiting review`, `approved_by: null`), and everything downstream of it is labelled provisional.
+- `idea-bank/` — `README.md`, `index.md`, 20 entries, and `evaluation-2026-09-04.md`, the ranked shortlist.
+- `sprints/2026-09-04-lead-with-the-switch/` — the sized round (8 concepts, 20 assets, two waves) and 8 briefs in `briefs/`. There is no top-level `briefs/`; briefs live inside their sprint.
+- `expert-insights/` — scaffolded with `inbox/`, `curation/`, `context-update-candidates/`, empty by design until the first `/expert-signal-intake` run.
+- `schedules/` — six recipes, all six armed as live routines on 2026-09-04. Four of the six currently fire without Parker MCP tools; the limitation is on each status line.
+- `dreaming/` and `workflows/` — README only, correctly. Each is populated by its own runs, not at build time.
+- `prompts-run-log/` — `2026-09-03-full-buildout.md` records the whole run, including the cross-document errors this build caught and corrected and the build-completion verification verdict. The build ledger finished as `prompts-run-log/BUILD-STATUS-final-2026-09-04.md`; there is no live status file at the repo root any more.
 
 ## The open-loops roll-up
 

@@ -4,16 +4,16 @@
 **Build started:** 2026-09-03
 **Method version:** parker-brain `v15` (submodule, pinned)
 **Run id:** `e5c1cbe7-0bba-4a1e-8b7e-9bdc075777e1`
-**Current phase:** **Phase 3 running.** Phase 1 and Phase 2 are closed. The operating contract is stamped and the routines are armed.
+**Current phase:** **BUILD COMPLETE, 2026-09-04.** All three phases closed, the operating contract stamped, the routines armed, the build verified and the work saved. This file is the final record and now lives in `prompts-run-log/`.
 
 **Saved to:** https://github.com/insuranceyeti/creativeyeti (branch `claude/parker-brain-health-for-moms-x0vbs5`)
 **Repo posture:** self-managed — see `running-notes/standard-sync.md`
 
-## What is happening right now
+## Where this landed
 
-Phase 3 is the last build phase: capture the idea bank, grade it against the roadmap, size the sprint, write the briefs. The capture step is running now.
+**The build is complete.** 56 standing documents, the Phase-3 creative round, the operating contract, six armed routines, and a structural verification that failed once and passed after fixes. Everything is committed and pushed.
 
-The stamp step ran alongside it and is done. `CLAUDE.md`, `README.md`, `brand-lens.md`, `running-notes/refresh-schedule.md`, `running-notes/routine-log.md`, `audits/INDEX.md` and `competitors/INDEX.md` are all written and filled with this brand. All six standing routines are registered and live.
+The stamp step is done. `CLAUDE.md`, `README.md`, `brand-lens.md`, `running-notes/refresh-schedule.md`, `running-notes/routine-log.md`, `audits/INDEX.md` and `competitors/INDEX.md` are all written and filled with this brand. All six standing routines are registered and live.
 
 ## Two things waiting on the team
 
@@ -33,9 +33,9 @@ The stamp step ran alongside it and is done. `CLAUDE.md`, `README.md`, `brand-le
 | Phase 1E — Audit baseline (external) | **deferred with 1B** | 0 of 6 |
 | Phase 1 — Synthesis | **done** | 2 of 2 |
 | Phase 2 — Strategy | **done** | 5 of 5 |
-| Phase 3 — Ideation | **running** | 0 of 4 |
+| Phase 3 — Ideation | **done** | 4 of 4 |
 | Stamp operating contract | **done** | 6 of 6 |
-| Verify / save / hand off | pending | 1 of 3 |
+| Verify / save / hand off | **done** | 3 of 3 |
 
 ## Data surfaces — tested 2026-09-03, re-verified through the build
 
@@ -84,11 +84,11 @@ Six quarterly cuts in `audits/2026-Q3/`, six monthly/biweekly/weekly cuts in `au
 - [x] persona-strategy-input · product-priority · messaging-strategy-input · creator-talent-strategy-input
 - [x] strategic-roadmap — **drafted, awaiting review**
 
-### Phase 3 — Ideation (0 of 4)
-- [ ] brand-idea-bank — **running**
-- [ ] idea-evaluation
-- [ ] sprint-plan
-- [ ] brief-creation
+### Phase 3 — Ideation (4 of 4) — all done
+- [x] brand-idea-bank — 20 entries; failed review once on a hard-rule breach, repaired, re-reviewed, **passed**
+- [x] idea-evaluation — `idea-bank/evaluation-2026-09-04.md`, all 20 placed, rank provisional
+- [x] sprint-plan — `sprints/2026-09-04-lead-with-the-switch/sprint-plan.md`, 8 concepts / 20 assets / two waves
+- [x] brief-creation — 8 briefs, J001 to J008, no customer-facing copy by design
 
 ### Stamp the operating contract (6 of 6) — all done
 - [x] `CLAUDE.md` — hard rules first, phase status honest about the unapproved roadmap
@@ -99,10 +99,10 @@ Six quarterly cuts in `audits/2026-Q3/`, six monthly/biweekly/weekly cuts in `au
 - [x] `audits/INDEX.md` and `competitors/INDEX.md`
 - [x] Routine bundle already shipped in Phase 0; all six schedules armed 2026-09-04
 
-### Finish (1 of 3)
-- [ ] Verify build — the structural completeness review
+### Finish (3 of 3) — all done
+- [x] Verify build — failed first on 2 blocking + 2 secondary gaps, all four fixed, **passes**. Verdict logged in `prompts-run-log/`.
 - [x] Confirm save — pushed 2026-09-04
-- [ ] Hand off to `/get-started`
+- [x] Hand off — the brain is ready. Anyone can run `/get-started` any time for the guided walkthrough; `CLAUDE.md` also offers it on a first-encounter session.
 
 ## Resume anchor
 

@@ -29,7 +29,7 @@ data_limitations:
   - "No past-conversation pull. `search_chat_history` could not run for the same reason. Four Parker threads exist (one web, three Slack) and several upstream docs already mined them; what those docs carried forward is used here as stated brand input, attributed to them, and no thread was read fresh."
   - "`sub-context-docs/brand-profile-narrative.md` — the Novelty-check source named in the prompt's required sources — landed at 18:52 on 2026-09-04, part-way through this pass, and carries no open-loops tail yet. Its opening read was used for the Novelty check and it corroborates every Tier 1 finding below, but it was not harvested for loops. Re-check it on the next roll-up. This is a reading flag."
   - "The competitor branch is deferred, so no competitor profile, no external audit cut and no rival library fed this pass. Two territories in `competitive-landscape.md` — Personas and Creators and talent — were left empty upstream for that reason, not because they are clean."
-  - "No human strategist has reviewed the upstream audit stack. Eighteen fidelity reviews were still in flight when this ran, per `BUILD-STATUS.md`. Two cross-document errors have already reached documents through that gap and both are recorded as closures below."
+  - "No human strategist has reviewed the upstream audit stack. Eighteen fidelity reviews were still in flight when this ran, per the build ledger, archived at `prompts-run-log/BUILD-STATUS-final-2026-09-04.md`. Two cross-document errors have already reached documents through that gap and both are recorded as closures below."
 team: creative-strategy
 scope: org-wide
 ---
@@ -1142,7 +1142,7 @@ Raised by `90-day-performance-audit.md` 3 (2026-09-03). **Closed because its pre
 
 **`brand-profile-narrative.md` landed mid-pass.** It was written at 18:52 on 2026-09-04, after this harvest ran, and carries no open-loops tail yet. Its opening read was used for the Novelty check and it corroborates every Tier 1 finding here, but it was not harvested. Check it first on the next roll-up.
 
-**The fidelity-review backlog is still open.** `BUILD-STATUS.md` records eighteen reviews in flight and names the review gate as hard. Two cross-document errors have already reached documents through that gap and both are recorded as closures above — the Open Enrollment history and the quiz destination figures. Both were caught by a later prompt reading a live source rather than by review. Every score in this roll-up inherits whatever else is still sitting unreviewed in that stack.
+**The fidelity-review backlog is still open.** The build ledger, archived at `prompts-run-log/BUILD-STATUS-final-2026-09-04.md`, records eighteen reviews in flight and names the review gate as hard. Two cross-document errors have already reached documents through that gap and both are recorded as closures above — the Open Enrollment history and the quiz destination figures. Both were caught by a later prompt reading a live source rather than by review. Every score in this roll-up inherits whatever else is still sitting unreviewed in that stack.
 
 **The Parker MCP is disconnected.** No live pull ran in this pass and no past Parker conversation was read fresh. Reconnecting it is what makes the next roll-up a refresh rather than a rebuild, and it is a prerequisite for every Tier 1 loop above.
 
