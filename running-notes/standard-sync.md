@@ -38,6 +38,25 @@ add. So the brain lives in the team's own repository instead.
 - **Parker Desktop does not watch this folder.** Nothing syncs automatically; work is saved by
   committing and pushing.
 
+### The session-start pull fails, and it is benign — recorded 2026-09-04
+
+The session-start hook runs `git pull --rebase origin main` and reports
+`fatal: couldn't find remote ref main`. **That is not auth, not drift, and not a broken remote.
+This repository has no `main` branch at all.** `git ls-remote --heads origin` returns exactly two
+refs, both feature branches: `claude/parker-brain-health-for-moms-x0vbs5` (where the build lives)
+and `claude/parker-mcp-http-349ri1` (the earlier session's branch).
+
+So the `save-brain` rule that "everything lands on `main`, no feature branches" cannot be followed
+literally here — there is no `main` to land on. Until the team creates one or promotes a branch,
+the working rule for this brain is: **pull and push the current working branch by name.** The build
+has been pushed to `claude/parker-brain-health-for-moms-x0vbs5` throughout, and GitHub pull request
+[#1](https://github.com/insuranceyeti/creativeyeti/pull/1) tracks it.
+
+**What to do about it is the team's call, not Parker's.** Merging that pull request would create the
+`main` this brain's own procedure assumes, after which the hook stops failing and the standard save
+path works as written. Until then, ignore the pull error rather than "fixing" it by creating a
+branch nobody asked for.
+
 To move this brain into the managed repo later, run a session rooted on
 `parker-brain/insuranceyeti-health-for-moms` and copy this tree across, then flip this section.
 
