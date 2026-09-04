@@ -541,3 +541,28 @@ domain alone nor the date alone, and nothing in this account separates them.
 
 The archived "leaks" verdict is **refuted as a general claim about the subdomain** and is
 **better supported for the August ads specifically** than it ever was.
+
+## Phase 1 fully closed — 2026-09-04. And a live change to record.
+
+`audits/2026-Q3/gaps-opportunities-inspo.md` completes Phase 1 at **51 documents**.
+
+**A live pull contradicted every upstream document, and the agent recorded the conflict rather than
+smoothing it.** `search_competitor_facebook_ads` mode `brands` now returns **`totalCount: 1` —
+Ethos**, 2,090 ads with 2,073 analysed. Every document written earlier the same day states the
+tracked set is empty, and each verified that live at the time. So the set changed during the build.
+
+The agent treated Ethos on what its library actually shows — a creative competitor one product over,
+not a market rival — and noted that the relationship-type filter returns it under both `competitor`
+and `inspo`, so the team's own tag cannot be read from that surface. That is the right handling:
+neither ignoring the new data nor overreading one brand into a competitive set.
+
+**Implication for the deferred branch:** the competitor branch and the six external audit cuts remain
+deferred by the user's decision, but the blocker has partially lifted. One tracked brand is not a
+competitive set, and Ethos sells life insurance rather than health, so it does not answer the
+competitive question. Worth raising with the user rather than silently reopening the branch.
+
+**The synthesis's diagnosis, worth carrying into Phase 2:** the field is not rival advertisers, it is
+the alternatives mothers name themselves, and the category's attention sits on the one buyer
+underwriting screens out. So the leverage is **restarting what the account already proved**, not
+inventing what nobody has run. Its sharpest structural read: the organic field mirrors the problem
+and never resolves it, the paid field resolves it and never mirrors it, **and the join is empty.**
