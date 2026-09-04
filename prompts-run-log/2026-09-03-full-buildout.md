@@ -363,3 +363,53 @@ precedent already set by `marketing-calendar-and-campaigns.md`.
 cannot be audited against a declared list in either direction. Its three uses were verified by
 reading the cited passages against the source docs instead. Worth adding the field on a future
 refresh so this document is auditable the way its siblings are.
+
+## Repair pass 2 complete — 2026-09-04
+
+- **`voc-corpus-profile` (the one FAIL) is fixed properly.** 27 quote bullets resolved to real SQL
+  rows via live lookup, each given its real `comment_id`, ad name and date. **Zero removed** — every
+  un-sourced quote resolved to a genuine row. The truncated id `b7aa4d37` expanded to its full UUID,
+  and the declared-shortcut sentence deleted now that the rule is actually met. The index carries 49
+  row-id citations and zero un-sourced bullets. Two lookups needed a second pass because the database
+  stores curly apostrophes where the document used straight ones.
+- **Five stacked open-loop questions split** across `ad-account`, `ad-comments`, `voc-objection` and
+  `voc-pain-phrase`, each cut to the half its own justification says drives the decision.
+- **`voc-objection` stale count** corrected 34 → 48, verified by a direct block count (48 snippet
+  blocks, 48 null identity tags, 48 null behavioural tags).
+- **Cross-doc counts reconciled** in `voc-pain-phrase` — a line now records that `voc-objection`'s
+  stricter re-derivation returns 36 and 42 because it drops rows describing the commenter's existing
+  plan, while the ad spreads (15 and 17) agree exactly. Both numbers stay visible.
+- **Three confidence marks downgraded** `strong` → `mixed` in `brand-self-echo-detection`. The timing
+  evidence stays exactly as written; the mark cannot, because `strong` requires source independence
+  and this brand has one corpus it controls the language environment of.
+
+### Repair 4's premise failed live verification — and that is the finding
+
+The instruction said the authoritative 90-day spend was **$98,276.68**. The agent pulled
+`period_summary` twice for 2026-06-05 to 2026-09-02, grouped two different ways, and got
+**$98,277.97**. Leads (4,336) and CPL ($22.67) match the documents exactly, so only spend moved — by
+**$1.29** — which reads as a **Meta restatement** since the 2026-09-03 pull the documents were built
+on. The agent refused to write an unverified number and recorded both readings.
+
+`ad-account.md` is set to $98,276.68, which is the correct as-of-2026-09-03 reported total and
+reconciles with `post-purchase-surveys.md`; the $98,276.81 it previously carried was genuinely a
+summing artifact. Its `data_limitations` now records both readings, the $0.13 group-rounding gap, the
+$1.29 restatement, and the standing rule: **never re-derive spend by summing ad-name groups — read
+the reported `period_summary` total.**
+
+**Standing lesson for this brain:** Meta restates historical spend. A figure stamped on one date will
+not reproduce exactly on another, and that is not an error in either document. Any figure carried
+between documents must carry its as-of date.
+
+### Flagged, deliberately not changed
+
+- A fourth `strong` mark in "Confirmed organic of note" ("peace of mind") rests on the semantics of
+  two comments arguing against the ad rather than the timing argument that made the other three
+  untenable. Same single-source caveat arguably applies. Flagged, not acted on.
+- Six `strong` marks earlier in the same document grade brand-**origin** verdicts sourced from the
+  brand's own document — a different evidence class, correctly left alone.
+- Composite narrative bullets in the corpus-profile index quote several rows inside one argument;
+  they are thread-level reads, not single-quote bullets, and adding inline ids would have meant
+  rewriting them.
+- Curly-versus-straight apostrophes in some quoted text. Real, minor, and fixing it would mean
+  touching verbatim quote text.
