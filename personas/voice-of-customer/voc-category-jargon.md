@@ -32,11 +32,11 @@ data_limitations:
   - One source type only, so nothing here can rise above mixed under this prompt's confidence rule, however often a term repeats. Cross-source recurrence is what earns strong.
   - Counts are of comments containing the string, never of people. author_name and author_id are null on all 1,342 rows, so one fluent broker posting eight near-identical comments reads as eight.
   - That is not hypothetical and it is the biggest count risk in this doc. Eight of the twenty-one coinsurance rows are the same pasted sales pitch from one commenter promoting a level-funded plan with a link. Every affected count below says so on its own line.
-  - Spelling variants are counted separately and summed by hand, never blended silently. Coinsurance runs across three spellings: "coinsurance" 21, "co insurance" 5, "co-insurance" 4.
+  - Spelling variants are counted separately and summed by hand, never blended silently. Coinsurance runs across three spellings, with "coinsurance" at 21, "co insurance" at 5 and "co-insurance" at 4.
   - permalink_url is null on all 1,342 rows, so url is null on every snippet.
   - The semantic comment tool and the SQL comment tool return different identifier spaces for the same row. Every review_id below is the SQL comment_id, resolved by exact-text lookup where a row was first surfaced semantically.
   - The database stores curly apostrophes, so any search written with a straight apostrophe silently misses rows. Terms were searched apostrophe-free wherever possible.
-  - The SQL search is a plain case-insensitive substring match, verified rather than assumed. That means short terms over-match: "network" catches "networks", "HSA" catches "HSAs", and a search for "racket" would catch "bracket". Every count below was hand-checked against the returned rows.
+  - The SQL search is a plain case-insensitive substring match, verified rather than assumed. That means short terms over-match, so "network" also catches "networks", "HSA" also catches "HSAs", and a search for "racket" would catch "bracket". Every count below was hand-checked against the returned rows.
   - Severe time skew. Most of this vocabulary lands in March and April 2026, inside the window the brand's own creative opened, which caps how much any first-seen date proves. This is stated on the terms where it is load-bearing.
   - refresh_by is 30 days rather than the 180-day voice-of-customer cadence, matching the sibling docs. Category vocabulary itself moves slowly, but this doc's coverage would change substantially the day a Reddit pull lands.
   - There is no get_current_time tool on this MCP surface, so the date comes from the session clock.

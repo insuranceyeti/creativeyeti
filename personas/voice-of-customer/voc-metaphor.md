@@ -9,7 +9,7 @@ corpus_denominator: 1342 Facebook and Instagram ad comments, Meta ad account Hea
 corpus_date_range: 2025-01-08 to 2026-09-03
 prior_version: none. First run. No recurrence history to carry forward.
 snippets_captured: 15
-alliteration_flags_set: 3
+alliteration_flags_set: 2
 sources_read:
   - Parker MCP search_facebook_ad_comments_sql, 26 filtered pulls on 2026-09-04, including the ten zero-return searches that are the evidence for what this corpus does not reach for. Every count and every row id below was re-derived by me from the returned rows.
   - Parker MCP search_facebook_ad_comments_semantic, three themed passes on 2026-09-04 aimed at comparison, simile and figurative framing. Every pass reported totalCommentsAnalyzed 1342, which agrees with my own offset probe.
@@ -35,7 +35,7 @@ data_limitations:
   - permalink_url is null on all 1,342 rows, so url is null on every snippet.
   - The semantic comment tool and the SQL comment tool return different identifier spaces for the same row. Every review_id below is the SQL comment_id, resolved by exact-text lookup where the snippet was first surfaced semantically. The racquet snippet is the clearest case: the semantic tool returned dc84e8fd for it and the SQL comment_id is dea2d778. A later pass must never paste a semantic id into review_id.
   - The database stores curly apostrophes. A substring search written with a straight apostrophe will silently miss rows. Every search behind this doc was written to avoid apostrophes for that reason.
-  - The SQL search is a plain case-insensitive substring match, which I verified rather than assumed: "racket" returns one row whose word is "bracket". Word-boundary counts here were hand-checked against the returned rows, not read off the total field.
+  - The SQL search is a plain case-insensitive substring match, which I verified rather than assumed. A search for "racket" returns one row whose word is actually "bracket". Word-boundary counts here were hand-checked against the returned rows, not read off the total field.
   - Severe ad skew, and it bites the strongest find in this doc. The luck-and-winning frame sits entirely inside the MOMS38 - 1 creative family. That is argued rather than hidden.
   - refresh_by is 30 days rather than the 180-day voice-of-customer cadence in parker-system/system/refresh-cadence.md, matching the sibling docs. Metaphor is the category most likely to be reshaped the moment a Reddit pull lands, because that is where analogy actually lives.
   - There is no get_current_time tool on this MCP surface, so the date comes from the session clock.
@@ -450,9 +450,9 @@ Recorded so a later pass sees that they were found and correctly routed, rather 
 
 ## What the alliteration sweep found
 
-The prompt asks this pass to set the cross-category alliteration flag when it sees one during metaphor extraction, not to hunt alliteration everywhere. Three flags are set, all above: **"health poor, house poor"**, **"Buyer beware"**, and one near-miss I decided against — "mind blowing" in the nightmare snippet is a single compound rather than a pair, so that snippet carries `alliteration: false`.
+The prompt asks this pass to set the cross-category alliteration flag when it sees one during metaphor extraction, not to hunt alliteration everywhere. Two flags are set, both above: **"health poor, house poor"** and **"Buyer beware"**. One near-miss was considered and rejected — "mind blowing" in the nightmare snippet is a single compound rather than a pair, so that snippet carries `alliteration: false`.
 
-The honest read on it, `inferred`: this corpus has almost no phonetic play. That is consistent with the arithmetic finding above. People typing a dollar figure into a comment box are not reaching for rhythm. A later pass should not treat three flags in 1,342 records as coverage of the brand's alliteration picture, because the surface that would carry it — reviews, where people write longer and revise — does not exist here.
+The honest read on it, `inferred`: this corpus has almost no phonetic play. That is consistent with the arithmetic finding above. People typing a dollar figure into a comment box are not reaching for rhythm. A later pass should not treat two flags in 1,342 records as coverage of the brand's alliteration picture, because the surface that would carry it — reviews, where people write longer and revise — does not exist here.
 
 ## Open loops
 
