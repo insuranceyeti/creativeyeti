@@ -18,7 +18,7 @@ status: raw idea
 **source_path:** `personas/voice-of-customer/voc-metaphor.md` section 3, `personas/voice-of-customer/voc-trigger-moment.md`, `personas/voice-of-customer/voc-objection.md`
 
 **parker_media_links:**
-- The `MOMS38 - 1` family, where all 11 records sit: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120239479305920519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977
+- The `MOMS38 - 1` family, where all 11 records sit: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120239479305920519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977 **This link is the `MOMS38 - 1 - V1` ad id, which is the only handle the vault carries for this creative family; the sibling variants have no separate dashboard link recorded.**
 - https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/aed0ff06-555d-4f4f-9bf8-31178e2fb977/50a0309be06d87e55299b9e00d7962b88516c847dec96e80cfd47e6ba5959b66.mp4
 - Comment ids: `aa3d6d52-d3a5-63ad-78bb-570b4939eb59` (19 likes), `208384b4-ca90-3118-7ff3-a70a805e2a50` (11 likes), `b59d835e-d3df-249e-309e-26d88d4f75e5` (10 likes)
 

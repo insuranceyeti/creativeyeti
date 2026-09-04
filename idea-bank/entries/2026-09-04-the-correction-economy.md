@@ -18,7 +18,7 @@ status: worth testing
 **source_path:** `personas/voice-of-customer/voc-objection.md` cluster two, `personas/voice-of-customer/voc-category-jargon.md`, `personas/voice-of-customer/voc-anti-language.md`, `audits/2026-Q3/gaps-opportunities-inspo.md` opening 5
 
 **parker_media_links:**
-- The `MOMS38 - 1` family the corrections cluster under: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120239479305920519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977 | https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/aed0ff06-555d-4f4f-9bf8-31178e2fb977/50a0309be06d87e55299b9e00d7962b88516c847dec96e80cfd47e6ba5959b66.mp4
+- The `MOMS38 - 1` family the corrections cluster under: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120239479305920519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977 | https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/aed0ff06-555d-4f4f-9bf8-31178e2fb977/50a0309be06d87e55299b9e00d7962b88516c847dec96e80cfd47e6ba5959b66.mp4 **This link is the `MOMS38 - 1 - V1` ad id, which is the only handle the vault carries for this creative family; the sibling variants have no separate dashboard link recorded.**
 - `MOMS30 - 1 - V20`, the lab coat that never speaks, which is the closest the account has come: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120236738729540519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977
 
 **source_type:** customer language (commenters under the brand's own paid ads)

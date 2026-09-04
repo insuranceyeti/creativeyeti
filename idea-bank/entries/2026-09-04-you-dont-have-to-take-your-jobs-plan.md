@@ -18,7 +18,7 @@ status: worth testing
 **source_path:** `audits/2026-Q3/gaps-opportunities-inspo.md` opening 1, `personas/personas-profile.md` signal `employer-plan-locked`, `audits/2026-Q3/quarterly-whitespace-analysis.md`
 
 **parker_media_links:**
-- `MOMS38 - 1 - V2`, where the permission sentence was posted on 2026-05-05: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120239479305920519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977
+- `MOMS38 - 1 - V2`, where the permission sentence was posted on 2026-05-05: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120239479305920519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977 **This link is the `MOMS38 - 1 - V1` ad id, which is the only handle the vault carries for this creative family; the sibling variants have no separate dashboard link recorded.**
 - The two dark statics that already carried this message:
   - `B1 - Copy 7`: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120216241083030519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977 | https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/aed0ff06-555d-4f4f-9bf8-31178e2fb977/7e3133fccf8b205622146f7297669b76296123fb46177e5262ee89f0040ca8ba.jpg
   - `B1 samar- Copy 1`: https://app.heyparker.ai/dashboard/facebook-ads/performance?adId=120227092759640519&brandId=aed0ff06-555d-4f4f-9bf8-31178e2fb977 | https://auth.heyparker.ai/storage/v1/object/public/internal-facebook-ads/aed0ff06-555d-4f4f-9bf8-31178e2fb977/b219b0aa7f7e7ed8d83fa471803f4b6c96ad98b2de118b2a8e68038439e759a9.jpg
