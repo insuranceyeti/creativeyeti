@@ -62,8 +62,8 @@ One fall is worth naming because it is not a fall. **moms-63 2b dropped 65%, fro
 ## Open loops
 
 **1. The account made 15 genuinely different files and gave them $4.23.**
-The moms 68 batch launched 2026-08-31 with a satirical skit format nothing else in this account looks like, and drew 163 impressions across 15 files in five days. In the same window three duplicates of existing winners took $2,080.15.
-*Pull: Surprise.* An account whose own diagnosis is that it has almost no creative diversity built a batch of diversity and then did not spend on it, which is the opposite of what everything in the monthly report pointed toward.
+The moms 68 batch launched 2026-08-31 with a satirical skit format nothing else in this account looks like, and drew 163 impressions across 15 files in five days. In the same window three duplicates of existing winners took $2,080.15. This is not a one-off. The Moms53 drop of 2026-08-25 put seven files up together and one of them, moms-53 3, took **$1,955.60 of the batch's $1,960.50, or 99.75%**, leaving $4.90 for the other six. The Moms65 drop of 2026-08-27 put eleven files up and moms-65 1a took **$1,283.97 of $1,375.03, or 93.4%**. *Verified* by ad-set-scoped lifetime pulls run 2026-09-04.
+*Pull: Surprise.* An account whose own diagnosis is that it has almost no creative diversity built a batch of diversity and then did not spend on it, and the same winner-takes-all split shows up in three separate drops inside three weeks.
 **Question: What decides which new files in this account get delivery in their first week?**
 If new formats are being starved by budget structure rather than by performance, then every format test this brand runs before November will die without ever being measured, and the fix is a media-buying change rather than a creative one.
 *Territory: Messaging.*
