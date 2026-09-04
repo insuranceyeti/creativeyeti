@@ -31,6 +31,7 @@ data_limitations:
   - permalink_url is null on all 1,322 rows, so no snippet can carry a link. Verification runs through the row id and the tool.
   - No join exists between any comment and the 4,336 leads the account produced in the last 90 days. Nothing here can be said to have cost a lead.
   - 846 of 1,322 comments, 64.0%, sit in March and April 2026, and 795 of 1,322, 60.1%, sit on the MOMS38 - 1 creative family. Ad spread is the more durable number than raw count and is carried on every cluster.
+  - The semantic comment tool and the SQL comment tool return different identifier spaces for the same row. Every review_id in this doc is the SQL comment_id, resolved by an exact-text lookup where a snippet was first surfaced semantically. A later pass must not paste a semantic id into review_id.
   - Two clusters below are floors rather than totals, and each says so on its own line: the deductible correction and the state exclusion.
 ---
 
@@ -716,7 +717,7 @@ Era tagging shows the objection changing shape, which is the single most useful 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: bd37a0d3-af13-5151-8a43-90c98a6b4f41
+    review_id: 8604c6b5-e71e-48d6-70fc-f849f514c914
     date: 2025-11-28
     url: null
   recurrence: 17
@@ -816,7 +817,7 @@ It earns its place for two reasons. It is not on the brand's stated list or the 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: 82440b0a-b0d7-5f79-b96d-6202c36cabcd
+    review_id: 780a583d-3016-d6e2-bc0f-2c74428396e5
     date: 2026-03-15
     url: null
   recurrence: 6
@@ -839,7 +840,7 @@ It earns its place for two reasons. It is not on the brand's stated list or the 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: 3936813d-9ec5-58cb-b814-a02a2299424f
+    review_id: 8053eec5-803f-436f-740c-1115dfa23232
     date: 2025-08-12
     url: null
   recurrence: 6
@@ -892,7 +893,7 @@ This is the one objection on the brand's stated list that also shows clearly in 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: 5c403d2c-f9c9-5054-ad96-6b0baba50ff0
+    review_id: aac32b22-a132-0510-6269-9ca7e8dc6cdd
     date: 2026-04-07
     url: null
   recurrence: 15
@@ -937,7 +938,7 @@ This is the one objection on the brand's stated list that also shows clearly in 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: 5826f609-559c-5978-9b92-6fb1de0b16e4
+    review_id: ac7bbaaf-2fd0-fd96-43a1-57a6a6551ca4
     date: 2026-03-26
     url: null
   recurrence: 15
@@ -994,7 +995,7 @@ My read, marked `inferred`: the underlying concern is not fraud in the criminal 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: a08ebb3f-7ebf-5b83-95fa-5d36f553dd8c
+    review_id: 7d74447b-bc85-97f5-c3ec-39d711ff885b
     date: 2026-03-20
     url: null
   recurrence: 6
@@ -1019,7 +1020,7 @@ My read, marked `inferred`: the underlying concern is not fraud in the criminal 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: 9e6fca11-0848-5d26-aecb-e6324ff55c6c
+    review_id: 1dd3618f-3693-cd9e-93e7-d3adba4a8118
     date: 2025-07-24
     url: null
   recurrence: 6
@@ -1067,7 +1068,7 @@ My read, marked `inferred`: the underlying concern is not fraud in the criminal 
   source:
     type: ad-comment
     platform: Facebook and Instagram, Meta ad account HealthForMoms act 484897827497337
-    review_id: 3fef2c67-4e70-5841-b003-edc64640f6ba
+    review_id: ae4f05db-ea31-1f07-3d17-db49d4dfa1cf
     date: 2025-07-07
     url: null
   recurrence: 6
@@ -1330,6 +1331,8 @@ Four things in this corpus look like objections and are not, and the mining meth
 **Public performance is not private hesitation.** Argued at the top of this doc and repeated here because it governs how every count should be read. Each number is a floor on the doubt, never its size. The woman who scrolled past in silence left nothing.
 
 **Counts are comments, not people.** `author_name` and `author_id` are null on all 1,322 rows. At least nine near-identical rival-agent posts sit under one ad on one day, and they are separate records but not separate people. Any inflation from that kind of repetition is invisible.
+
+**Two identifier spaces, one of them a trap.** The semantic comment tool and the SQL comment tool return different ids for the same row. The record reading "Why is this being shown in IL if it's not on the list???" comes back as `016d7093` from the semantic tool and `713721dc-21b1-d455-1fdd-ca76dc7ed44e` from SQL. Every `review_id` in this doc is the SQL `comment_id`, resolved by exact-text lookup wherever a snippet was first surfaced semantically. `verified` by running both tools against the same eight records. A later pass that pastes a semantic id into `review_id` will produce snippets nobody can verify.
 
 **No links.** `permalink_url` is null on every row, so no snippet can be opened in its original thread. Verification runs through the row id in the source block and the Parker tool.
 
