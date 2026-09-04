@@ -658,3 +658,54 @@ one only.
 
 **Maternity is explicitly ruled OUT as a messaging lane** and routed to product and claims instead:
 no hook fixes a name that promises around an exclusion.
+
+## Phase 2 — the casting call, and two more corrections
+
+`strategy/creator-talent-strategy-input.md`. **Position: lead with the woman who reads 45-55, and
+put her in the first three seconds instead of the fourteenth.** She is not a hire — she already
+delivers the pitch in both of the account's two biggest ads ever, and has never once opened one.
+
+**The spine is a comparison nothing in the vault had made:**
+
+| Ad | Spend | Leads | CPL | Hold | She arrives |
+|---|---|---|---|---|---|
+| `Moms43 - 4 - V3` | $57,506.21 | 2,668 | $21.55 | **3.81%** | 0:18 |
+| `MOMS38 - 1 - V1` | $54,173.20 | 2,689 | $20.15 | **17.12%** | 0:14 |
+
+Near-identical size, near-identical lead count. **Four seconds of difference buys four and a half
+times the watch time.** Second half of the call: put a second person in frame, proven four ways in
+this account, every one clearing or nearing the 12% hold floor.
+
+**Correction — the phone call is not an expensive format.** `MOMS38 - 2 - V4` and `V1` land at
+**$22.87 and $22.50**, at or below the window CPL, on **27.31% and 25.36% hold**. The $30.91 figure
+carried through three documents is the third-best build, not the format.
+
+**Correction — the "$287 of non-white creator spend" is imprecise.** The two ads Parker reads as
+Black or Asian-American led carry **$252.91** combined. Separately, the account's best click
+economics — **$16.43 CPL, 3.15% CTR, $0.95 CPC** — belong to `moms-53 3`, fronted by a creator read
+as mixed race or Hispanic, on $1,955.60.
+
+**A live find no vault document held:** `MOMS25 BLAST - X1 - Copy 2`, two women talking to each other
+in a podcast studio, **$3,483.03 for 175 leads at $19.90 CPL and 10.29% hold**. `visual-vocabulary.md`
+concluded the brand's podcast format is "a podcast setting without a podcast, only ever one person in
+it" — true of the two ads it read, false of the account.
+
+**The lab coat rules itself out on its own evidence:** $7,407.34 at a $19.44 CPL but **2.44% hold**,
+and it delivered **52.7% of spend to women 25-34**. The clinical setting skews young, the opposite of
+what authority is supposed to do here. Authority survives only as the gated runner-up, via a licensed
+partner advisor.
+
+**What the call costs, named in the document:** the CPL edge is only $1.40 (6.5%) and the real case
+rests on hold rate, which this account has not shown predicts lead cost; the woman recommended is the
+one a viewer called "Creepy AI blonde lady" on a live flagship, so the casting change must ship
+alongside a production-method change; and gate two is invisible, so if she brings leads the partner
+agencies cannot enrol, the call is wrong in a way Parker cannot detect.
+
+## Phase 2 convergence — worth stating before the roadmap
+
+Four inputs, four independent evidence paths, one direction. **Persona** says lead against the woman
+who pays and still owes, changing the premise not the audience. **Product** says lead with the switch
+as a static on `www./save/`. **Messaging** says lead with standing rather than savings — *you are
+allowed to leave*. **Casting** says the woman who already carries both flagship ads should open them.
+
+None of these was told what the others concluded. They agree.

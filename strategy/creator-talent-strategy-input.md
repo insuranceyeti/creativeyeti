@@ -231,7 +231,7 @@ Meanwhile the account has filmed her repeatedly and starved every one of those a
 
 *Verified*, live pull today.
 
-Read those cost-per-lead figures the way `ad-account-analysis.md` says to read them, which is carefully. One hundred and ten dollars of spend and three leads is not a verdict on anything. `dct 6` came in at **$22.77 on five leads**, which is the account's own average on a sample too small to trust. What the table actually shows is not performance. It is that **the brand has filmed this woman at least four separate ways and has never once given her more than two hundred dollars.** The roster exists. The test does not.
+Read those cost per lead figures the way `ad-account-analysis.md` says to read them, which is carefully. One hundred and ten dollars of spend and three leads is not a verdict on anything. `dct 6` came in at **$22.77 on five leads**, which is the account's own average on a sample too small to trust. What the table actually shows is not performance. It is that **the brand has filmed this woman at least four separate ways and has never once given her more than two hundred dollars.** The roster exists. The test does not.
 
 ### Whitespace 2: the roster that was cast and never funded
 
@@ -276,7 +276,7 @@ The second person in frame is a real production ask and it is smaller than it lo
 
 **What it is being weighed against.** The alternative that would beat it on trust is the licensed partner advisor, and it cannot be sized because nobody knows whether one can be filmed. That is roll-up brand-routed question **E1**. The alternative that would beat it on volume is the static library, which is a modality call rather than a casting call and belongs to the product and messaging inputs.
 
-**The gate-two caveat, stated once and applying to every number above.** `running-notes/success-definition.md` records the team's own bar verbatim: *"CPL is important to scale but then we look at the lead quality as well before really scaling."* Every cost-per-lead figure in this document clears gate one. Not one of them says anything about gate two. `MOMS38 - 1 - V1` is a **gate-one candidate at $20.15**, not a winner, and if the older woman brings leads the partner agencies cannot enrol, this entire call is wrong in a way Parker has no instrument to detect.
+**The gate-two caveat, stated once and applying to every number above.** `running-notes/success-definition.md` records the team's own bar verbatim: *"CPL is important to scale but then we look at the lead quality as well before really scaling."* Every cost per lead figure in this document clears gate one. Not one of them says anything about gate two. `MOMS38 - 1 - V1` is a **gate-one candidate at $20.15**, not a winner, and if the older woman brings leads the partner agencies cannot enrol, this entire call is wrong in a way Parker has no instrument to detect.
 
 **The clock.** Open Enrollment starts **2026-11-01**, which is 58 days out, and the roll-up records that this team plans creative roughly two months ahead, so the planning deadline for that window has already passed. A Tier 1 re-cut is one of the very few casting moves that can still land inside it.
 
@@ -372,7 +372,7 @@ I am still calling it. The reason is that this brand's binding constraint is not
 
 Not a bigger analysis. A funded test that changes one variable.
 
-The account already holds the perfect control. `Moms43 - 4 - V3` and `MOMS38 - 1 - V1` carry nearly identical spend and nearly identical lead volume, and they are the two largest ads in the brand's history. The clean question is what happens to cost per lead and to hold when the **only** thing that changes is who is in frame zero, with the same words, the same state list, the same room. That is a Tier 1 re-cut of an asset that already exists, and per `andromeda-v2.md` it clears the Entity ID bar on its own, because a different person in the opening frame is exactly the visible first-three-seconds change the system rewards.
+The account already holds the perfect control. `Moms43 - 4 - V3` and `MOMS38 - 1 - V1` carry nearly identical spend and nearly identical lead volume, and they are the two largest ads in the brand's history. The clean question is what happens to cost per lead and to hold when the **only** thing that changes is who is in frame zero, with the same words, the same state list, the same room. That is a Tier 1 re-cut of an asset that already exists, and per `andromeda-v2.md` it clears the Entity ID bar on its own, because a different person in the opening frame is exactly the kind of visible change to the first three seconds that the system rewards.
 
 Two more things would move it, in order of how much they would change the call:
 
@@ -398,7 +398,7 @@ And `visuals.md` governs the frame itself. Human presence and emotional specific
 
 `Moms43 - 4 - V3` and `MOMS38 - 1 - V1` carry $57,506.21 and $54,173.20 and produce 2,668 and 2,689 leads. Both hand the pitch to a woman Parker's read describes as late forties or early fifties in a green floral dress. One reaches her at 0:18 and holds 3.81% of viewers. The other reaches her at 0:14 and holds 17.12%. Neither the diversity audit, the hook audit nor the visual vocabulary named her as the shared variable.
 
-*Pull: Surprise.* It fired when the two biggest ads in the account turned out to have the same person delivering the same pitch, and a four-and-a-half-times gap in how long people watched.
+*Pull: Surprise.* It fired when the two biggest ads in the account turned out to have the same person delivering the same pitch, and a gap of four and a half times in how long people watched.
 
 *Question:* What is the woman in her late forties doing for these ads that the woman in her late twenties is not?
 
@@ -426,7 +426,7 @@ And `visuals.md` governs the frame itself. Human presence and emotional specific
 
 *Question:* What does it take for this brand to get two people in one room on camera?
 
-*Justification:* Every configuration in this account that puts a second character in frame or on the line holds attention two to seven times better than a woman alone with her phone. If two people in a room is a booking problem, the fix is a supplier. If it is a cost or a rights problem, the one-actor-two-roles version is the answer and the brand should stop trying for the other one.
+*Justification:* Every configuration in this account that puts a second character in frame or on the line holds attention two to seven times better than a woman alone with her phone. If two people in a room is a booking problem, the fix is a supplier. If it is a cost or a rights problem, the version where one actor plays both roles is the answer and the brand should stop trying for the other one.
 
 *Territory: Creators and talent.*
 
