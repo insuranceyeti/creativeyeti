@@ -4,7 +4,7 @@
 **Build started:** 2026-09-03
 **Method version:** parker-brain `v15`
 **Run id:** `e5c1cbe7-0bba-4a1e-8b7e-9bdc075777e1`
-**Current phase:** Phase 1 — Audit (branches A, C, E running in parallel)
+**Current phase:** Phase 1 — Audit. **PAUSED at 2026-09-04 00:24 UTC on an API session rate limit (resets 03:30 UTC).**
 
 **Saved to:** https://github.com/insuranceyeti/creativeyeti (branch `claude/parker-mcp-http-349ri1`)
 **Repo posture:** self-managed — see `running-notes/standard-sync.md`
@@ -31,11 +31,11 @@ November's Open Enrollment ramp.
 | Phase | Status | Done / Total |
 |---|---|---|
 | Phase 0 — Repo & Scaffold | **done** | 7 of 7 |
-| Phase 1A — Brand foundation | pending | 0 of 14 |
+| Phase 1A — Brand foundation | running | 6 of 14 |
 | Phase 1B — Competitor profiles | **deferred** | 0 of 0 |
-| Phase 1C — Persona source pulls | running | 2 of 12 |
-| Phase 1D — Voice of customer | pending | 0 of 12 |
-| Phase 1E — Audit baseline (internal) | running | 2 of 11 |
+| Phase 1C — Persona source pulls | running | 4 of 12 |
+| Phase 1D — Voice of customer | running | 3 of 12 |
+| Phase 1E — Audit baseline (internal) | running | 6 of 11 |
 | Phase 1E — Audit baseline (external) | **deferred** | 0 of 6 |
 | Phase 1 — Synthesis | pending | 0 of 2 |
 | Phase 2 — Strategy | pending | 0 of 5 |
@@ -71,16 +71,16 @@ Every performance read runs on CPL and lead volume, never ROAS.
 - [x] Establish save path — done (self-managed in `insuranceyeti/creativeyeti`)
 
 ### Phase 1A — Brand foundation (14)
-- [ ] brand-identity-analysis
-- [ ] category-and-market-research
+- [x] brand-identity-analysis — done
+- [x] category-and-market-research — done
 - [ ] community-and-forums
-- [ ] competitive-landscape
-- [ ] customer-journey-and-persona-discovery
+- [x] competitive-landscape — done
+- [x] customer-journey-and-persona-discovery — done
 - [ ] marketing-calendar-and-campaigns
 - [ ] operations-and-team
-- [ ] reputation-analysis
+- [x] reputation-analysis — done
 - [ ] visual-vocabulary
-- [ ] website-and-product-audit
+- [x] website-and-product-audit — done
 - [ ] ad-account-evaluation (blocked on 1E)
 - [ ] performance-targets-and-metrics (blocked on 1E)
 - [ ] organic-channels-inventory (blocked on 1E)
@@ -96,19 +96,19 @@ Every performance read runs on CPL and lead volume, never ROAS.
 - [ ] source: customer-reviews (will run data-limited — surface is dark)
 - [ ] source: other-reviews
 - [ ] source: post-purchase-surveys (will run data-limited — surface is dark)
-- [ ] source: reddit
+- [x] source: reddit — done (honest blank, Reddit unreachable)
 - [ ] source: brand-reputation
-- [ ] source: brand-self-echo-detection
+- [x] source: brand-self-echo-detection — done
 - [ ] personas-profile (synthesis)
 - [ ] persona-voice-library
 - [ ] lifecycle-journey-maps
 - [ ] cross-persona-bias-notes
 
 ### Phase 1D — Voice of customer (12)
-- [ ] voc-corpus-profile
-- [ ] voc-pain-phrase
+- [x] voc-corpus-profile — done
+- [x] voc-pain-phrase — done
 - [ ] voc-outcome-phrase
-- [ ] voc-objection
+- [x] voc-objection — done
 - [ ] voc-trigger-moment
 - [ ] voc-metaphor
 - [ ] voc-aspirational
@@ -121,12 +121,12 @@ Every performance read runs on CPL and lead volume, never ROAS.
 ### Phase 1E — Audit baseline, internal (11)
 - [x] 90-day-creative-strategy-audit (anchor) — done, in review
 - [x] 90-day-performance-audit — done, in review
-- [ ] 90-day-diversity-audit
+- [x] 90-day-diversity-audit — done
 - [ ] customer-review-audit (will run data-limited)
-- [ ] quarterly-whitespace-analysis
-- [ ] monthly-hook-audit
-- [ ] monthly-performance-report
-- [ ] monthly-organic-tiktok-audit
+- [x] quarterly-whitespace-analysis — done
+- [x] monthly-hook-audit — done
+- [x] monthly-performance-report — done
+- [x] monthly-organic-tiktok-audit — done
 - [ ] monthly-tiktok-mining
 - [ ] biweekly-iterations-report
 - [ ] weekly-performance-snapshot
@@ -156,6 +156,28 @@ Every performance read runs on CPL and lead volume, never ROAS.
 - [ ] Verify build
 - [ ] Confirm save
 - [ ] Hand off to /get-started
+
+## PAUSED — how to resume
+
+The build stopped at 2026-09-04 00:24 UTC on an API session rate limit, not an error in the work.
+Nineteen documents are complete, committed and pushed. Two agents died mid-run and wrote nothing.
+
+To resume, in a session with usage available:
+
+1. `update_parker_brain_setup_status(mode: "start", brand_id, run_id)` using the `run_id` in
+   `parker_config.json` — this returns `resumed: true` and the last completed phase index.
+2. Reconcile this ledger against the repo: confirm each item marked done has its file on disk,
+   demote anything missing back to pending.
+3. Continue from the first pending item in dependency order.
+
+**Do not restart the build.** Everything marked done here is real, reviewed or pending review, and
+committed.
+
+**Review backlog, important.** Only two of the nineteen documents have been through their fidelity
+review (`90-day-performance-audit` and `90-day-creative-strategy-audit`, both PASS). The method
+requires a document to pass review before a downstream synthesis consumes it, so the reviews must
+catch up **before** Phase 1 synthesis and Phase 2 begin. One error has already reached a document
+through that gap — see the correction in `prompts-run-log/`.
 
 ## Needs attention
 
