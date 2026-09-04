@@ -25,6 +25,30 @@ data_limitations:
 
 # 90-day creative diversity audit (format) — Health For Moms — 2026-Q3
 
+> **CORRECTION, 2026-09-04, verified by lifetime pull.** This audit states that the account has run
+> **zero static ads, ever**. That is wrong, and the error is a window artifact — the claim is true of
+> the 90-day window it read and false of the account.
+>
+> Lifetime returns **529 static ads, $168,907.73 spend, 13,735 leads at a $12.30 CPL** — the cheapest
+> lead source in this brand's history, against a video CPL of roughly $22. Of that, **$74,539.28 ran
+> in the last 365 days and $0.00 in the last 180.**
+>
+> So statics are **production-proven and dormant**, not untested. The recommendation changes
+> accordingly: this is not "try a new format," it is "restart a format that already worked at half
+> the cost." Their established grammar is a black frame with white type — either a dark-mode fake X
+> post or a serif "Moms...." hook.
+>
+> The same window artifact applies to **street interviews**, which this audit lists as a dropped
+> format. A tag-filtered pull plus a frame-level read of `Moms40 - 3 - V4` shows a branded-mic
+> street interview with a male presenter and two women in one shot. Public locations, a man on
+> camera, two people in frame and unscripted-sounding strangers therefore all sit in the **proven
+> baseline**, not on the frontier — which materially changes where the adjacent-versus-out-of-play
+> line falls for this brand.
+>
+> The rest of this audit's findings — the collapse to 70.6% POV spend, the format count falling 20 to
+> 15, and the inverse relationship between spend and hold rate — are unaffected and stand.
+
+
 ## Executive summary
 
 The account has one format now. Over the 90 days from June 6 to September 3, 2026, ads tagged `POV` touched $70,052.94 of the $99,266.98 the account spent, which is 70.6 percent. In the prior 90 days that same format touched 12.2 percent. **Verified** from AI format tags on two matched pulls from the Meta account HealthForMoms, act 484897827497337. Nothing else is close. `Social Interface` is second at 15.8 percent and `Callout` third at 12.8 percent, and because ads carry more than one tag, most of the Callout money is sitting on ads that are also POV. Strip that overlap out and roughly seven of every ten dollars in this account went to one creative container: a warm home scene, a mother with a small child, a text overlay that starts with the letters POV, and often no spoken words at all.
