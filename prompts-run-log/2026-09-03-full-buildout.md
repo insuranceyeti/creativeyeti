@@ -428,3 +428,38 @@ Documents written on 2026-09-03 pin the ad-comment corpus at **1,322**. Document
 correct as of their own date. Later documents recompute their own percentages on 1,342 and carry
 upstream figures with the 1,322 denominator attached. This is the same as-of-date discipline the
 Meta spend restatement forced, and it now applies to the comment corpus too.
+
+## Correction 4 — the format-age-lever figure was window-scoped, 2026-09-04
+
+The orchestrator briefed the personas pass with "Skit reaches 45-54 at 34.7% of its spend, POV at
+9.4%" as though it were a stable account fact. It is the **90-day** cut, and it rests on only
+**$712.20** of Skit spend. The lifetime cut, on $32,935.04, is **23.9% / 8.6%**.
+
+The direction is solid either way — Skit reaches the older band roughly three times as heavily as
+POV — but the sharp number is not, and a recommendation sized off $712 of spend would be
+overconfident. Both tables are carried in `personas/personas-profile.md` with the denominators
+attached.
+
+**Pattern worth naming.** This is the fourth time a build agent has corrected a figure the
+orchestrator handed it as settled: the quiz destination attribution, the Open Enrollment history,
+the 90-day spend total, and now this. Each was caught because the agent re-pulled rather than
+trusting the brief. The fidelity contract's instruction to pass a pointer and not a retelling is
+doing exactly what it was written to do, and the orchestrator should window-scope every figure it
+passes downstream.
+
+## Persona judgment calls recorded
+
+- **The employer-plan captive was demoted from persona to behavioral signal**, despite
+  `quarterly-whitespace-analysis.md` naming her the highest-value persona. She fails the durability
+  test. She is filed as the highest-commercial-value *signal* with the reasoning stated, rather than
+  promoted to a persona the creative would then be built around.
+- **No persona was made of the pregnancy or chronic-condition groups.** A persona requires a buyer,
+  and the product screens both out. They appear instead as a named recruitment cost — the brand is
+  paying to reach people it cannot sell to.
+- **The lifecycle document discards the standard five-stage lens** for a six-stage variation,
+  because a lens assuming purchase, repeat and subscription would be fiction in an account with zero
+  purchase events.
+- **The Jen contamination is confirmed harder than briefed:** an exact substring match at offset
+  4268 against Parker's own Slack text, verified programmatically. Jen is also visibly a different
+  shape from the other four ICPs — four sentences with no city, spouse, age or dollar figure, where
+  the others run hundreds of words carrying all of them.
