@@ -4,7 +4,12 @@
 **Build started:** 2026-09-03
 **Method version:** parker-brain `v15`
 **Run id:** `e5c1cbe7-0bba-4a1e-8b7e-9bdc075777e1`
-**Current phase:** Phase 1 — Audit. Resumed 2026-09-04 03:40 UTC after the rate limit cleared.
+**Current phase:** **Phase 1 CLOSED** 2026-09-04. Phase 2 blocked on the Parker MCP reconnecting.
+
+> **BLOCKED — WAITING ON YOU.** The Parker MCP connection dropped and needs re-authorization
+> (claude.ai connector settings, or `/mcp` in an interactive session). Phase 2 and Phase 3 both need
+> live pulls and cannot honestly run from a stale vault. Everything built so far is committed and
+> pushed; `parker_config.json` holds the run anchor and this ledger holds the state.
 
 **Saved to:** https://github.com/insuranceyeti/creativeyeti (branch `claude/parker-mcp-http-349ri1`)
 **Repo posture:** self-managed — see `running-notes/standard-sync.md`
@@ -31,15 +36,15 @@ November's Open Enrollment ramp.
 | Phase | Status | Done / Total |
 |---|---|---|
 | Phase 0 — Repo & Scaffold | **done** | 7 of 7 |
-| Phase 1A — Brand foundation | running | 7 of 14 |
+| Phase 1A — Brand foundation | **done** | 14 of 14 |
 | Phase 1B — Competitor profiles | **deferred** | 0 of 0 |
-| Phase 1C — Persona source pulls | running | 7 of 12 |
-| Phase 1D — Voice of customer | running | 3 of 12 |
-| Phase 1E — Audit baseline (internal) | running | 7 of 11 |
+| Phase 1C — Persona source pulls | **done** | 12 of 12 |
+| Phase 1D — Voice of customer | **done** | 12 of 12 |
+| Phase 1E — Audit baseline (internal) | **done** | 11 of 11 |
 | Phase 1E — Audit baseline (external) | **deferred** | 0 of 6 |
-| Phase 1 — Synthesis | pending | 0 of 2 |
-| Phase 2 — Strategy | pending | 0 of 5 |
-| Phase 3 — Ideation | pending | 0 of 4 |
+| Phase 1 — Synthesis | **done** | 2 of 2 |
+| Phase 2 — Strategy | **blocked on Parker MCP** | 0 of 5 |
+| Phase 3 — Ideation | **blocked on Parker MCP** | 0 of 4 |
 | Stamp / verify / hand off | pending | 0 of 4 |
 
 ## Data surfaces — tested 2026-09-03
@@ -190,3 +195,37 @@ the files on disk, demote anything missing, and continue from the first pending 
 
 Run Phase 1: the internal audit baseline first, then the brand foundation slices, persona
 source pulls, and voice of customer.
+
+
+---
+
+## Phase 1 close — 2026-09-04
+
+**49 documents. Roughly 300,000 words. All committed and pushed.**
+
+The open-loops roll-up harvested **212 loops from 47 documents** and cut them to **57**: 14 Tier 1
+promoted, 24 Tier 2 backlog, 19 routed to the brand. That is 73% attrition, almost all of it
+consolidation rather than killing, which is the right shape when 47 documents were written in
+parallel by agents that could not see each other.
+
+**Independent convergence, recorded as a strength signal rather than deduplicated away:** ten
+documents independently reached the lead-quality gate, nine the persona-provenance problem, nine the
+recognition-versus-argument split, seven the coverage-is-luck belief.
+
+**Top of the Tier 1 agenda:** what this audience believes she can change about her own coverage
+(19/20, reached independently by four separately extracted voice-of-customer categories).
+
+**Two grading calls worth keeping:** lead quality is **brand-routed, not Tier 1** — Stakes 5 with
+Researchability 1 triggers the override, and it heads the brand-routed list as the highest-stakes
+loop in the document. And the `go.healthformoms.co` break was **killed as a research loop** and
+routed to the operational owner marked urgent: the strategic question is answered, what remains is
+a broken redirect on eleven live ads, which is a fix rather than a question.
+
+**Still outstanding at the Phase 1 boundary:**
+- `gaps-opportunities-inspo` — the one Phase 1 node not built; it needs live category and account
+  reads and was blocked by the disconnection.
+- The competitor branch and all six external audit cuts remain deferred at the user's request.
+- Reviews for the documents built after the three review batches ran.
+- The team's tools (Slack, Notion, Drive, Gmail, Calendar, monday.com) came online mid-build and
+  have not been read into the foundation. Three open intake items — ad naming convention, brief
+  template, unit economics — are likely sitting in them.
