@@ -612,3 +612,49 @@ floor**, and "wife of the year" returns 0 of 1,342.
 **What would invert the call:** if the partner agencies report the older woman's leads close better,
 the cost premium becomes a discount and the lead call flips. That is gate two, and it is exactly the
 measurement the brand cannot currently see.
+
+## Escalation, verified by the orchestrator's own pull — 2026-09-04
+
+The flat savings claim was reported in Phase 1 as "69% of lifetime static spend." That understated it
+badly. A live keyword sweep in the messaging pass, **independently re-run and confirmed by the
+orchestrator**, returns:
+
+**`saving you 20% or more` — 127 ad-name groups, $100,066.79 of $100,067.42 in the trailing 90 days.
+Essentially 100% of spend, video included.**
+
+The claim sits in the shared body-copy block that appears on every ad in the account. The brand's own
+guidelines mark "always 'up to 30%' — never drop the 'up to'" as non-negotiable, and two ads carrying
+the related "24% cheaper" headline are already Meta-DISAPPROVED.
+
+The second unsupported claim rides the same block: **`Approved by thousands of Mom's across America`
+is the `ad_title` on all eight of the eight top-spending ad names — $83,918.11, 83.9% of the 90-day
+window** — against zero reviews, zero press and no BBB profile for the operating entity.
+`category-and-market-research.md` documents six verified enforcement actions aimed at exactly this
+industry layer, including FTC warning letters to 21 health-plan marketers and lead generators.
+
+**Why this is the cheapest fix on the list:** both claims live in one shared copy block. Editing that
+block once changes essentially every ad in the account. No creative needs remaking.
+
+## Phase 2 — the messaging call
+
+`strategy/messaging-strategy-input.md`. **Position: stop leading with savings, lead with standing.**
+She has more say over her own coverage than she believes, and the sharpest version is that she is
+allowed to leave the plan she thinks she is stuck in. Three parts, all changing:
+
+- **Territory — standing, not savings.** Every dollar of live spend leads with a number she can beat,
+  and 82 of 1,322 comments beat it, 64 naming a higher figure. Underneath sits the luck belief: the
+  four highest-engagement metaphor rows treat another woman's coverage as a lottery win. Savings copy
+  assumes she can choose; she does not think she can.
+- **Register — calm permission.** The account already learned this. Calm openers delivered
+  $13.29-$24.45 per lead; distress openers $29.85-$38.09, blending to $33.23 — while the distress ads
+  posted the *higher* hook rates. **Intensity buys the stop, calm buys the lead.**
+- **Proof — one real named licensed human** using the audience's vocabulary correctly.
+
+**What it costs, stated in the document:** it gives up a phrase with a 45.76% hook rate and no decay;
+its best supporting ad is compromised (two of five variants Meta-DISAPPROVED, headline breaks the
+brand's own hard rule); it points at a woman the underwriting may reject; the income-gap version is
+compliance-blocked because Medicaid and the Marketplace cannot be named; and every figure clears gate
+one only.
+
+**Maternity is explicitly ruled OUT as a messaging lane** and routed to product and claims instead:
+no hook fixes a name that promises around an exclusion.
