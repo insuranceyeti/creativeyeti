@@ -94,6 +94,16 @@ The seven, by lifetime spend: `B1 - Copy 7` ($30,339.32), `15` ($2,125.47), `B2 
 
 **What it changes, and this is the strategic half.** `strategy/strategic-roadmap.md` Priority 2 is to restart the employer-plan switch message on the strength of the two statics that returned **3,817 leads at $11.79**. `B1 - Copy 7` is one of those two. **So Priority 2 is a rebuild, not a switch-flip.** The message is still proven and the direction still holds — what cannot be reused is the execution that carried it. Any brief serving Priority 2 must rebuild the creative without the fake platform frame, and must not treat the old cost per lead as a forecast, because the fabricated social proof is plausibly part of why it converted.
 
-**One thing NOT established, stated so nobody overreads this.** The `status` field reads `ACTIVE` on all seven, but that is the ad-level status. An earlier pull in this build showed an ad reading `ACTIVE` at the ad level while sitting under a paused ad set, so **whether these are delivering spend today needs an ad-set-level check that was not run.** Treat the exposure as confirmed and the current delivery as unverified.
+**RESOLVED 2026-09-04 — they are NOT delivering, and that lowers the urgency without changing the finding.** The open question was whether the `ACTIVE` ad-level status meant live spend. It does not. A `groupBy: ad` pull returns **`effective_status: CAMPAIGN_PAUSED` on every one of them**, and a 30-day window returns **zero rows — no spend, no impressions**. Across the trailing 365 days the whole set spent **$699.78 and bought 32 leads at $21.87**, so the $35,234.91 is almost entirely older money. `verified live`, 2026-09-04.
+
+**So this is not money burning today. It is an asset library that must not be switched back on as it stands** — which is exactly the decision roadmap Priority 2 was about to make. The urgency is a creative-rebuild urgency and a compliance-record urgency, not a stop-the-spend urgency.
+
+**One more thing the same pull turned up, and it is the useful half.** The `B1 samar- Copy` statics in this set carry headlines nothing else in the account does, and they speak the language the comment corpus actually uses:
+
+- *"Finally found a health plan that doesn't make me Google "is a $7000 deductible normal?" at midnight."*
+- *"I can handle tantrums. Insurance hold music? Not so much."*
+- *"Switched to a mom-focused health plan and finally relaxed / saved on premiums."*
+
+The first one is deductible-anxiety in the customer's own register, and "deductible" appears in **207 of 1,342** comments against "uninsured" in **2**. **The headlines are worth keeping; the fake platform frame around them is what has to go.** All four of these ads also carry the banned shared body copy ("saving you 20% or more" / "savings of 20% or more") and one carries the approval claim as its `ad_title`, so a rebuild strips the frame AND the block, and keeps the headline.
 
 **Who needs this:** whoever signs off on creative and whoever owns compliance. Parker can see the ads and the brand's own rules; it cannot judge legal exposure and is not doing so here.
