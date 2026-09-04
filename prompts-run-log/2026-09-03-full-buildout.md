@@ -413,3 +413,18 @@ between documents must carry its as-of date.
   rewriting them.
 - Curly-versus-straight apostrophes in some quoted text. Real, minor, and fixing it would mean
   touching verbatim quote text.
+
+## Note on commits — for anyone reading this log later
+
+Build agents are instructed **not** to run git. The orchestrator commits centrally, on its own
+cadence, which means an agent's files can move from untracked to committed between its last write
+and its report. Several agents flagged this as a possible concurrency problem. It is not — it is the
+design. Content was verified byte-identical in each case. No agent ran a git command.
+
+## Corpus denominator moved mid-build
+
+Documents written on 2026-09-03 pin the ad-comment corpus at **1,322**. Documents written on
+2026-09-04 re-probed it live and found **1,342** — twenty comments landed late on 09-03. Both are
+correct as of their own date. Later documents recompute their own percentages on 1,342 and carry
+upstream figures with the 1,322 denominator attached. This is the same as-of-date discipline the
+Meta spend restatement forced, and it now applies to the comment corpus too.
