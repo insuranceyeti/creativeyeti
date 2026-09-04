@@ -53,7 +53,7 @@ The rest of the justification is what the account has never promised. Its traili
 
 **stage_of_awareness:** Solution aware. She has already read every FAQ before she picks up a phone. The brand's own document says she will read everything before she calls, and the account gives her nothing to read [`stated` for the ICP, `verified` for the absence].
 
-**persona_or_audience_fit:** `built-it-herself`, carrying `reads-before-she-calls` and `income-gap-rejection`.
+**persona_or_audience_fit:** `built-it-herself`, carrying `reads-before-she-calls` and `income-gap-rejection`. [`data-limited`. `personas/personas-profile.md` marks her thin and emerging on four behavioral signals and says four is honest rather than thorough, and she takes 0.25% of lifetime spend, so there is no delivery evidence to check the fit against. Treat it as the most likely home for the idea, not a proven one.]
 
 **brand_fit:** Good on the rules, hard on the substance, and the substance problem is the interesting part. Predictability is a promise about the product, and this brain does not know enough about the product to say whether it can be kept. What is known is that the funnel gives her no prices at all before she hands over a phone number, and that is the single loudest friction in the corpus. "Just give some pricing without making people sign up 🙄." "Why can't you give a quote without my email!" "Id be way more interested if I didn't have to talk on the phone immediately tbh." A predictability promise from a funnel that shows no numbers would read as the opposite of what it says.
 

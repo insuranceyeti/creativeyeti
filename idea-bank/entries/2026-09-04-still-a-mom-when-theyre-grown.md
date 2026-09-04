@@ -57,7 +57,7 @@ So two instruments say she is real, from opposite directions, and no ad in the a
 
 **stage_of_awareness:** Problem aware. She has been managing this for a decade and can tell you what her deductible used to be. [`inferred`, `personas/personas-profile.md`.]
 
-**persona_or_audience_fit:** `already-knows`, the woman 45 and over, carrying the `aged-past-the-word-mom` signal.
+**persona_or_audience_fit:** `already-knows`, the woman 45 and over, carrying the `aged-past-the-word-mom` signal. [`inferred`. Two instruments agree she exists, 16 comments across 7 ads on the 1,322 denominator and Meta's own delivery, which is why the entry's evidence picture calls her existence `mixed`. What she actually responds to is untested, because no ad has ever been built for her, so that half stays `data-limited`.]
 
 **brand_fit:** Clean on the rules and awkward on the name. Nothing about an age callout touches the compliance envelope. The awkwardness is that the fix contradicts the brand's own shorthand: the name says moms and she has concluded that means young moms. `parker-system/creative-strategy-context/advertising-to-older-audiences.md` is direct about what this audience needs and it is the opposite of subtlety. An explicit callout beats an implied one, clarity beats cleverness, the proof has to be age matched, and the text has to be big and high contrast. That doc's own words: subtlety is the enemy here.
 

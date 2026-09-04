@@ -49,7 +49,7 @@ And the money says it works. Two statics built for exactly this returned **3,815
 
 **stage_of_awareness:** Unaware, in the specific sense that matters. She knows her plan is bad and does not know she is allowed to leave it. [`inferred`.]
 
-**persona_or_audience_fit:** `pays-and-still-owes` carrying the `employer-plan-locked` state. `personas/personas-profile.md` deliberately files this as a behavioral state rather than a persona, because being locked into an employer plan ends when she changes jobs. That call matters here: the idea is aimed at a situation, not at a woman.
+**persona_or_audience_fit:** `pays-and-still-owes` carrying the `employer-plan-locked` state. `personas/personas-profile.md` deliberately files this as a behavioral state rather than a persona, because being locked into an employer plan ends when she changes jobs. That call matters here: the idea is aimed at a situation, not at a woman. [`inferred`, and better based than most fits in this bank: 24 comments name an employer and 7 name "my job", both on the 1,322 denominator. Still an inference, because `author_name` is null on every comment row and nothing links a commenter to a lead.]
 
 **brand_fit:** The best fit in this bank on the rules. It needs no savings figure, names no competitor, and touches no government program. The two statics that already carried it did wrap it in a flat savings claim the brand's own rulebook forbids, so the message and the claim have to be pulled apart before anything ships [`verified`, `strategy/strategic-roadmap.md`, which is **drafted and awaiting review, not approved by the brand**].
 

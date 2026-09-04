@@ -48,7 +48,7 @@ And it answers a live constraint. The brand names **casting and creator sourcing
 
 **stage_of_awareness:** Problem aware. The bill is the problem, stated without a word of framing. [`inferred`.]
 
-**persona_or_audience_fit:** `pays-and-still-owes`. A bill is only shocking to somebody who already pays premiums.
+**persona_or_audience_fit:** `pays-and-still-owes`. A bill is only shocking to somebody who already pays premiums. [`inferred`, and reasoned rather than shown. Nothing in this brain records who stops for a document and who does not, which is exactly the question open loop 4 on the index leaves open.]
 
 **brand_fit:** Good on the rules, and it needs a different payoff. Nothing about a document pan touches the compliance envelope. What has to change is the ending: the source video resolves on "go self pay," and the most popular alternative customers name in this brand's own corpus is going without insurance entirely, at 33 comments across 10 ads [`verified`, `sub-context-docs/competitive-landscape.md`]. So this format naturally leads somewhere the brand cannot follow, and the reveal has to be built on purpose rather than borrowed.
 

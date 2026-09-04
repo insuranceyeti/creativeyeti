@@ -52,7 +52,7 @@ And a much larger dated event sits right beside it. The enhanced ACA subsidies e
 
 **stage_of_awareness:** Problem aware in December, and the whole point of the idea is that the calendar moves her. [`inferred`.]
 
-**persona_or_audience_fit:** `pays-and-still-owes` carrying the `deductible-reset-dread` signal, which `personas/personas-profile.md` names as seasonal by nature.
+**persona_or_audience_fit:** `pays-and-still-owes` carrying the `deductible-reset-dread` signal, which `personas/personas-profile.md` names as seasonal by nature. [`inferred`. The December account evidence is `verified` and the persona signal is named in the doc, but the language tying the two together is five comments on a corpus that barely samples January, so the fit is reasoned from a signal rather than shown in her own words.]
 
 **brand_fit:** Careful. The reset itself is nameable inside the rules. The subsidy cliff is not, because the brand's own non-negotiable section bans government and ACA references [`stated`, `running-notes/brand-rules.md`], and the cliff cannot really be explained without them. So the idea splits in two: the deductible reset is fully writable today, and the subsidy story is a brand decision Parker does not get to make.
 
