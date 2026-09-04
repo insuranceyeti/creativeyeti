@@ -496,3 +496,48 @@ funnel loss is unresolved.
 qualifying — the first was the quiz misattribution. Both came from reading a derived or aggregated
 metric as though it were a direct observation. The lesson for this brain: when a metric looks
 catastrophic, check what it is actually derived from before acting on it.
+
+## RESOLVED — the `go.` subdomain, 2026-09-04. Verdict: INCONCLUSIVE, and that is the right answer.
+
+The premise that the 40 `go.` ads are one population is **wrong**, and that is what broke every
+earlier reading. They are two cohorts with zero overlap: **24 created 2026-03-06 to 03-13** (almost
+all `Internal - ABO - TEST`) and **16 created 2026-08-17 to 08-31** (all `USHA - CBO - OTP`).
+
+**Leads per link click** — the ratio that bypasses the suspect metric. Note Parker's own
+`click_to_leads` field divides by *all* clicks rather than link clicks, so it is not this number and
+had to be computed by hand:
+
+| Cohort | Link clicks | Leads | Leads / link click |
+|---|---|---|---|
+| `go.` March (Internal - ABO - TEST) | 2,854 | 248 | **8.69%** |
+| `go.` August (USHA - CBO - OTP) | 2,196 | 18 | **0.82%** |
+| `www./save/` lifetime | 288,916 | 30,702 | **10.63%** |
+| `www./save/` created on or after 2026-08-01 | 12,551 | 1,192 | **9.50%** |
+
+**Matched pairs by `media_hash`** — four video files that ran to both destinations: `www.` converts
+1,510 leads on 16,186 link clicks (**9.33%**); `go.` converts 18 on 2,188 (**0.82%**). An **11.3x
+gap on identical creative**. `moms-53 3` took 511 link clicks to **zero** leads on `go.` while
+converting at 5.79% on `www.`
+
+**The number that splits the cohort is leads per landing page view.** The account's normal is 8-14%.
+March `go.` returns **82.9%** (248 leads from 299 recorded views), which is impossible — the counter
+is missing arrivals. August `go.` returns **11.5%** (18 from 156), which is dead normal — there the
+view counter behaves truthfully.
+
+**So it is both, and it differs by cohort:** a long-standing page-view counting fault that has
+always been harmless, plus a real lead collapse confined to the August cluster.
+
+**`click_quality` is NOT independent evidence.** It is exactly `100 × landing page views ÷ link
+clicks`, reproduced to two decimals on seven ads (63/690 = 9.13, 92/800 = 11.50, 2981/3404 = 87.57,
+6198/7196 = 86.13). **Five documents in this build cite it alongside the landing-page-view ratio as
+a corroborating second witness. It is the same witness.** Those citations must be corrected — this
+is a build-wide defect, not a single-document one.
+
+**Why the verdict is inconclusive rather than confirmed:** campaign, creation date and destination
+are perfectly collinear in the failing cell. `USHA - CBO - OTP` holds 2,209 link clicks and 2,196 of
+them are the `go.` ads, so the campaign's number *is* the destination's number. Exactly one of four
+cells fails — `go.`x August. `go.`x March worked and `www.`x August worked, so it is neither the
+domain alone nor the date alone, and nothing in this account separates them.
+
+The archived "leaks" verdict is **refuted as a general claim about the subdomain** and is
+**better supported for the August ads specifically** than it ever was.
