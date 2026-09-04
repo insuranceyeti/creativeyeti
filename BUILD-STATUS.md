@@ -4,7 +4,7 @@
 **Build started:** 2026-09-03
 **Method version:** parker-brain `v15`
 **Run id:** `e5c1cbe7-0bba-4a1e-8b7e-9bdc075777e1`
-**Current phase:** Phase 1 — Audit. **PAUSED at 2026-09-04 00:24 UTC on an API session rate limit (resets 03:30 UTC).**
+**Current phase:** Phase 1 — Audit. Resumed 2026-09-04 03:40 UTC after the rate limit cleared.
 
 **Saved to:** https://github.com/insuranceyeti/creativeyeti (branch `claude/parker-mcp-http-349ri1`)
 **Repo posture:** self-managed — see `running-notes/standard-sync.md`
@@ -31,11 +31,11 @@ November's Open Enrollment ramp.
 | Phase | Status | Done / Total |
 |---|---|---|
 | Phase 0 — Repo & Scaffold | **done** | 7 of 7 |
-| Phase 1A — Brand foundation | running | 6 of 14 |
+| Phase 1A — Brand foundation | running | 7 of 14 |
 | Phase 1B — Competitor profiles | **deferred** | 0 of 0 |
-| Phase 1C — Persona source pulls | running | 4 of 12 |
+| Phase 1C — Persona source pulls | running | 7 of 12 |
 | Phase 1D — Voice of customer | running | 3 of 12 |
-| Phase 1E — Audit baseline (internal) | running | 6 of 11 |
+| Phase 1E — Audit baseline (internal) | running | 7 of 11 |
 | Phase 1E — Audit baseline (external) | **deferred** | 0 of 6 |
 | Phase 1 — Synthesis | pending | 0 of 2 |
 | Phase 2 — Strategy | pending | 0 of 5 |
@@ -76,7 +76,7 @@ Every performance read runs on CPL and lead volume, never ROAS.
 - [ ] community-and-forums
 - [x] competitive-landscape — done
 - [x] customer-journey-and-persona-discovery — done
-- [ ] marketing-calendar-and-campaigns
+- [x] marketing-calendar-and-campaigns — done
 - [ ] operations-and-team
 - [x] reputation-analysis — done
 - [ ] visual-vocabulary
@@ -93,11 +93,11 @@ Every performance read runs on CPL and lead volume, never ROAS.
 ### Phase 1C — Persona source pulls (12)
 - [x] source: ad-account — done
 - [x] source: ad-comments — done
-- [ ] source: customer-reviews (will run data-limited — surface is dark)
+- [x] source: customer-reviews — done (honest named blank, surface verified empty)
 - [ ] source: other-reviews
-- [ ] source: post-purchase-surveys (will run data-limited — surface is dark)
+- [x] source: post-purchase-surveys — done (honest named blank, surface verified empty)
 - [x] source: reddit — done (honest blank, Reddit unreachable)
-- [ ] source: brand-reputation
+- [x] source: brand-reputation — done
 - [x] source: brand-self-echo-detection — done
 - [ ] personas-profile (synthesis)
 - [ ] persona-voice-library
@@ -157,27 +157,24 @@ Every performance read runs on CPL and lead volume, never ROAS.
 - [ ] Confirm save
 - [ ] Hand off to /get-started
 
-## PAUSED — how to resume
+## Review backlog — the gate before synthesis
 
-The build stopped at 2026-09-04 00:24 UTC on an API session rate limit, not an error in the work.
-Nineteen documents are complete, committed and pushed. Two agents died mid-run and wrote nothing.
+Two documents have passed fidelity review (`90-day-performance-audit`, `90-day-creative-strategy-audit`).
+Eighteen reviews are **in flight now**, batched across three reviewers covering the audits, the
+brand foundation, and the source pulls plus voice-of-customer.
 
-To resume, in a session with usage available:
+**This is a hard gate.** No Phase 1 synthesis node and no Phase 2 work may consume a document that
+has not passed review. Two cross-document errors have already reached documents through this gap —
+the quiz destination figures and the Open Enrollment history, both corrected and both logged in
+`prompts-run-log/`. Both were caught by a later prompt reading a live source rather than by review,
+which is exactly the cost of running the backlog.
 
-1. `update_parker_brain_setup_status(mode: "start", brand_id, run_id)` using the `run_id` in
-   `parker_config.json` — this returns `resumed: true` and the last completed phase index.
-2. Reconcile this ledger against the repo: confirm each item marked done has its file on disk,
-   demote anything missing back to pending.
-3. Continue from the first pending item in dependency order.
+## Resume anchor
 
-**Do not restart the build.** Everything marked done here is real, reviewed or pending review, and
-committed.
-
-**Review backlog, important.** Only two of the nineteen documents have been through their fidelity
-review (`90-day-performance-audit` and `90-day-creative-strategy-audit`, both PASS). The method
-requires a document to pass review before a downstream synthesis consumes it, so the reviews must
-catch up **before** Phase 1 synthesis and Phase 2 begin. One error has already reached a document
-through that gap — see the correction in `prompts-run-log/`.
+If this session dies: `parker_config.json` carries `run_id`, this ledger carries the state. Call
+`update_parker_brain_setup_status(mode: "start", brand_id, run_id)`, reconcile this ledger against
+the files on disk, demote anything missing, and continue from the first pending item.
+**Do not restart the build.**
 
 ## Needs attention
 
