@@ -566,3 +566,49 @@ the alternatives mothers name themselves, and the category's attention sits on t
 underwriting screens out. So the leverage is **restarting what the account already proved**, not
 inventing what nobody has run. Its sharpest structural read: the organic field mirrors the problem
 and never resolves it, the paid field resolves it and never mirrors it, **and the join is empty.**
+
+## Correction 5 — "format is the age lever" does not survive opening the tag, 2026-09-04
+
+Three documents, and the orchestrator three times, reported that **format** acts as an unintended age
+lever — Skit reaching women 45+ far more heavily than POV. The number was corrected once already
+(34.7% was the 90-day cut on $712; lifetime is 23.9%). The Phase 2 persona pass has now overturned
+the **causal reading** as well.
+
+Two ads both tagged `Skit` deliver **40.9%** and **12.4%** of spend to women 45+. The format tag does
+not predict the age skew. The `Moms36` confession pair carries **56.9% of all Skit spend** and
+nearly all of the age lift. **The lever is a woman talking straight to camera about her own bill —
+a creative device — not the skit format.** Filed as an open loop.
+
+This matters for what gets recommended. "Fund more Skits" would have been the wrong instruction and
+would have spent against a tag rather than against the thing that works.
+
+**Second correction from the same pass:** the $11.96 employer-plan statics sent **83.4%** of their
+money to women 25-44, so that message belongs to the flagship persona, not to both as the vault
+files it.
+
+**Third:** the vault's "$34.21 older-woman ad" is one of two files totalling $144.07. The unnamed
+sibling put **53.4%** of its spend on 45+, the highest share in the account.
+
+**Standing lesson for this brain, now on its fifth instance:** an AI format tag is a label applied to
+creative, not a property of it. Open the tag and look at the ads before spending against it.
+
+## Phase 2 — the WHO call
+
+`strategy/persona-strategy-input.md`. **Position: lead against `pays-and-still-owes`, and change the
+premise rather than the audience.** The account already puts **77.0% of lifetime money on women
+25-44** — it simply talks to her as though she has no insurance. Her real message, *you are allowed
+to decline your job's plan*, bought **2,580 leads at $11.96** across $30,845.69 and is **switched
+off**. A sentence change inside an audience already reached is the cheapest high-leverage move
+available.
+
+**The 45+ woman is a funded, sized bet, not the lead.** She is the most attentive audience the
+account has and has never had an ad built for her, but she is about a fifth of delivery and falling,
+and reaching her costs **41.5% more per lead** on the only gate anyone can see. Under the team's own
+efficiency-first sequence a bet is defensible; a lead call is not.
+
+**Deprioritize the peaceful-outcome montage:** $110,205.90 lifetime, **3.28% hold against a 12%
+floor**, and "wife of the year" returns 0 of 1,342.
+
+**What would invert the call:** if the partner agencies report the older woman's leads close better,
+the cost premium becomes a discount and the lead call flips. That is gate two, and it is exactly the
+measurement the brand cannot currently see.
