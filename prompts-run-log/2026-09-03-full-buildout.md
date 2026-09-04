@@ -200,3 +200,35 @@ the working destination and $271.90 on the broken one).
 **Process note.** This is exactly the failure the per-output review pass exists to catch, and the
 website-and-product audit had not yet been reviewed when its figure was relayed. Downstream
 syntheses must not consume an unreviewed document. Tightening that ordering is the lesson.
+
+---
+
+## Correction — Open Enrollment history, 2026-09-04
+
+`audits/2026-Q3/90-day-performance-audit.md` stated the account begins in early 2026 with no prior
+Open Enrollment in the data. **Both halves were wrong.** `marketing-calendar-and-campaigns.md`
+established from 23 live pulls that ads exist from 2024-12-05 and month-level metrics are readable
+from 2025-09-01, covering the full 2025-11-01 OE window. That audit's open loop 7 is answered
+rather than open. A correction block sits at the top of the affected document.
+
+This is the second cross-document correction of the build, and both were caught by a later prompt
+reading a live source, not by the review pass. That is the review backlog showing its cost. The
+backlog is now the gate before any Phase 1 synthesis or Phase 2 work.
+
+## Documents completed before the rate-limit pause
+
+- `brand-profile/marketing-calendar-and-campaigns` → `sub-context-docs/marketing-calendar-and-campaigns.md`
+  November is real but roughly efficiency-neutral; **December is the unplanned risk** — the most
+  expensive CPM of thirteen months at $29.34, CPL up 39.8%, landing-page-view-to-lead down
+  18.7% to 14.2% on largely unchanged creative, reading as Marketplace traffic under the
+  December 15 deadline hitting a private-plan funnel that cannot qualify it. November 2025 took
+  5.4% of thirteen-month spend; March to May 2026 took 58.9%, April alone 4.6x November, and March
+  scaled to 3.9x February **while CPL improved**. Across all 2,122 lifetime ads, "deadline" appears
+  in zero, "mother's day" in zero, "subsidy" in three totalling $379.92. 58 days to OE with 125 ads
+  built since August 1, all on the same POV savings hook — a volume ramp, not a seasonal one.
+- `audits-quarterly/quarterly-whitespace-analysis` → `audits/2026-Q3/quarterly-whitespace-analysis.md`
+- `personas/customer-reviews` → `source-pulls/customer-reviews.md` (honest named blank)
+- `personas/post-purchase-surveys` → `source-pulls/post-purchase-surveys.md` (honest named blank)
+- `personas/brand-reputation` → `source-pulls/brand-reputation.md`
+
+All five: review verdict pending.

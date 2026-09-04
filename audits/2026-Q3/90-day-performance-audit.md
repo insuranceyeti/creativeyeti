@@ -20,6 +20,23 @@ data_limitations:
 
 # 90-day performance and delivery audit — Health For Moms — 2026-Q3
 
+> **CORRECTION, added 2026-09-04 by the build orchestrator.**
+>
+> This audit states that the account's history begins in early 2026 and that no prior Open
+> Enrollment period exists in the data. **Both halves are wrong.**
+> `sub-context-docs/marketing-calendar-and-campaigns.md` established from 23 live pulls that ads
+> were created from **2024-12-05**, and that month-by-month metrics are readable from
+> **2025-09-01** — which covers the full 2025-11-01 Open Enrollment window.
+>
+> Consequently this audit's **open loop 7** ("what happens to CPL and lead volume during an Open
+> Enrollment") is **answered, not open**: the brand did ramp for OE 2025. Spend moved $17.4K to
+> $21.7K to $34.2K across September to November, CPM rose 31.6% while CTR rose 41.3%, so CPL moved
+> only 6.6% ($12.27 to $13.08), and November was 2025's largest lead month.
+>
+> The rest of this audit's findings — the 73.5% quarter-over-quarter spend contraction at flat CPL,
+> the spend concentration, and the hold-rate collapse — are unaffected and independently confirmed.
+
+
 ## Executive summary
 
 The single biggest thing that happened to this account in the last 90 days is that it got small. Spend over the 90 days from June 6 to September 3, 2026 was $99,266.98. Over the prior 90 days, from March 8 to June 5, it was $374,507.92. That is a drop of 73.5 percent, from $4,161 a day down to $1,103 a day. Leads fell by exactly the same 73.5 percent, from 16,535 to 4,384. **Verified** across two matched 90-day pulls from the Meta account HealthForMoms, act 484897827497337, on the Meta default attribution window.
