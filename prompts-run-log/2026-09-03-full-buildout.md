@@ -463,3 +463,36 @@ passes downstream.
   4268 against Parker's own Slack text, verified programmatically. Jen is also visibly a different
   shape from the other four ICPs — four sentences with no city, spouse, age or dollar figure, where
   the others run hundreds of words carrying all of them.
+
+---
+
+## The `go.healthformoms.co` conclusion is UNDER INVESTIGATION — 2026-09-04
+
+**Do not treat the "broken destination" conclusion as settled.** Several documents in this build
+state that `go.healthformoms.co/save/` is losing roughly nine in ten clicks, and the orchestrator
+relayed that to the user three times with confidence. A live pull on reconnection complicated it.
+
+**What is certain:** across **40 active ads** on that subdomain — not 11, as an earlier document
+said — landing page views run at **8.7% of link clicks** (5,392 to 468) and click quality sits at
+**8-11** against 80-90 on `www.`. That pattern is universal on the subdomain.
+
+**What is now in doubt:** whether clicks are actually being lost. The CPL spread across those same
+40 ads is enormous and several perform well — `Yeti State Angle - 1 - V3` produced **80 leads at
+$14.70** on 800 link clicks reporting only 92 landing page views. If nine in ten clicks genuinely
+evaporated, that ad could not exist.
+
+**The decisive test is leads per link click**, which bypasses the suspect metric entirely. A
+hypothesis and validation are running now under `hypotheses/` and `validations/`, following the
+open-loops-advance and open-loops-validate skills, including a matched-pair analysis by `media_hash`
+across the two destinations and a check on whether the campaign (`Internal - ABO - TEST` versus
+`USHA - CBO - OTP`) explains the CPL spread better than the destination does.
+
+**Until that resolves, the honest statement is:** the `go.` subdomain does not report landing page
+views correctly, so every ad pointed at it is being judged on broken funnel data — which is why some
+look catastrophic and some look excellent. Whether that is only a measurement fault or also a real
+funnel loss is unresolved.
+
+**Process note.** This is the second time a confident conclusion about this destination has needed
+qualifying — the first was the quiz misattribution. Both came from reading a derived or aggregated
+metric as though it were a direct observation. The lesson for this brain: when a metric looks
+catastrophic, check what it is actually derived from before acting on it.
