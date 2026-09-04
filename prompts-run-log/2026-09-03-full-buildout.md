@@ -709,3 +709,50 @@ as a static on `www./save/`. **Messaging** says lead with standing rather than s
 allowed to leave*. **Casting** says the woman who already carries both flagship ads should open them.
 
 None of these was told what the others concluded. They agree.
+
+---
+
+## Phase 3 — Ideation, 2026-09-04
+
+### `ideas-and-briefs/brand-idea-bank` → `idea-bank/` — **fail, repair pass running**
+
+**Run.** Backfill mode on the built brain. 20 entries in `idea-bank/entries/`, plus `README.md` and `index.md`. Roughly 23,400 words. Nine marked `worth testing`, eleven `raw idea`.
+
+**Source-surface spread.** Customer language (commenters under the brand's own paid ads) 8 · organic video from the 23-video mining library 7 · the team's own conversations with Parker 2 · Parker's cold pass 2 · old print ads 1 (data-limited) · competitor paid ads 0. Hunt lanes: customer language 8, format 7, cold pass 2, far transfer 1, historian 1, affinity paid 1.
+
+**Five live Parker pulls rather than carrying the vault forward:** `search_chat_history` (17 threads, 3 read in full), `search_facebook_ad_comments_sql` top-30 by likes plus two keyword sweeps, and `search_tiktok_videos` twice across all 23 rows. Two things surfaced that the vault did not have: a 10-like paycheck-stub comment that pairs with an organic video nobody had connected to it, and real viewable URLs for every organic entry.
+
+**Four lanes recorded as gaps rather than papered over.**
+
+1. **The historian lane is nearly empty, and it is a tooling gap, not a judgment one.** `parker-system/creative-strategy-context/old-ads/entries/` holds zero files, and all three live-archive fallbacks the corpus README names — `repository.duke.edu`, `www.ebay.de`, `adretro.com` — are blocked by the network egress proxy. One entry was logged from a 1954 Blue Shield headline recovered from an archive listing title, marked `data-limited` with no visual reconstruction, plus two retrieval leads. Biggest hole in the bank.
+2. **No trend lane.** The mining library is a fixed scrape from 2026-09-03 and no fresh TikTok keyword search runs from this environment, so there is no "what moved this week" capture.
+3. **No competitor lane.** Nothing tracked. Ethos sells term life, so it is logged as an affinity reference and never as a category read.
+4. **Far transfer ran one client-supplied lane** rather than the method's two or three rotated categories, and the entry says so.
+
+**Fidelity review verdict: FAIL** — narrowly, on one named hard rule plus two labeling gaps. Reviewed by an independent agent against the prompt, not by the agent that wrote it.
+
+What the review verified as correct, by check rather than by assumption: all 18 schema fields present in all 20 entries with none thinned; the prompt's literal fallback string for missing media present verbatim in the 5 entries lacking it; the evidence picture in all 20; the index table carrying exactly the six columns the prompt names; `generated_on` / `refresh_by` stamped, with the `refresh_by: none` claim confirmed correct against `parker-system/system/refresh-cadence.md:65`; the craft-doc sign-off block stamping exactly the five docs that carry required sign-off lines, naming the ones read that carry none, and explaining why `creator-briefs.md` was read but deliberately not stamped; the open-loops tail in canonical four-part form even though this prompt embeds no open-loops block; zero "customers said"; zero ROAS/AOV/purchase-value reads; and zero reproductions of either banned claim string, with four entries actively flagging the flat savings claim for stripping. Six numbers spot-checked against the vault matched to the digit.
+
+The three gaps:
+
+1. **Hard-rule breach — the fail.** `entries/2026-09-04-the-flat-confession.md:62` calls an ad "this account's biggest winner" with no basis stated and gate two unnamed. That breaks `brand-lens.md:72` and `CLAUDE.md:47`, and it contradicts the bank's own claims at `README.md:48` and `index.md:36` that nothing in it is called a winner. The phrase was inherited from `audits/2026-Q3/gaps-opportunities-inspo.md:275`, but that doc carries the gate framing at line 283 and the entry does not.
+2. **Step seven half-honored.** The prompt calls stage of awareness and audience fit inferences and requires the uncertainty be marked. Nine entries do it. Eleven carry no claim label on `persona_or_audience_fit` and no uncertainty note; on `you-did-everything-right` both fields are unlabeled.
+3. **Three comment counts without denominators.** `CLAUDE.md:126` requires them, and the bank declares the 1,342 / 1,322 corpus split at `index.md:10` and honors it in 17 other places — but not in three claims about the 42 pregnancy and 55 pre-existing-condition objection comments.
+
+**Disposition:** the method's single automatic re-run, scoped to the three named gaps, with everything the review verified as correct explicitly preserved. Running now. Re-review follows.
+
+### Conflict resolved by live pull — cost per link click on `moms-53 3`, 2026-09-04
+
+The bank flagged three docs giving three different costs per link click for one ad: $0.69 (`sub-context-docs/brand-profile-narrative.md`), $0.96 (`strategy/strategic-roadmap.md`, twice), $0.67 (`audits/2026-09/monthly-hook-audit.md`).
+
+**Not a data error. Two metrics wearing one label.** `verified live`, `search_facebook_ads_sql`, ad `120247254787160519`, window 2026-06-06 to 2026-09-03, Meta default attribution. Over that window the ad spent **$2,041.42** and bought **2,962 clicks but only 2,127 link clicks**. Cost per click across all clicks is **$0.69**, matching the narrative exactly; cost per *link* click is **$0.9598**, matching the roadmap exactly in both places; lifetime cost per click today is **$0.68**, which is almost certainly what the hook audit read as $0.67 pulling one day earlier.
+
+All three docs were right and none was talking about the same thing. No correction is needed — each should state which metric it means. **Standing rule: use cost per link click when the question is what it costs to get someone to the site, because 28% of this ad's clicks are engagement the brand cannot convert.**
+
+### New operational break found by the same pull — the quiz destination, 2026-09-04
+
+`moms-53 3 - Copy` (three variants, $497.42 across the window, `ADSET_PAUSED` today) carries the **same creative, same hook and same body copy** as `moms-53 3`, but points at `quiz.healthformoms.com/#/indvfam` instead of `www.healthformoms.co/save/`. It returned **9 landing page views against 511 link clicks** — click quality **1.76%** against the sibling's **76.12%**. `verified live`, 2026-09-04.
+
+**Two possible causes and the data cannot separate them:** either almost nobody who clicks lands, or they land and the pixel does not fire on that domain. The first is lost spend; the second means every quiz-pointed ad in this account has unreadable conversion numbers. Both are urgent, neither is a creative problem.
+
+Routed to the team in `running-notes/missing-context.md` as a fix rather than filed as a research loop, the same call the roll-up made on the `go.healthformoms.co` break. **Two destination breaks found independently now, which makes a single audit of every landing URL in the account the right response rather than two one-off patches.** No brief may be built on a figure sourced from a quiz-pointed ad until this is settled.
