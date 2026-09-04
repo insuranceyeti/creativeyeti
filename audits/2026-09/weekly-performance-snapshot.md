@@ -15,7 +15,7 @@ data_limitations:
   - "Reach and frequency are not returned for this account, so the saturation check that ad-account-analysis.md calls central could not be run. Every fatigue read here rests on CPM against CPL, not on frequency."
   - "Placement-level breakdown is not exposed by the Parker MCP ad tool for this account. The demographics block returns age, gender, device and platform only, so there is no Feed versus Reels versus Stories read."
   - "Account-level hook rate and hold rate are not in the period summary. Both are reported spend-weighted across the top 20 ads by spend, which carry 99.0% of this week's spend and 99.5% of the prior week's."
-  - "Moms43 - 4 - V3 and MOMS39 - 2 - V2 - Copy return no landing_url field. Both are read as working-destination ads, inferred from their landing rates of 88.1% and 84.4% rather than read directly."
+  - "Moms43 - 4 - V3 and MOMS39 - 2 - V2 - Copy return no landing_url field. Both are read as working-destination ads, inferred from their landing rates of 88.1% and 83.0% rather than read directly."
   - "Northbeam is not connected. Every number is Meta-reported on the Meta default attribution window. This is not multi-touch attribution."
   - "Lead quality is invisible to Parker. It sits with the partner insurance agencies, not in Meta. Nothing below clears gate two."
   - "No ad naming convention was ever supplied. Ad, ad set and campaign names are used as inventory handles only, never as evidence of what a creative is or does."
