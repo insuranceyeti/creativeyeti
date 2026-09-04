@@ -56,3 +56,19 @@ answers them, and the build proceeds without them.
 - Brief template (would be saved verbatim to `briefs/_brief-template.md`)
 - Who they consider real competitors, plus aspirational brands
 - Unit economics: customer value, gross margin, LTV or payback window, max tolerable CPA
+
+## Operational breaks the brain found but cannot fix — for the team, not for Parker
+
+These are not research questions. Each one is a thing that is wrong right now, on live spend, and it needs an owner outside this brain.
+
+### The quiz destination does not register arrivals — found 2026-09-04, urgent
+
+`moms-53 3 - Copy` (three variants, `ADSET_PAUSED` today) points at **`quiz.healthformoms.com/#/indvfam`** and returned **9 landing page views against 511 link clicks** across 2026-06-06 to 2026-09-03 — a click quality of **1.76%**. Its sibling `moms-53 3` carries the **same creative, same hook, same body copy**, points at `www.healthformoms.co/save/` instead, and returns **76.12%**. `verified live`, `search_facebook_ads_sql`, 2026-09-04, Meta default attribution.
+
+**Two possible causes and the data cannot separate them.** Either almost nobody who clicks actually lands on the quiz, or they land and the pixel does not fire on that domain. The first is lost spend; the second is blind measurement on every quiz-pointed ad this account has ever run. Both are urgent and neither is a creative problem.
+
+**What it blocks:** no brief may be built on a figure sourced from a `quiz.healthformoms.com` ad until this is settled, because every conversion rate on those ads is currently unreadable.
+
+**Who can answer it:** whoever owns the website and the Meta pixel. Parker cannot see server logs or pixel configuration.
+
+This is the same shape as the `go.healthformoms.co` redirect break the open-loops roll-up routed to the operational owner on 2026-09-04, on a different destination. Two destination problems found independently is a pattern worth a single audit of every landing URL in the account rather than two one-off fixes.

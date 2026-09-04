@@ -157,7 +157,20 @@ Four entries lean toward a woman 45 and over or toward the calm register she res
 
 `moms-53 3` holds the account's best click through rate at 3.15% and the cheapest link click in the file, and then turns 5.97% of those clicks into leads against `moms-63 2b`'s 12.25% in the same window.
 
-One thing worth flagging while it is in view, because it is a conflict inside the vault rather than a finding. **Three docs give three different costs per link click for this same ad**: $0.69 in `sub-context-docs/brand-profile-narrative.md`, $0.96 in `strategy/strategic-roadmap.md` in two separate places, and $0.67 in `audits/2026-09/monthly-hook-audit.md`. The windows behind them are probably not identical, but nobody has reconciled them, and any entry citing that figure should be re-checked against a live pull before it is used in a brief.
+One thing worth flagging while it is in view, because it is a conflict inside the vault rather than a finding. **Three docs give three different costs per link click for this same ad**: $0.69 in `sub-context-docs/brand-profile-narrative.md`, $0.96 in `strategy/strategic-roadmap.md` in two separate places, and $0.67 in `audits/2026-09/monthly-hook-audit.md`.
+
+**RESOLVED 2026-09-04 by a live pull, and it is not a data error — it is two different metrics wearing one label.** `verified live`, `search_facebook_ads_sql`, ad `120247254787160519`, window 2026-06-06 to 2026-09-03, Meta default attribution.
+
+Over that 90-day window `moms-53 3` spent **$2,041.42** and bought **2,962 clicks but only 2,127 link clicks**. Those are different denominators, so they give different answers on the same money:
+
+- **Cost per click, all clicks: $0.69.** Matches `brand-profile-narrative.md` exactly. The lifetime figure is $0.68, which is almost certainly what `monthly-hook-audit.md` read as $0.67 when it pulled one day earlier.
+- **Cost per *link* click: $0.9598.** Matches the roadmap's $0.96 exactly, in both places.
+
+So all three docs were right and none of them was talking about the same thing. The gap is real: **28% of this ad's clicks are not link clicks** — they are likes, comments, shares, profile taps and expands. **Use cost per link click ($0.96) whenever the question is what it costs to get someone to the site, which is nearly always the question here.** Cost per click flatters the ad by counting engagement the brand cannot convert. No doc needs correcting; each should say which metric it means.
+
+**And the pull turned up something nobody had recorded.** The sibling group `moms-53 3 - Copy` (three variants, $497.42 across the window, `ADSET_PAUSED` today) points at **`quiz.healthformoms.com/#/indvfam`** and returned **9 landing page views against 511 link clicks** — a click quality of **1.76%**, against **76.12%** on `moms-53 3` itself, which points at `www.healthformoms.co/save/`. Same creative, same hook, same body copy, different destination, and one of them essentially registers no arrivals.
+
+**The honest reading, stated as two possibilities because the data cannot separate them:** either almost nobody who clicks actually lands on the quiz, or they land and the pixel does not fire on that domain. Both are urgent and neither is a creative problem. This is the same shape as the `go.healthformoms.co` break the roll-up routed to the operational owner, on a different destination. `verified live`, 2026-09-04. **Do not build a brief on any figure sourced from a `quiz.healthformoms.com` ad until this is settled.**
 
 *Pull: Surprise.* It fired because the device this bank leans on hardest behaves in exactly the opposite direction to what every craft doc would predict, on the account's own money.
 
