@@ -55,7 +55,7 @@ From the account: over the 30 days to 2026-09-02 the calm openers delivered lead
 
 **stage_of_awareness:** Unaware to problem aware. The confession works on somebody who has not decided anything yet. [`inferred`.]
 
-**persona_or_audience_fit:** `pays-and-still-owes` and `built-it-herself` both. The specific confession in this video, that a family went uninsured on purpose, belongs to the woman leaving the category, who is 33 comments across 10 ads in this brand's corpus and who will not buy this product [`verified`, `audits/2026-Q3/gaps-opportunities-inspo.md`]. So borrow the delivery, not the confession.
+**persona_or_audience_fit:** `pays-and-still-owes` and `built-it-herself` both. The specific confession in this video, that a family went uninsured on purpose, belongs to the woman leaving the category, who is 33 comments across 10 ads in this brand's corpus and who will not buy this product [`verified`, `audits/2026-Q3/gaps-opportunities-inspo.md`]. So borrow the delivery, not the confession. The 33-comment count is verified; **the fit read on top of it is [`inferred`]** — that the delivery travels to a different woman than the confession does is a judgment, not an observation.
 
 **brand_fit:** Strong on the rules, and it cuts against what the team is currently producing, which is the honest thing to say about it. Nothing in a level delivery touches compliance. The friction is that six distress ads have already been made and more are coming.
 
