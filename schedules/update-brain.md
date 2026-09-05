@@ -6,7 +6,7 @@
 - **Skill:** `.claude/skills/update-brain/` (`/update-brain`).
 - **Deliverable:** `running-notes/standard-sync.md` updated with the week's comparison and offers, and a plain digest — what's new in the standard, what's missing from this brain, what stayed declined. One line when nothing changed.
 - **Origin:** Seeded 2026-07-02 from Jimmy's direction: standing brains drift below the improving standard and below their own canonical build (older brains missing persona source pulls), and the fix must offer, never override — the team's deletions and edits are theirs.
-- **Status:** Job committed and live. Schedule **not yet registered** — run `/setup-routines` to arm it.
+- **Status:** Job committed and live. Schedule **registered and active** for mike's account, Mon 03:28 MT (09:28 UTC), id `trig_01MgVxGJzwjmei9Fb9T82S4f`. Armed 2026-09-04 by the build; verified against the live routine list 2026-09-05.
 
 ## Schedule recipe (register once via `/schedule`)
 

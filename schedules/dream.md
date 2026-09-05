@@ -6,7 +6,7 @@
 - **Skill:** `.claude/skills/dream/` (`/dream`).
 - **Deliverable:** A dated run folder in `dreaming/runs/`, proposal files in `dreaming/proposals/pending/` (schedule proposals also surface at `schedules/proposed/`, open-loop proposals feed `open-loops/`), and a morning-suggestion summary.
 - **Origin:** Seeded 2026-06-18 from the factory's `self-improvement/dreaming-system.md` + `self-improvement/the-living-loop.md` (brand dreaming only; global product-signals stays in the factory).
-- **Status:** Job committed and live. Schedule **not yet registered** — run `/setup-routines` to arm it.
+- **Status:** Job committed and live. Schedule **registered but DISABLED** for mike's account, id `trig_01VTKecvDtKudiMygVoshuBk` (was daily 02:57 MT (08:57 UTC)). Armed 2026-09-04 by the build and turned off 2026-09-05 at the user's request while the team gets going — dreaming needs daily conversations to read and is the heaviest of the six. Re-enable via `/setup-routines` whenever Parker is in daily use.
 
 ## Schedule recipe (register once via `/schedule`)
 
