@@ -6,7 +6,7 @@
 - **Skill:** `.claude/skills/research-loops/` (`/research-loops`), which sequences the roll-up prompt (`parker-system/prompts/open-loops/open-loops-roll-up.md`) and the `open-loops-advance` / `open-loops-validate` skills.
 - **Deliverable:** The consolidated roll-up updated, hypotheses filed (awaiting-user surfaced), validations resolved into their four states with closure docs, re-validation results filed, the research digest, and doc-alignment updates applied or proposed with validation provenance.
 - **Origin:** Seeded 2026-07-02 from `parker-system/system/open-loops-system.md` and the loop pipeline skills, at Jimmy's direction that the loop → hypothesis → validation system run standing, like dreaming and the idea cycle.
-- **Status:** Job committed and live. Schedule **not yet registered** — run `/setup-routines` to arm it.
+- **Status:** Job committed and live. Schedule **registered and active** for mike's account, Wed 04:04 MT (10:04 UTC), id `trig_01SbsWYtMyYpuH7LShzboPe1`. Armed 2026-09-04 by the build; verified against the live routine list 2026-09-05.
 
 ## Schedule recipe (register once via `/schedule`)
 

@@ -45,14 +45,16 @@ New here, or just cloned this? Run **`/get-started`** and Parker will walk you t
 
 Six routines keep this brain current without anyone asking:
 
-| Routine | When | What it does |
+| Routine | When (Mountain) | What it does |
 |---|---|---|
-| Dreaming | Daily, 05:00 | Reads the day's conversations and proposes what to change |
-| Idea hunt | Weekly | Finds and grades new creative ideas against the strategy |
-| Research | Weekly | Turns open questions into tests, runs them, folds the answers back in |
-| Refresh | Weekly | Re-runs anything that's gone stale |
-| Self-improvement | Weekly | Decides which proposals get promoted, with you in the loop |
-| Standard check | Weekly | Offers anything new from the Parker method. Offers only, never overrides |
+| Standard updates | Mon 3:28am | Offers anything new from the Parker method. Offers only, never overrides |
+| Context refresh | Mon 4:03am | Re-runs anything that's gone stale |
+| Idea cycle | Mon 5:07am | Finds and grades new creative ideas against the strategy |
+| Research | Wed 4:04am | Turns open questions into tests, runs them, folds the answers back in |
+| Self-improvement | Fri 2:12pm | Decides which proposals get promoted, with you in the loop |
+| Dreaming | **off** | Reads the day's conversations and proposes changes. Turned off for now; worth switching on once you're using Parker daily |
+
+Two things to know. Scheduled runs start without the live Parker connection, so they work off what's already written in the brain and mark anything needing fresh numbers as data-limited. And the status lines in `schedules/` can drift from what's actually running, so check the live list before trusting them.
 
 Run `/setup-routines` to change a cadence or turn one off. On a brain cloned to a new machine these arrive switched off, since schedules can't travel in the files themselves.
 

@@ -6,7 +6,7 @@
 - **Skill:** `.claude/skills/refresh-context/` (`/refresh-context`).
 - **Deliverable:** Due docs re-run and re-stamped, `refresh-schedule.md` updated, a short report of what was refreshed / left / surfaced.
 - **Origin:** Seeded 2026-06-18 from the factory's `parker-system/system/refresh-cadence.md`.
-- **Status:** Job committed and live. Schedule **not yet registered** in this instance — run `/setup-routines` to arm it.
+- **Status:** Job committed and live. Schedule **registered and active** for mike's account, Mon 04:03 MT (10:03 UTC), id `trig_012Z5ovwABeJ3mPRSHTsDsJg`. Armed 2026-09-04 by the build; verified against the live routine list 2026-09-05.
 
 ## Schedule recipe (register once via `/schedule`)
 

@@ -186,6 +186,12 @@ Most people opening this brain for the first time don't know what it is or where
 
 Six routines keep this brain fresh without being asked: context refresh, dreaming, the idea cycle, the research cycle, the standard check, and self-improvement. The skills travel with the repo and work on demand right now. The *schedules* that fire them are per-cloud-instance and cannot be committed, so **a freshly cloned brain arrives un-armed.** `/setup-routines` registers them, and re-running it changes a cadence or turns one off. When they aren't armed, surface it lightly once and offer to run it.
 
+**Current state, verified against the live routine list 2026-09-05.** Five are **active** on mike's account: standard updates Mon 03:28 MT, context refresh Mon 04:03 MT, idea cycle Mon 05:07 MT, research cycle Wed 04:04 MT, self-improvement Fri 14:12 MT. **Dreaming is registered but disabled** at the user's request, to be re-armed once Parker is in daily use. Trigger ids are in each `schedules/*.md`.
+
+**Check the live routine list, never the status lines alone.** The `schedules/*.md` stamps are claims and have already been wrong once — they read "not yet registered" for a full day after the build armed all six, which caused a duplicate-registration incident on 2026-09-05. Trust the live list; fix the stamp.
+
+**Scheduled runs fire without the Parker MCP connector.** This organization does not permit attaching connectors to routines, so a scheduled routine has the vault but no live account reach. It must not fabricate or carry a stale number forward as fresh: do the vault-only work, mark every live claim data-limited, and say so at the top of its routine-log entry. This is a real ceiling on what the routines can conclude, and it is worth re-checking whether the org policy has changed.
+
 ## How this brain saves itself
 
 **This brain is self-managed, not Parker Desktop managed.** The origin is `insuranceyeti/creativeyeti`, the team's own repository, not the `parker-brain` organization. So the managed-credential procedure in `/save-brain` — the `setup_parker_brain` token and `.git/parker-credentials` — **does not apply here.** Use ordinary git with the team's own credentials. The governing branch of `/save-brain` is its "self-hosted (the rare exception)" section. Full context in `running-notes/standard-sync.md`.
