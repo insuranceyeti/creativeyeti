@@ -96,6 +96,8 @@ And the moment that decides the direction — on 2026-05-05, under `MOMS38 - 1 -
 
 ## Named preferences and standing instructions
 
+- **Video only, right now, by choice.** The team runs video ads only at the moment; the static lane is off deliberately, not by drift. `stated`, mike, 2026-09-05, in conversation with Parker. This answers the question the roadmap left open about why statics stopped around March. Recommendations should be scoped to video formats unless the team reopens statics. The lifetime static-versus-video numbers (statics $12.03 per lead and 17.2% of link clicks to leads, video $22.09 and 8.3%, verified live 2026-09-05) stay on record so the trade is a known one. The reason behind video-only — production, creative preference, or lead quality — is not yet captured; if it is lead quality, that is the highest-stakes answer in this brain.
+
 - **Efficiency before volume.** The stated objective. When an efficiency finding and a volume finding conflict, efficiency wins. `stated`, intake 2026-09-03.
 - **Two gates, always.** Never call an ad a winner on cost per lead alone. Name gate two as the open question every time. The team's words: *"CPL is important to scale but then we look at the lead quality as well before really scaling."* `stated`.
 - **Never report ROAS, AOV, purchase value or add-to-cart.** Lead generation, zero purchase events. `verified`.
